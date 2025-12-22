@@ -18,3 +18,5 @@ As development so far has been focused mainly on designing the website, the wiki
 
 _Authored in [Obsidian.md](https://obsidian.md/)_  
 _Deployed with [Quartz](https://quartz.jzhao.xyz/)_
+
+.
