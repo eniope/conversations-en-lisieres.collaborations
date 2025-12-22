@@ -3,24 +3,40 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz 4.0 Configuration
- *
- * See https://quartz.jzhao.xyz/configuration for more information.
+ * 
+ * Configuration située pour le site :
+ * "Conversations en lisière"
+ * 
+ * Espace de publication progressive,
+ * dédié au partage de fragments documentés
+ * d’un travail d’enquête, d’écriture et de réflexion en situation.
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "Conversations en lisieres",
+    // --- Identité du site ---
+    pageTitle: "Conversations en lisière",
     pageTitleSuffix: "",
+    
+    // --- Expérience de navigation ---
     enableSPA: true,
     enablePopovers: true,
-    analytics: {
-      provider: "plausible",
-    },
-    locale: "en-US",
+
+    // --- Langue et contexte ---
+    locale: "fr-FR",
+
+    // --- Déploiement GitHub Pages ---
     baseUrl: "/conversations-en-lisieres/",
-",
+
+    // --- Contenu ignoré ---
     ignorePatterns: ["private", "**/templates/", ".obsidian"],
+
+    // --- Métadonnées temporelles ---
     defaultDateType: "modified",
+
+    // --- Partage & réseaux ---
     generateSocialImages: false,
+
+    // --- Thème & lisibilité ---
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -55,12 +71,16 @@ const config: QuartzConfig = {
       },
     },
   },
+
+  // --- Plugins Quartz ---
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
+
       Plugin.CreatedModifiedDate({
         priority: ["git", "frontmatter", "filesystem"],
       }),
+
       Plugin.SyntaxHighlighting({
         theme: {
           light: "github-light",
@@ -68,15 +88,35 @@ const config: QuartzConfig = {
         },
         keepBackground: false,
       }),
-      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
+
+      Plugin.ObsidianFlavoredMarkdown({
+        enableInHtmlEmbed: false,
+      }),
+
       Plugin.GitHubFlavoredMarkdown(),
+
       Plugin.TableOfContents(),
-      Plugin.CrawlLinks({ markdownLinkResolution: "shortest" }),
+
+      Plugin.CrawlLinks({
+        markdownLinkResolution: "shortest",
+      }),
+
+      // Exploite les descriptions (frontmatter ou extrait)
       Plugin.Description(),
-      Plugin.Latex({ renderEngine: "katex" }),
+
+      Plugin.Latex({
+        renderEngine: "katex",
+      }),
+
       Plugin.HardLineBreaks(),
     ],
-    filters: [Plugin.RemoveDrafts()],
+
+    // --- Filtres ---
+    filters: [
+      Plugin.RemoveDrafts(),
+    ],
+
+    // --- Émetteurs ---
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
