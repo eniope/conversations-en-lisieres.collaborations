@@ -12,6 +12,7 @@ import * as Plugin from "./quartz/plugins"
  * d’un travail d’enquête, d’écriture et de réflexion en situation.
  */
 const config: QuartzConfig = {
+  contentDir: "content",
   configuration: {
     // --- Identité du site ---
     pageTitle: "Conversations en lisière",
