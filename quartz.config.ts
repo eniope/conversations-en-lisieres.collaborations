@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "The Morrowind Modding Wiki",
+    pageTitle: "Conversations en lisieres",
     pageTitleSuffix: "",
     enableSPA: true,
     enablePopovers: true,
