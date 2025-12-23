@@ -164,23 +164,23 @@ a.mmw-download-link div.popover {
   display: none;
   /* prevent link popover from appearing */
 }
-/* --- Menu horizontal : présence typographique --- */
+/* ========================= */
+/* MENU HORIZONTAL (Quartz) */
+/* ========================= */
 
-.links-header {
-  justify-content: center;      /* occupe vraiment l’axe central */
-  gap: 2rem;                    /* espace entre les entrées */
-  padding: 0.75rem 0 0.25rem;   /* resserre verticalement */
+.header-links {
+  display: flex;
+  justify-content: center;
+  gap: 2.5rem;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
 }
 
-.links-header-item {
-  font-size: 1.15rem;           /* ↑ présence */
+.header-link {
+  font-size: 1.2rem;
   font-weight: 500;
   letter-spacing: 0.02em;
+  text-decoration: none;
   line-height: 1.2;
 }
-/* --- Suppression de la description sous le menu --- */
 
-.page-description,
-.page-subtitle {
-  display: none;
-}
