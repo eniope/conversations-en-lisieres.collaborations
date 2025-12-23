@@ -178,3 +178,9 @@ a.mmw-download-link div.popover {
   letter-spacing: 0.02em;
   line-height: 1.2;
 }
+/* --- Suppression de la description sous le menu --- */
+
+.page-description,
+.page-subtitle {
+  display: none;
+}
