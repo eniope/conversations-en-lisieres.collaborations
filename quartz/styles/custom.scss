@@ -164,3 +164,29 @@ a.mmw-download-link div.popover {
   display: none;
   /* prevent link popover from appearing */
 }
+/* --- Fix menu horizontal qui déborde --- */
+
+header,
+.header,
+.topbar {
+  flex-wrap: nowrap;
+}
+
+header nav,
+.topbar nav {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 0.75rem; /* ajuste l’espacement horizontal */
+}
+
+header nav a,
+.topbar nav a {
+  white-space: nowrap;
+  font-size: 0.95rem; /* léger resserrage si besoin */
+}
+
+/* Empêche le menu de pousser le layout */
+header {
+  overflow-x: auto;
+}
