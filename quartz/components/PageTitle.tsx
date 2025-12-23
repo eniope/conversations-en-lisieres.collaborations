@@ -10,7 +10,7 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   return (
    <h2 class={classNames(displayClass, "page-title")}>
       <span class="title-main">Conversations</span>
-      <span class="title-en">en</span>
+      <span class="title-main">en</span>
       <span class="title-main">lisières</span>
     </h2>
   )
