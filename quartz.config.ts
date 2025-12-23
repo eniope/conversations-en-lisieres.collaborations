@@ -15,7 +15,7 @@ const config: QuartzConfig = {
   contentDir: "content",
   configuration: {
     // --- Identité du site ---
-    pageTitle: "Conversations en lisière",
+    pageTitle: "Conversations en lisières",
     pageTitleSuffix: "",
     
     // --- Expérience de navigation ---
