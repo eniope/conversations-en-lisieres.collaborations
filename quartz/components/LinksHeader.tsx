@@ -1,25 +1,14 @@
-import { QuartzComponent, QuartzComponentConstructor, QuartzComponentProps } from "./types"
-import { joinSegments } from "../util/path"
+import { QuartzComponent, QuartzComponentProps } from "./types"
 
-const LinksHeader: QuartzComponent = ({ cfg }: QuartzComponentProps) => {
-  const baseUrl = cfg.baseUrl ?? "/"
-
-  const links = [
-    { label: "Billets", href: joinSegments(baseUrl, "billets/") },
-    { label: "Dossiers", href: joinSegments(baseUrl, "dossiers/") },
-    { label: "À propos", href: joinSegments(baseUrl, "a-propos/") },
-    { label: "Abonnement", href: joinSegments(baseUrl, "abonnement/") },
-  ]
-
+const LinksHeader: QuartzComponent = (_props: QuartzComponentProps) => {
   return (
     <nav class="links-header">
-      {links.map((link) => (
-        <a class="links-header-item" href={link.href}>
-          {link.label}
-        </a>
-      ))}
+      <a class="links-header-item" href="/conversations-en-lisieres/billets/">Billets</a>
+      <a class="links-header-item" href="/conversations-en-lisieres/dossiers/">Dossiers</a>
+      <a class="links-header-item" href="/conversations-en-lisieres/a-propos/">À propos</a>
+      <a class="links-header-item" href="/conversations-en-lisieres/abonnement/">Abonnement</a>
     </nav>
   )
 }
 
-export default (() => LinksHeader) satisfies QuartzComponentConstructor
+export default (() => LinksHeader)
