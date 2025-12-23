@@ -165,23 +165,29 @@ a.mmw-download-link div.popover {
   /* prevent link popover from appearing */
 }
 /* ========================= */
-/* MENU HORIZONTAL (Quartz) */
+/* MENU HORIZONTAL (HEADER) */
 /* ========================= */
 
 .links-header {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 2.5rem;
   width: 100%;
-  flex-wrap: wrap;        /* empêche le débordement */
-  margin: 1rem 0 0.5rem;
+  margin: 1rem 0 0.75rem;
+  flex-wrap: wrap; /* évite le débordement sur petits écrans */
 }
 
 .links-header-item {
-  font-size: 1.2rem;
-  font-weight: 500;
+  font-size: 1.5rem;     /* ← ce que tu demandes */
+  font-weight: 700;      /* gras */
   letter-spacing: 0.02em;
-  white-space: nowrap;   /* évite la casse des mots */
+  line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
 }
 
-
+/* Optionnel : état actif / survol */
+.links-header-item:hover {
+  text-decoration: underline;
+}
