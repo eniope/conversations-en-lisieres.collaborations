@@ -1,6 +1,5 @@
 ---
 title: Banc de tests – affichage global
-draft: true
 ---
 
 # Titre de niveau 1 — Vérification typographique
