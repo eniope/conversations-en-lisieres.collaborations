@@ -191,3 +191,41 @@ a.mmw-download-link div.popover {
 .links-header-item:hover {
   text-decoration: underline;
 }
+/* ============================= */
+/* ALIGNEMENT TITRE ↔ MENU */
+/* ============================= */
+
+.page-title {
+  margin-bottom: 0.25rem;   /* réduit l’espace sous le titre */
+  line-height: 1.1;
+}
+
+.links-header {
+  margin-top: 0.25rem;      /* rapproche le menu du titre */
+  margin-bottom: 1rem;      /* respiration avant le contenu */
+}
+/* ============================= */
+/* TITRE PRINCIPAL */
+/* ============================= */
+
+.page-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.page-title .title-main {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.page-title .title-en {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.05em;
+  margin: 0.1rem 0;
+  opacity: 0.75;
+}
+
