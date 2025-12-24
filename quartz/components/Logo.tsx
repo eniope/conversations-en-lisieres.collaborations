@@ -9,13 +9,13 @@ export default function Logo() {
       role="img"
       aria-label="Conversations en lisières"
     >
-      <text x="100" y="30" text-anchor="middle" fill="currentColor" font-size="20">
+      <text x="100" y="30" text-anchor="middle" fill="currentColor">
         Conversations
       </text>
-      <text x="100" y="65" text-anchor="middle" fill="currentColor" font-size="20">
+      <text x="100" y="65" text-anchor="middle" fill="currentColor">
         en
       </text>
-      <text x="100" y="100" text-anchor="middle" fill="currentColor" font-size="20">
+      <text x="100" y="100" text-anchor="middle" fill="currentColor">
         lisieres
       </text>
     </svg>
