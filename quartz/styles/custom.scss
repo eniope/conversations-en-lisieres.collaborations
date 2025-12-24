@@ -1,5 +1,10 @@
+/* ========================= */
+/* IMPORTS */
+/* ========================= */
+
 @use "./base.scss";
 @use "./variables.scss" as *;
+
 /* -- MMW SCSS Modules -- */
 @use "./custom/image-adjustments.scss";
 @use "./custom/callout-adjustments.scss";
@@ -10,167 +15,177 @@
 @use "./custom/transclusion-adjustments.scss";
 @use "./custom/ayembedt-font.scss";
 
+/* ========================= */
+/* PAGE TITLE / LOGO */
+/* ========================= */
+
 .page-title {
-    height: 175px;
+  height: 175px;
+  margin-bottom: 0.25rem;
+  line-height: 1.1;
 }
 
-/* --- MMW Logo on mobile display --- */
+.page-title-link {
+  display: inline-flex;
+  align-items: center;
+}
+
+/* Logo SVG inline */
+.Logo {
+  display: block;
+  width: 6rem;
+  height: auto;
+  color: var(--secondary);
+}
+
+/* Thème clair / sombre */
+[saved-theme="light"] .Logo {
+  color: var(--text);
+}
+
+[saved-theme="dark"] .Logo {
+  color: var(--secondary);
+}
+
+/* ========================= */
+/* LOGO — MOBILE */
+/* ========================= */
 
 @media screen and ($mobile) {
   .Logo {
-    max-height: 185px;
-    min-height: 150px;
-    max-width: 200px;
     min-width: 150px;
+    max-width: 200px;
+    min-height: 150px;
+    max-height: 185px;
   }
+
   .page-title {
     height: 150px;
   }
+
   #quartz-body .sidebar.left {
     margin-top: 0.5rem;
-  }  
+  }
+
   .sidebar.left .spacer.mobile-only {
     flex: 0.5 0.5 auto;
   }
 }
 
+/* ========================= */
+/* EXPLORER */
+/* ========================= */
+
 #explorer-ul {
-    max-height: calc(100vh - 400px);
+  max-height: calc(100vh - 400px);
 }
+
+/* ========================= */
+/* IMAGE ZOOM (hors logo) */
+/* ========================= */
 
 img:not(.Logo) {
-	cursor:zoom-in;}
-
-img:active:not(.Logo) {
-	cursor:zoom-out;
-	display:block;
-	z-index:100;
-	position:fixed;
-  max-height:100% !important;
-  max-width:100% !important;
-  height:100% !important;
-  width:100% !important;
-  object-fit: contain;
-  margin:0 auto !important;
-  text-align:center;
-  top: 50%;
-  transform: translateY(-50%);
-  padding:0;
-  left:0;
-  right:0;
-  bottom:0;
-  background:var(--background-primary);
+  cursor: zoom-in;
 }
 
-/* ===================== */
+img:active:not(.Logo) {
+  cursor: zoom-out;
+  display: block;
+  position: fixed;
+  z-index: 100;
+  inset: 0;
+  margin: auto !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+  max-height: 100% !important;
+  object-fit: contain;
+  background: var(--background-primary);
+}
 
-/*---- kbd styling ----*/
+/* ========================= */
+/* KBD */
+/* ========================= */
 
 kbd {
   font-family: Consolas, "Lucida Console", monospace;
   display: inline-block;
-  border-radius: 3px;
-  padding: 0px 4px;
-  box-shadow: 1px 1px 1px #777;
+  padding: 0 4px;
   margin: 2px;
+  border-radius: 3px;
   font-size: small;
-  vertical-align: text-bottom;
-  background: #eee;
-  font-weight: 500;
-  color: #555;
-  /*cursor: pointer;*/
-  font-variant: small-caps;
   font-weight: 600;
   line-height: 1.1rem;
-
-  /* This two work */
-  /* letter-spacing: 0.5px; */
   letter-spacing: 1px;
+  color: #555;
+  background: #eee;
+  box-shadow: 1px 1px 1px #777;
+  vertical-align: text-bottom;
 
-
-  /* Prevent selection */
-  -webkit-touch-callout: none;
-  -webkit-user-select: none;
-  -khtml-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
   user-select: none;
 }
 
-kbd:hover, kbd:hover * {
+kbd:hover,
+kbd:hover * {
   color: black;
-  /* box-shadow: 1px 1px 1px #333; */
 }
-kbd:active, kbd:active * {
+
+kbd:active,
+kbd:active * {
   color: black;
   box-shadow: 1px 1px 0px #ddd inset;
 }
 
 kbd kbd {
-  padding: 0px;
+  padding: 0;
   margin: 0 1px;
-  box-shadow: 0px 0px 0px black;
+  background: none;
+  box-shadow: none;
   vertical-align: baseline;
-  background: none;
 }
 
-kbd kbd:hover {
-  box-shadow: 0px 0px 0px black;
-}
+/* ========================= */
+/* DOWNLOAD LINK */
+/* ========================= */
 
-kbd:active kbd {
-  box-shadow: 0px 0px 0px black;
-  background: none;
-}
-
-/* ===================== */
-
-/* --- Download Link --- */
-
-a.mmw-download-link:link, a.mmw-download-link:visited {
-  background-color: #8f9fa926; 
-  border: none;
+a.mmw-download-link:link,
+a.mmw-download-link:visited {
+  display: inline-block;
+  width: 100%;
+  padding: 6px;
+  font-size: 1.2rem;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 1.2rem;
-  width: 100%;
-  transition: .4s;
-  padding: 6px;
-  box-sizing: border-box;
+  background-color: #8f9fa926;
+  transition: 0.4s;
 }
 
-a.mmw-download-link:hover, a.mmw-download-link:active {
+a.mmw-download-link:hover,
+a.mmw-download-link:active {
   background-color: #8f9fa93d;
 }
 
 a.mmw-download-link::before {
-  /* display download icon before link text */
-  display: inherit;
+  display: inline-block;
   vertical-align: middle;
   padding-right: 5px;
 }
 
-  /*change svg stroke='' based on dark/light theme*/
-[saved-theme="light"]a.mmw-download-link::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
+/* Icône SVG selon thème */
+[saved-theme="light"] a.mmw-download-link::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
 }
 
-[saved-theme="dark"]a.mmw-download-link::before {
-  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%23ebebec' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' class='lucide lucide-download'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
-}
-
-/* Logo – mode clair : gris foncé légèrement teinté */
-[saved-theme="light"] .Logo {
-  filter: invert(1) !important;
+[saved-theme="dark"] a.mmw-download-link::before {
+  content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%23ebebec' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
 }
 
 a.mmw-download-link div.popover {
   display: none;
-  /* prevent link popover from appearing */
 }
+
 /* ========================= */
-/* MENU HORIZONTAL (HEADER) */
+/* MENU HORIZONTAL */
 /* ========================= */
 
 .links-header {
@@ -179,62 +194,43 @@ a.mmw-download-link div.popover {
   align-items: center;
   gap: 2.5rem;
   width: 100%;
-  margin: 1rem 0 0.75rem;
-  flex-wrap: wrap; /* évite le débordement sur petits écrans */
+  margin: 0.25rem 0 1rem;
+  flex-wrap: wrap;
 }
 
 .links-header-item {
-  font-size: 1.5rem;     /* ← ce que tu demandes */
-  font-weight: 700;      /* gras */
+  font-size: 1.5rem;
+  font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.2;
   text-decoration: none;
   white-space: nowrap;
 }
 
-/* Optionnel : état actif / survol */
 .links-header-item:hover {
   text-decoration: underline;
 }
 
-/* =============================== */
-/* MENU HORIZONTAL — MOBILE SCROLL */
-/* =============================== */
+/* ========================= */
+/* MENU — MOBILE SCROLL */
+/* ========================= */
 
 @media screen and ($mobile) {
   .links-header {
-    flex-wrap: nowrap;              /* empêche le retour à la ligne */
-    overflow-x: auto;               /* scroll horizontal */
+    flex-wrap: nowrap;
+    overflow-x: auto;
     overflow-y: hidden;
-    justify-content: flex-start;    /* aligné à gauche */
-    gap: 1.5rem;                    /* un peu plus serré */
-    padding: 0 1rem;                /* respiration latérale */
+    justify-content: flex-start;
+    gap: 1.5rem;
+    padding: 0 1rem;
     -webkit-overflow-scrolling: touch;
   }
 
   .links-header-item {
-    flex: 0 0 auto;                 /* empêche l’écrasement */
+    flex: 0 0 auto;
   }
 
-  /* optionnel : cacher la scrollbar */
   .links-header::-webkit-scrollbar {
     display: none;
   }
 }
-
-/* ============================= */
-/* ALIGNEMENT TITRE ↔ MENU */
-/* ============================= */
-
-.page-title {
-  margin-bottom: 0.25rem;   /* réduit l’espace sous le titre */
-  line-height: 1.1;
-}
-
-.links-header {
-  margin-top: 0.25rem;      /* rapproche le menu du titre */
-  margin-bottom: 1rem;      /* respiration avant le contenu */
-}
-
-
-
