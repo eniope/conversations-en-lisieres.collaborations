@@ -10,16 +10,16 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
   const baseDir = pathToRoot(fileData.slug!)
 
   return (
-    <h2 class={classNames(displayClass, "page-title")}>
-      <a href={baseDir} class="page-title-link">
-        {/* ✅ LIGNE CLÉ : chemin RELATIF, jamais /static/... */}
-        <img
-          class="Logo"
-          src={`${baseDir}static/Logo.png`}
-          alt={title}
-        />
-      </a>
-    </h2>
+<h2 class={classNames(displayClass, "page-title")}>
+  <a href={baseDir} class="page-title-link">
+    <img
+      class="Logo"
+      src={`${baseDir === "." ? "./" : baseDir}static/Logo.png`}
+      alt={title}
+    />
+  </a>
+</h2>
+
   )
 }
 
