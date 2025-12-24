@@ -1,11 +1,11 @@
-/* ========================= */
-/* IMPORTS */
-/* ========================= */
+/* ================================================= */
+/* IMPORTS DE BASE (INCHANGÉS) */
+/* ================================================= */
 
 @use "./base.scss";
 @use "./variables.scss" as *;
 
-/* -- MMW SCSS Modules -- */
+/* -- Modules Morrowind / Quartz -- */
 @use "./custom/image-adjustments.scss";
 @use "./custom/callout-adjustments.scss";
 @use "./custom/column-callout.scss";
@@ -15,25 +15,40 @@
 @use "./custom/transclusion-adjustments.scss";
 @use "./custom/ayembedt-font.scss";
 
-/* ========================= */
-/* PAGE TITLE / LOGO */
-/* ========================= */
+/* ================================================= */
+/* PAGE TITLE + LOGO SVG */
+/* ================================================= */
 
+/* Conteneur du titre (zone logo) */
 .page-title {
   height: 175px;
+  display: flex;
+  justify-content: center;
   margin-bottom: 0.25rem;
-  line-height: 1.1;
 }
 
+/* Lien enveloppant le logo */
 .page-title-link {
   display: inline-flex;
-  align-items: center;
+  align-items: flex-start;   /* alignement haut avec le menu */
+  justify-content: center;
+  width: 100%;
 }
 
-/* Logo SVG inline */
+/* =============================== */
+/* LOGO SVG INLINE — RÈGLES MAÎTRES */
+/* =============================== */
+
+/*
+  Règles IMPORTANTES :
+  - on pilote la taille par WIDTH
+  - aucune hauteur forcée
+  - aucune contrainte min/max héritée du PNG
+*/
+
 .Logo {
   display: block;
-  width: 6rem;
+  width: 7.5rem;        /* ← légèrement plus grand que le menu */
   height: auto;
   color: var(--secondary);
 }
@@ -47,20 +62,17 @@
   color: var(--secondary);
 }
 
-/* ========================= */
-/* LOGO — MOBILE */
-/* ========================= */
+/* =============================== */
+/* LOGO — MOBILE (SIMPLIFIÉ) */
+/* =============================== */
 
 @media screen and ($mobile) {
-  .Logo {
-    min-width: 150px;
-    max-width: 200px;
-    min-height: 150px;
-    max-height: 185px;
-  }
-
   .page-title {
     height: 150px;
+  }
+
+  .Logo {
+    width: 8.5rem;   /* un peu plus lisible sur mobile */
   }
 
   #quartz-body .sidebar.left {
@@ -72,17 +84,17 @@
   }
 }
 
-/* ========================= */
+/* ================================================= */
 /* EXPLORER */
-/* ========================= */
+/* ================================================= */
 
 #explorer-ul {
   max-height: calc(100vh - 400px);
 }
 
-/* ========================= */
-/* IMAGE ZOOM (hors logo) */
-/* ========================= */
+/* ================================================= */
+/* IMAGE ZOOM (SAUF LOGO) */
+/* ================================================= */
 
 img:not(.Logo) {
   cursor: zoom-in;
@@ -103,9 +115,9 @@ img:active:not(.Logo) {
   background: var(--background-primary);
 }
 
-/* ========================= */
+/* ================================================= */
 /* KBD */
-/* ========================= */
+/* ================================================= */
 
 kbd {
   font-family: Consolas, "Lucida Console", monospace;
@@ -121,7 +133,6 @@ kbd {
   background: #eee;
   box-shadow: 1px 1px 1px #777;
   vertical-align: text-bottom;
-
   user-select: none;
 }
 
@@ -144,9 +155,9 @@ kbd kbd {
   vertical-align: baseline;
 }
 
-/* ========================= */
+/* ================================================= */
 /* DOWNLOAD LINK */
-/* ========================= */
+/* ================================================= */
 
 a.mmw-download-link:link,
 a.mmw-download-link:visited {
@@ -171,7 +182,7 @@ a.mmw-download-link::before {
   padding-right: 5px;
 }
 
-/* Icône SVG selon thème */
+/* Icône selon thème */
 [saved-theme="light"] a.mmw-download-link::before {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
 }
@@ -184,14 +195,14 @@ a.mmw-download-link div.popover {
   display: none;
 }
 
-/* ========================= */
+/* ================================================= */
 /* MENU HORIZONTAL */
-/* ========================= */
+/* ================================================= */
 
 .links-header {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;   /* alignement haut avec le logo */
   gap: 2.5rem;
   width: 100%;
   margin: 0.25rem 0 1rem;
@@ -211,59 +222,10 @@ a.mmw-download-link div.popover {
   text-decoration: underline;
 }
 
-/* ========================= */
+/* =============================== */
 /* MENU — MOBILE SCROLL */
-/* ========================= */
+/* =============================== */
 
 @media screen and ($mobile) {
   .links-header {
     flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    justify-content: flex-start;
-    gap: 1.5rem;
-    padding: 0 1rem;
-    -webkit-overflow-scrolling: touch;
-  }
-
-  .links-header-item {
-    flex: 0 0 auto;
-  }
-
-  .links-header::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-/* ========================= */
-/* AJUSTEMENTS LOGO FINAL */
-/* ========================= */
-
-.Logo {
-  display: block;
-  font-size: 1.65rem;   /* légèrement > menu */
-  font-weight: 600;
-  color: var(--secondary);
-}
-
-.page-title {
-  display: flex;
-  justify-content: center;
-  line-height: normal;
-}
-
-.page-title-link {
-  display: inline-flex;
-  align-items: flex-start;   /* alignement haut avec menu */
-  justify-content: center;
-  width: 100%;
-}
-
-[saved-theme="light"] .Logo {
-  color: var(--text);
-}
-
-[saved-theme="dark"] .Logo {
-  color: var(--secondary);
-}
-
