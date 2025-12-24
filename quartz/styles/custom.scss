@@ -196,6 +196,32 @@ a.mmw-download-link div.popover {
 .links-header-item:hover {
   text-decoration: underline;
 }
+
+/* =============================== */
+/* MENU HORIZONTAL — MOBILE SCROLL */
+/* =============================== */
+
+@media screen and ($mobile) {
+  .links-header {
+    flex-wrap: nowrap;              /* empêche le retour à la ligne */
+    overflow-x: auto;               /* scroll horizontal */
+    overflow-y: hidden;
+    justify-content: flex-start;    /* aligné à gauche */
+    gap: 1.5rem;                    /* un peu plus serré */
+    padding: 0 1rem;                /* respiration latérale */
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .links-header-item {
+    flex: 0 0 auto;                 /* empêche l’écrasement */
+  }
+
+  /* optionnel : cacher la scrollbar */
+  .links-header::-webkit-scrollbar {
+    display: none;
+  }
+}
+
 /* ============================= */
 /* ALIGNEMENT TITRE ↔ MENU */
 /* ============================= */
