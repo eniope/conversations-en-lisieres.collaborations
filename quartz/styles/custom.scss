@@ -162,13 +162,8 @@ a.mmw-download-link::before {
 
 /* Logo – mode clair : gris foncé légèrement teinté */
 [saved-theme="light"] .Logo {
-  filter:
-    saturate(1.15)
-    contrast(1.25)
-    brightness(0.9)
-    hue-rotate(-5deg);
+  filter: invert(1) !important;
 }
-
 
 a.mmw-download-link div.popover {
   display: none;
