@@ -16,10 +16,9 @@
 @use "./custom/ayembedt-font.scss";
 
 /* ================================================= */
-/* PAGE TITLE + LOGO SVG */
+/* PAGE TITLE + LOGO PNG (SOURCE UNIQUE DE VÉRITÉ) */
 /* ================================================= */
 
-/* Conteneur du titre (zone logo) */
 .page-title {
   height: 175px;
   display: flex;
@@ -27,52 +26,31 @@
   margin-bottom: 0.25rem;
 }
 
-/* Lien enveloppant le logo */
 .page-title-link {
   display: inline-flex;
-  align-items: flex-start;   /* alignement haut avec le menu */
+  align-items: flex-start; /* alignement haut avec le menu */
   justify-content: center;
   width: 100%;
 }
 
-/* =============================== */
-/* LOGO SVG INLINE — RÈGLES MAÎTRES */
-/* =============================== */
-
-/*
-  Règles IMPORTANTES :
-  - on pilote la taille par WIDTH
-  - aucune hauteur forcée
-  - aucune contrainte min/max héritée du PNG
-*/
-
-.Logo {
+/* Logo principal (PNG) */
+.site-logo {
   display: block;
-  width: 7.5rem;        /* ← légèrement plus grand que le menu */
+  max-width: 420px;
   height: auto;
-  color: var(--secondary);
 }
 
-/* Thème clair / sombre */
-[saved-theme="light"] .Logo {
-  color: var(--text);
-}
-
-[saved-theme="dark"] .Logo {
-  color: var(--secondary);
-}
-
-/* =============================== */
-/* LOGO — MOBILE (SIMPLIFIÉ) */
-/* =============================== */
+/* ================================================= */
+/* LOGO — MOBILE */
+/* ================================================= */
 
 @media screen and ($mobile) {
   .page-title {
     height: 150px;
   }
 
-  .Logo {
-    width: 8.5rem;   /* un peu plus lisible sur mobile */
+  .site-logo {
+    max-width: 80%;
   }
 
   #quartz-body .sidebar.left {
@@ -96,11 +74,11 @@
 /* IMAGE ZOOM (SAUF LOGO) */
 /* ================================================= */
 
-img:not(.Logo) {
+img:not(.site-logo) {
   cursor: zoom-in;
 }
 
-img:active:not(.Logo) {
+img:active:not(.site-logo) {
   cursor: zoom-out;
   display: block;
   position: fixed;
@@ -202,7 +180,7 @@ a.mmw-download-link div.popover {
 .links-header {
   display: flex;
   justify-content: center;
-  align-items: flex-start;   /* alignement haut avec le logo */
+  align-items: flex-start; /* alignement haut avec le logo */
   gap: 2.5rem;
   width: 100%;
   margin: 0.25rem 0 1rem;
@@ -214,20 +192,3 @@ a.mmw-download-link div.popover {
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  text-decoration: none;
-  white-space: nowrap;
-}
-
-.links-header-item:hover {
-  text-decoration: underline;
-}
-
-/* =============================== */
-/* MENU — MOBILE SCROLL */
-/* =============================== */
-
-@media screen and ($mobile) {
-  .links-header {
-    flex-wrap: nowrap;
-  }
-}
