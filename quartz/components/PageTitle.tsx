@@ -14,9 +14,10 @@ const PageTitle: QuartzComponent = ({ fileData, cfg, displayClass }: QuartzCompo
       <a href={baseDir} class="page-title-link">
         <img
           class="site-logo"
-          src={`${baseDir === "." ? "./" : baseDir}static/Logo.png`}
+          src={`${pathToRoot(fileData.slug!)}/static/Logo.png`}
           alt={title}
         />
+
       </a>
     </h2>
   )
