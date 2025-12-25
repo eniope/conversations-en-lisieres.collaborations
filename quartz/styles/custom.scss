@@ -212,11 +212,21 @@ a.mmw-download-link div.popover {
 }
 
 /* ================================================= */
-/* MENU — MOBILE SCROLL */
+/* MENU — MOBILE SCROLL (CORRECTIF) */
 /* ================================================= */
 
 @media screen and ($mobile) {
   .links-header {
-    flex-wrap: nowrap;
+    flex-wrap: nowrap;        /* une seule ligne */
+    overflow-x: auto;         /* 🔑 autorise le scroll horizontal */
+    overflow-y: hidden;
+    justify-content: flex-start; /* 🔑 point de départ à gauche */
+
+    -webkit-overflow-scrolling: touch; /* inertie iOS */
+  }
+
+  .links-header::-webkit-scrollbar {
+    display: none;            /* optionnel : scroll invisible */
   }
 }
+
