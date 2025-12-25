@@ -205,6 +205,8 @@ a.mmw-download-link div.popover {
   line-height: 1.2;
   text-decoration: none;
   white-space: nowrap;
+
+  flex: 0 0 auto; /* 🔑 empêche les items de se compresser */
 }
 
 .links-header-item:hover {
@@ -212,21 +214,30 @@ a.mmw-download-link div.popover {
 }
 
 /* ================================================= */
-/* MENU — MOBILE SCROLL (CORRECTIF) */
+/* MENU — MOBILE SCROLL (ROBUSTE) */
 /* ================================================= */
 
 @media screen and ($mobile) {
   .links-header {
-    flex-wrap: nowrap;        /* une seule ligne */
-    overflow-x: auto;         /* 🔑 autorise le scroll horizontal */
-    overflow-y: hidden;
-    justify-content: flex-start; /* 🔑 point de départ à gauche */
+    flex-wrap: nowrap;          /* une seule ligne */
+    justify-content: flex-start;
+    gap: 1.5rem;
 
-    -webkit-overflow-scrolling: touch; /* inertie iOS */
+    overflow-x: auto;           /* 🔑 scroll horizontal */
+    overflow-y: hidden;
+    max-width: 100%;            /* 🔑 ne dépasse pas son parent */
+    min-width: 0;               /* 🔑 autorise le débordement en contexte flex */
+
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-x;        /* 🔑 permet le swipe sur mobile */
   }
 
+  .links-header-item {
+    flex: 0 0 auto;             /* 🔑 items “rigides” -> ça déborde -> donc ça scrolle */
+  }
+
+  /* optionnel : masquer la scrollbar */
   .links-header::-webkit-scrollbar {
-    display: none;            /* optionnel : scroll invisible */
+    display: none;
   }
 }
-
