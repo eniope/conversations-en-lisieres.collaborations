@@ -21,13 +21,14 @@
 /* ================================================= */
 
 .page-title {
-  height: 175px;                 /* espace imparti au logo */
+  width: 100%;                  /* largeur réelle de la colonne */
+  height: 175px;                /* espace imparti au logo */
   display: flex;
   justify-content: center;
-  align-items: flex-start;       /* logo calé en haut */
+  align-items: flex-start;      /* logo calé en haut */
   margin-bottom: 0.25rem;
 
-  overflow: hidden;              /* 🔑 empêche tout débordement */
+  overflow: hidden;             /* 🔑 empêche tout débordement */
 }
 
 .page-title-link {
@@ -37,12 +38,16 @@
   width: 100%;
 }
 
-/* Logo principal (PNG) */
+/* Logo principal (PNG) — totalement contenu */
 .site-logo {
   display: block;
-  max-width: 420px;
-  max-height: 100%;              /* 🔑 reste dans la hauteur du conteneur */
+
+  width: 100%;                  /* 🔑 s’adapte à la colonne */
+  max-width: 100%;
+  max-height: 100%;
+
   height: auto;
+  object-fit: contain;          /* 🔑 conserve les proportions */
 }
 
 /* ================================================= */
@@ -55,7 +60,7 @@
   }
 
   .site-logo {
-    max-width: 80%;
+    width: 100%;
     max-height: 100%;
   }
 
