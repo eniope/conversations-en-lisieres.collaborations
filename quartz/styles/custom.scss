@@ -208,10 +208,30 @@ a.mmw-download-link div.popover {
 
   flex: 0 0 auto; /* 🔑 empêche les items de se compresser */
 }
-
-.links-header-item:hover {
-  text-decoration: underline;
+.links-header-item {
+  position: relative;
+  padding-bottom: 0.3rem; /* espace entre texte et trait */
 }
+
+.links-header-item::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+
+  width: 100%;
+  height: 2px;                 /* ✔ plus épais */
+  background-color: currentColor;
+
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+
+.links-header-item:hover::after {
+  opacity: 1;
+}
+
+
 
 /* ================================================= */
 /* MENU — MOBILE SCROLL (ROBUSTE) */
