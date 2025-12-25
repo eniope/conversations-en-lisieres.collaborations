@@ -16,19 +16,23 @@
 @use "./custom/ayembedt-font.scss";
 
 /* ================================================= */
-/* PAGE TITLE + LOGO PNG (SOURCE UNIQUE DE VÉRITÉ) */
+/* PAGE TITLE + LOGO PNG */
+/* Zone contrainte : haut de la colonne gauche */
 /* ================================================= */
 
 .page-title {
-  height: 175px;
+  height: 175px;                 /* espace imparti au logo */
   display: flex;
   justify-content: center;
+  align-items: flex-start;       /* logo calé en haut */
   margin-bottom: 0.25rem;
+
+  overflow: hidden;              /* 🔑 empêche tout débordement */
 }
 
 .page-title-link {
   display: inline-flex;
-  align-items: flex-start; /* alignement haut avec le menu */
+  align-items: flex-start;
   justify-content: center;
   width: 100%;
 }
@@ -37,6 +41,7 @@
 .site-logo {
   display: block;
   max-width: 420px;
+  max-height: 100%;              /* 🔑 reste dans la hauteur du conteneur */
   height: auto;
 }
 
@@ -51,6 +56,7 @@
 
   .site-logo {
     max-width: 80%;
+    max-height: 100%;
   }
 
   #quartz-body .sidebar.left {
@@ -180,7 +186,7 @@ a.mmw-download-link div.popover {
 .links-header {
   display: flex;
   justify-content: center;
-  align-items: flex-start; /* alignement haut avec le logo */
+  align-items: flex-start;
   gap: 2.5rem;
   width: 100%;
   margin: 0.25rem 0 1rem;
@@ -192,4 +198,20 @@ a.mmw-download-link div.popover {
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.2;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.links-header-item:hover {
+  text-decoration: underline;
+}
+
+/* ================================================= */
+/* MENU — MOBILE SCROLL */
+/* ================================================= */
+
+@media screen and ($mobile) {
+  .links-header {
+    flex-wrap: nowrap;
+  }
 }
