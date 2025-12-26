@@ -297,3 +297,12 @@ a.mmw-download-link div.popover {
   font-size: 0.95rem;     /* un peu plus discret, façon Morrowind */
 }
 
+/* ================================================= */
+/* AJUSTEMENT FINAL — COLONNE DROITE (ALIGNEMENT HAUT) */
+/* ================================================= */
+
+@media screen and (min-width: 769px) {
+  #quartz-body .sidebar.right {
+    margin-top: 0.9rem; /* ajuste finement entre 0.75rem et 1rem */
+  }
+}
