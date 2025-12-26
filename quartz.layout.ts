@@ -19,16 +19,17 @@ const graphConfig = {
 }
 
 // =================================================
-// SHARED COMPONENTS (GLOBAL)
+// SHARED COMPONENTS
+// → présents sur TOUTES les pages (y compris accueil)
 // =================================================
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
 
-  // ⛔️ IMPORTANT
-  // Le menu horizontal N’EST PLUS dans le header global
-  // pour éviter tout centrage structurel Quartz / Morrowind
-  header: [],
+  // ✅ MENU UNIQUE, GARANTI PARTOUT
+  header: [
+    Component.LinksHeader(),
+  ],
 
   afterBody: [],
 
@@ -41,17 +42,11 @@ export const sharedPageComponents: SharedLayout = {
 }
 
 // =================================================
-// PAGE LAYOUT — SINGLE CONTENT PAGE
+// LAYOUT — PAGE DE CONTENU (NOTE)
 // =================================================
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // ✅ MENU HORIZONTAL
-    // Déclaré explicitement pour DESKTOP et MOBILE
-    Component.DesktopOnly(Component.LinksHeader()),
-    Component.MobileOnly(Component.LinksHeader()),
-
-    // Flux de lecture
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -60,8 +55,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 
   left: [
-    // Logo + navigation latérale
-    Component.PageTitle(),
+    Component.PageTitle(),              // logo
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
@@ -87,15 +81,11 @@ export const defaultContentPageLayout: PageLayout = {
 }
 
 // =================================================
-// PAGE LAYOUT — LIST PAGES (TAGS, FOLDERS…)
+// LAYOUT — PAGE LISTE (TAGS, DOSSIERS…)
 // =================================================
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    // ✅ MENU HORIZONTAL
-    Component.DesktopOnly(Component.LinksHeader()),
-    Component.MobileOnly(Component.LinksHeader()),
-
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
