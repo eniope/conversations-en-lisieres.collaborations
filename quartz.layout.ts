@@ -1,29 +1,33 @@
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
-// MMW: hiding notes from graph via tags
+// =================================================
+// GRAPH CONFIG (MMW)
+// =================================================
+
 const tagsToRemove = ["graph-exclude"]
+
 const graphConfig = {
   localGraph: {
     removeTags: tagsToRemove,
-    excludeTags: ["graph-exclude"],
+    excludeTags: tagsToRemove,
   },
   globalGraph: {
     removeTags: tagsToRemove,
-    excludeTags: ["graph-exclude"],
+    excludeTags: tagsToRemove,
   },
 }
 
 // =================================================
-// COMPONENTS SHARED ACROSS ALL PAGES
+// SHARED COMPONENTS (GLOBAL)
 // =================================================
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
 
   // ⛔️ IMPORTANT
-  // Le menu horizontal n’est PLUS dans le header global
-  // pour éviter tout centrage structurel Quartz
+  // Le menu horizontal N’EST PLUS dans le header global
+  // pour éviter tout centrage structurel Quartz / Morrowind
   header: [],
 
   afterBody: [],
@@ -37,15 +41,17 @@ export const sharedPageComponents: SharedLayout = {
 }
 
 // =================================================
-// PAGES: SINGLE CONTENT PAGE
+// PAGE LAYOUT — SINGLE CONTENT PAGE
 // =================================================
 
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    // ✅ Menu horizontal dans le flux,
-    // aligné exactement comme le breadcrumb
-    Component.LinksHeader(),
+    // ✅ MENU HORIZONTAL
+    // Déclaré explicitement pour DESKTOP et MOBILE
+    Component.DesktopOnly(Component.LinksHeader()),
+    Component.MobileOnly(Component.LinksHeader()),
 
+    // Flux de lecture
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
@@ -54,6 +60,7 @@ export const defaultContentPageLayout: PageLayout = {
   ],
 
   left: [
+    // Logo + navigation latérale
     Component.PageTitle(),
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
@@ -80,13 +87,14 @@ export const defaultContentPageLayout: PageLayout = {
 }
 
 // =================================================
-// PAGES: LIST PAGES (TAGS, FOLDERS, ETC.)
+// PAGE LAYOUT — LIST PAGES (TAGS, FOLDERS…)
 // =================================================
 
 export const defaultListPageLayout: PageLayout = {
   beforeBody: [
-    // ✅ Même positionnement que pour les pages de contenu
-    Component.LinksHeader(),
+    // ✅ MENU HORIZONTAL
+    Component.DesktopOnly(Component.LinksHeader()),
+    Component.MobileOnly(Component.LinksHeader()),
 
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
