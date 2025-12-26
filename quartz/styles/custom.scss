@@ -17,42 +17,38 @@
 
 /* ================================================= */
 /* PAGE TITLE + LOGO PNG */
-/* Zone contrainte : haut de la colonne gauche */
+/* Colonne gauche — zone contrainte */
 /* ================================================= */
 
 .page-title {
-  width: 100%;                  /* largeur réelle de la colonne */
-  height: 175px;                /* espace imparti au logo */
+  width: 100%;
+  height: 175px;
   display: flex;
   justify-content: center;
-  align-items: flex-start;      /* logo calé en haut */
+  align-items: flex-start;
   margin-bottom: 0.25rem;
-
-  overflow: hidden;             /* 🔑 empêche tout débordement */
+  overflow: hidden;
 }
 
 .page-title-link {
   display: inline-flex;
-  align-items: flex-start;
   justify-content: center;
+  align-items: flex-start;
   width: 100%;
 }
 
-/* Logo principal (PNG) — totalement contenu */
 .site-logo {
   display: block;
-
-  width: 100%;                  /* 🔑 s’adapte à la colonne */
+  width: 100%;
   max-width: 100%;
   max-height: 100%;
-
   height: auto;
-  object-fit: contain;          /* 🔑 conserve les proportions */
+  object-fit: contain;
 }
 
-/* ================================================= */
+/* ------------------------------ */
 /* LOGO — MOBILE */
-/* ================================================= */
+/* ------------------------------ */
 
 @media screen and ($mobile) {
   .page-title {
@@ -148,8 +144,7 @@ kbd kbd {
 /* DOWNLOAD LINK */
 /* ================================================= */
 
-a.mmw-download-link:link,
-a.mmw-download-link:visited {
+a.mmw-download-link {
   display: inline-block;
   width: 100%;
   padding: 6px;
@@ -157,7 +152,7 @@ a.mmw-download-link:visited {
   text-align: center;
   text-decoration: none;
   background-color: #8f9fa926;
-  transition: 0.4s;
+  transition: background-color 0.4s;
 }
 
 a.mmw-download-link:hover,
@@ -171,7 +166,6 @@ a.mmw-download-link::before {
   padding-right: 5px;
 }
 
-/* Icône selon thème */
 [saved-theme="light"] a.mmw-download-link::before {
   content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1.2rem' height='1.2rem' viewBox='0 0 24 24' fill='none' stroke='%232b2b2b' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4'/%3E%3Cpolyline points='7 10 12 15 17 10'/%3E%3Cline x1='12' x2='12' y1='15' y2='3'/%3E%3C/svg%3E");
 }
@@ -185,16 +179,16 @@ a.mmw-download-link div.popover {
 }
 
 /* ================================================= */
-/* MENU HORIZONTAL */
+/* MENU HORIZONTAL (DANS LE FLUX, ALIGNÉ BREADCRUMB) */
 /* ================================================= */
 
 .links-header {
   display: flex;
-  justify-content: flex-start;
   align-items: flex-start;
+  justify-content: flex-start;
   gap: 2.5rem;
   width: 100%;
-  margin: 0.25rem 0 1rem;
+  margin: 0.75rem 0 0.5rem;
   flex-wrap: wrap;
 }
 
@@ -203,26 +197,22 @@ a.mmw-download-link div.popover {
   font-weight: 700;
   letter-spacing: 0.02em;
   line-height: 1.2;
-  text-decoration: none;
   white-space: nowrap;
-
-  flex: 0 0 auto; /* 🔑 empêche les items de se compresser */
-}
-.links-header-item {
+  flex: 0 0 auto;
   position: relative;
-  padding-bottom: 0.3rem; /* espace entre texte et trait */
+  padding-bottom: 0.35rem;
+  text-decoration: none;
 }
 
+/* underline maîtrisé */
 .links-header-item::after {
   content: "";
   position: absolute;
   left: 0;
   bottom: 0;
-
   width: 100%;
-  height: 2px;                 /* ✔ plus épais */
+  height: 2px;
   background-color: currentColor;
-
   opacity: 0;
   transition: opacity 0.2s ease;
 }
@@ -231,32 +221,22 @@ a.mmw-download-link div.popover {
   opacity: 1;
 }
 
-
-
-/* ================================================= */
-/* MENU — MOBILE SCROLL (ROBUSTE) */
-/* ================================================= */
+/* ------------------------------ */
+/* MENU — MOBILE SCROLL */
+/* ------------------------------ */
 
 @media screen and ($mobile) {
   .links-header {
-    flex-wrap: nowrap;          /* une seule ligne */
-    justify-content: flex-start;
+    flex-wrap: nowrap;
     gap: 1.5rem;
-
-    overflow-x: auto;           /* 🔑 scroll horizontal */
+    overflow-x: auto;
     overflow-y: hidden;
-    max-width: 100%;            /* 🔑 ne dépasse pas son parent */
-    min-width: 0;               /* 🔑 autorise le débordement en contexte flex */
-
+    max-width: 100%;
+    min-width: 0;
     -webkit-overflow-scrolling: touch;
-    touch-action: pan-x;        /* 🔑 permet le swipe sur mobile */
+    touch-action: pan-x;
   }
 
-  .links-header-item {
-    flex: 0 0 auto;             /* 🔑 items “rigides” -> ça déborde -> donc ça scrolle */
-  }
-
-  /* optionnel : masquer la scrollbar */
   .links-header::-webkit-scrollbar {
     display: none;
   }
