@@ -241,3 +241,24 @@ a.mmw-download-link div.popover {
     display: none;
   }
 }
+/* ================================================= */
+/* MENU — VISIBILITÉ MOBILE */
+/* ================================================= */
+
+@media screen and ($mobile) {
+  .links-header {
+    display: flex;          /* sécurité : force le rendu */
+    margin-top: 0.5rem;     /* le fait réapparaître dans le viewport */
+  }
+}
+
+/* ================================================= */
+/* AJUSTEMENT FIN — COLONNE GAUCHE (DESKTOP) */
+/* ================================================= */
+
+@media screen and (min-width: 769px) {
+  #quartz-body .sidebar.left {
+    margin-top: -0.5rem; /* ajuste à -0.25rem si tu veux plus subtil */
+  }
+}
+
