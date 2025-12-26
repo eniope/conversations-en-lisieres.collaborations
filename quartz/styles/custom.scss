@@ -261,4 +261,39 @@ a.mmw-download-link div.popover {
     margin-top: -0.25rem; /* ajuste à -0.25rem si tu veux plus subtil */
   }
 }
+/* ================================================= */
+/* AJUSTEMENTS FINS — ALIGNEMENT MORROWIND */
+/* ================================================= */
+
+/* 1️⃣ MENU : typo légèrement plus discrète */
+.links-header-item {
+  font-size: 1.35rem;   /* ↓ depuis 1.5rem */
+  font-weight: 700;
+}
+
+/* 2️⃣ COLONNE GAUCHE : encore un peu plus haut (desktop uniquement) */
+@media screen and (min-width: 769px) {
+  #quartz-body .sidebar.left {
+    margin-top: -0.9rem; /* ajuste entre -0.75rem et -1rem si besoin */
+  }
+}
+
+/* 3️⃣ MENU : légèrement plus bas dans le flux */
+.links-header {
+  margin-top: 1.1rem;     /* ↓ le menu */
+  margin-bottom: 1.4rem;  /* prépare l’espace avant le breadcrumb */
+}
+
+/* 4️⃣ SÉPARATION MENU / BREADCRUMB */
+.links-header {
+  border-bottom: 1px solid var(--lightgray);
+  padding-bottom: 0.9rem;
+}
+
+/* Breadcrumb très proche du titre / mot "Conversations" */
+.breadcrumbs {
+  margin-top: 0.2rem;     /* remonte le breadcrumb */
+  margin-bottom: 1.2rem;  /* respiration avant le titre */
+  font-size: 0.95rem;     /* un peu plus discret, façon Morrowind */
+}
 
