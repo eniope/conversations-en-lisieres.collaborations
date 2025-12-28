@@ -13,6 +13,20 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   contentDir: "content",
+  
+  // ⬇️ AJOUT collection billets
+  collections: {
+    billets: {
+      filter: (page) => page.frontmatter?.type === "billet",
+      sort: (a, b) => {
+        const da = new Date(a.frontmatter?.date ?? 0).getTime()
+        const db = new Date(b.frontmatter?.date ?? 0).getTime()
+        return db - da
+      },
+    },
+  },
+  // ⬆️ FIN AJOUT
+  
   configuration: {
     // --- Identité du site ---
     pageTitle: "Conversations en lisières",
