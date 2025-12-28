@@ -1,9 +1,22 @@
 ---
+# yaml aligné avec la politique éditoriale 
 type: billet
 date: 2025-12-31
 title: "Lettre à mon futur moi"
----
 
+# Tags publics (vitrine)
+tags:
+  - auto-ethnographie
+  - posture
+  - sciences-citoyennes
+
+# Tags internes (atelier)
+_tags:
+  - _premier-billet
+  - _adresse
+  - _futur-moi
+  - _journal
+---
 
 
 ## Lettre à mon futur moi
