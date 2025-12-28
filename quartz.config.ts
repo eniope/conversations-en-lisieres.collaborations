@@ -16,15 +16,15 @@ const config: QuartzConfig = {
   
   // ⬇️ AJOUT collection billets
   collections: {
-    billets: {
-      filter: (page) => page.frontmatter?.type === "billet",
-      sort: (a, b) => {
-        const da = new Date(a.frontmatter?.date ?? 0).getTime()
-        const db = new Date(b.frontmatter?.date ?? 0).getTime()
-        return db - da
-      },
+  billets: {
+    filter: (page) => {
+      console.log("FILE:", page.filePath)
+      console.log("FRONTMATTER:", page.frontmatter)
+      return page.frontmatter?.type === "billet"
     },
   },
+},
+
   // ⬆️ FIN AJOUT
   
   configuration: {
