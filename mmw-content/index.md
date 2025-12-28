@@ -1,9 +1,4 @@
 ---
-title: Accueil
-aliases: ["/"]
----
-
----
 type: accueil
 title: Conversations en lisières
 _tags:
