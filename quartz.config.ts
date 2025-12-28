@@ -12,7 +12,7 @@ import * as Plugin from "./quartz/plugins"
  * d’un travail d’enquête, d’écriture et de réflexion en situation.
  */
 const config: QuartzConfig = {
-  contentDir: "content",
+  contentDir: "mmw-content",
   
   // ⬇️ AJOUT collection billets
   collections: {
