@@ -1,7 +1,7 @@
 ---
 type: billet
 date: 2025-12-29
-title: "Tiens c'est bizarre"
+title: "Tiens c'est bizarre !"
 status: published
 visibility: public
 
