@@ -1,41 +1,23 @@
 ---
-title: Écologie des pratiques collectives
-aliases:
-  - Ecologie des pratiques
-  - Ecologie des pratiques collectives
-type: dossier
+type: interface
 status: published
 visibility: public
 tags:
-  - ecologie-des-pratiques
+  - posture
+  - habitant-chercheur
   - mediation-scientifique
-  - pratiques-collectives
   - conversations-en-lisieres
-description: Comprendre et habiter les frictions entre pratiques hétérogènes dans l’action collective
+description: Situer d’où s’écrit et s’enquête Conversations en lisières
 ---
 
-## Écologie des pratiques collectives
+# D’où je parle
 
-Parler d’écologie des pratiques collectives, ce n’est pas proposer une nouvelle méthode, ni défendre une approche normative de l’action collective. C’est accepter de regarder les pratiques telles qu’elles existent, dans leur diversité, leurs frottements et leurs fragilités, sans chercher immédiatement à les corriger ou à les harmoniser.
+Je parle depuis un territoire vécu, pas depuis une position surplombante. Depuis des situations concrètes, traversées dans la durée, où se croisent des habitants, des institutions, des chercheurs, des associations, avec leurs attentes, leurs contraintes et leurs malentendus.
 
-Dans de nombreux dispositifs contemporains — participatifs, scientifiques, citoyens ou institutionnels — les difficultés rencontrées sont souvent attribuées à un déficit de communication, de pédagogie ou d’engagement. Pourtant, l’expérience montre que ces difficultés persistent même lorsque l’information circule et que les intentions sont explicites. Ce qui se joue alors relève moins d’un malentendu ponctuel que de la cohabitation complexe entre des pratiques hétérogènes.
+Je parle aussi depuis une trajectoire faite d’engagements, de projets qui n’ont pas toujours « réussi », mais qui ont compté. Des expériences qui ont laissé des traces, appris quelque chose de la vulnérabilité, et rendu plus attentif aux limites de la compréhension mutuelle.
 
-Penser en termes d’écologie des pratiques collectives consiste à prendre ces frictions au sérieux, non comme des obstacles à éliminer, mais comme des phénomènes à comprendre. Il ne s’agit pas de rechercher une langue commune idéale, mais d’examiner comment les pratiques se soutiennent, se neutralisent ou s’abîment mutuellement lorsqu’elles coexistent dans un même espace.
+Ce site ne s’inscrit pas dans une posture de neutralité. Il ne cherche pas non plus à défendre une cause ou à produire un discours militant. Il assume un point de vue situé, réflexif, et une responsabilité dans ce qui est rendu visible, nommé ou laissé en suspens.
 
-Dans cette perspective, la médiation scientifique devient un travail situé sur les conditions de rencontre entre des pratiques qui ne partagent ni les mêmes finalités, ni les mêmes évidences. Elle ne vise pas à résoudre les tensions, mais à créer des conditions dans lesquelles elles peuvent être explorées, nommées et travaillées collectivement.
+Je parle enfin depuis une position que je qualifie d’*habitant-chercheur*. Une position hybride, inconfortable parfois, qui consiste à habiter pleinement les situations tout en acceptant de les mettre en enquête. Non pour parler à la place des autres, mais pour rendre partageables des questions, des tensions et des apprentissages qui émergent du terrain.
 
----
-
-> [!infobox]
-> ### Ce dossier fait partie de la constellation *Conversations en lisières*
->  
-> Il propose un cadre de lecture pour comprendre pourquoi certaines coopérations sont difficiles, malgré la bonne volonté des acteurs, et comment il est possible d’habiter ces difficultés sans chercher à les faire disparaître.
->
-> #### Pages associées
-> - [[objet-frontière|Objet-frontière]]
-> - [[milieu-capacitant|Milieu capacitant]]
-
-^ecologie-des-pratiques-navbox
-
-D:\Obsidian\conversations-en-lisieres\Dispositif Ose Ta Trace_avec les autres_pour le commun\chantier_genese_conversations_en_lisieres\MVP-J-3_J-9\4 Dossier Ecologie des pratiques collectives
-Dispositif Ose Ta Trace_avec les autres_pour le commun/chantier_genese_conversations_en_lisieres/MVP-J-3_J-9/Ecologie des pratiques
+*Conversations en lisières* est né de ce lieu-là. Comme une tentative de médiation scientifique auto-administrée, d’abord adressée à moi-même, puis ouverte à d’autres, pour travailler la conversation difficile entre citoyens, science et société sans chercher à la simplifier ni à la clore.
