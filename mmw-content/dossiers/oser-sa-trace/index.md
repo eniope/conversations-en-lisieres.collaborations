@@ -3,7 +3,6 @@ type: dossier
 title: "Oser sa trace"
 status: published
 visibility: public
-
 tags:
   - commun
   - habitant-chercheur
