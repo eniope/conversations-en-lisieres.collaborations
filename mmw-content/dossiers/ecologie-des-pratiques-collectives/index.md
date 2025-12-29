@@ -37,5 +37,3 @@ Dans cette perspective, la médiation scientifique devient un travail situé sur
 
 ^ecologie-des-pratiques-navbox
 
-D:\Obsidian\conversations-en-lisieres\Dispositif Ose Ta Trace_avec les autres_pour le commun\chantier_genese_conversations_en_lisieres\MVP-J-3_J-9\4 Dossier Ecologie des pratiques collectives
-Dispositif Ose Ta Trace_avec les autres_pour le commun/chantier_genese_conversations_en_lisieres/MVP-J-3_J-9/Ecologie des pratiques
