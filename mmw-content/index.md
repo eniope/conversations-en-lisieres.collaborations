@@ -69,6 +69,6 @@ Ce qui compte ici n’est pas la complétude, mais la qualité des prises, des l
 
 Si tu te reconnais dans cette manière de chercher, de lire et de penser, tu es invité·e à parcourir, revenir, et t’approprier ce qui t’est utile.
 
-[^1]: ![[mmw-content/assets/Images/Les-métiers-de-nos-pensées.jpg]]
+[^1]: ![[mmw-content/assets/images/Les-métiers-de-nos-pensées.jpg]]
 
 
