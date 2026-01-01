@@ -311,20 +311,3 @@ a.mmw-download-link div.popover {
 #edit-btn-container {
   display: none !important;
 }
-/* Masquer toutes les notes par défaut */
-.footnotes li {
-  display: none;
-}
-
-/* Afficher uniquement la note ciblée */
-.footnotes li:target {
-  display: block;
-}
-
-/* Optionnel : mise en forme */
-.footnotes {
-  margin-top: 2rem;
-  padding-top: 1rem;
-  border-top: 1px solid var(--lightgray);
-}
-
