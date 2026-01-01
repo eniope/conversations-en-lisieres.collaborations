@@ -306,3 +306,10 @@ a.mmw-download-link div.popover {
     margin-top: 2.5rem; /* ajuste finement entre 0.75rem et 1rem */
   }
 }
+/* Masquer les boutons "Edit page" et "View history" */
+a[href*="edit"],
+a[href*="history"],
+button[aria-label="Edit page"],
+button[aria-label="View history"] {
+  display: none !important;
+}
