@@ -45,7 +45,7 @@ Je t’écris depuis ici, sans certitude sur la forme finale, avec une confiance
 [^1]: "Car nous sommes des hommes dont l’humanisme est fragile ; et chacun d’entre nous tisse dans la matière de sa vie des façons de se lier à des collectifs plus régulateurs, tout en assumant un principe d’individuation digne de ce nom, test de crédibilité de l’État de droit. Il s’agit dès lors d’inventer une technique de la furtivité – d’où cette charte tient sa désignation, le Verstohlen –, c’est-à-dire de maintien au monde en y consolidant nos pouvoirs d’agir et nos libertés." Ce qui ne peut être volé - Charte du Verstohlen - Cynthia Fleury & Antoine Fenoglio 
 [^2]: « Ce qui nous attend n’est pas un big flash, une fin du monde brutale et instantanée. Non, quoi qu’il arrive, ça va se déglinguer pendant des siècles. Alors ma question est : que peut-on fabriquer aujourd’hui qui puisse éventuellement être ressource pour ceux qui viennent ? » Résister au désastre - Isabelle Stengers
 [^3]: Comprendre pourquoi on ne se comprend pas - Eric Dacheux
-[^4]: Voir la fiche consacrée à la théorie du champ de gorces de Kurt Lewin sur le site du Réseau régional de l'éducation à l'environnement GRAINE Auvergne Rhône Alpes 
+[^4]: Voir la fiche consacrée à la théorie du champ de forces de Kurt Lewin sur le site du Réseau régional de l'éducation à l'environnement GRAINE Auvergne Rhône Alpes 
 [^5]: La micropolitique des groupes désigne l’attention portée aux dynamiques relationnelles, affectives et pratiques qui traversent les collectifs dans leurs situations ordinaires. Voir notamment les travaux de David Vercauteren et de Pascal Nicolas-Le Strat sur les formes d’auto-organisation, les frottements coopératifs et les conditions d’émancipation dans l’action collective.
 
 
