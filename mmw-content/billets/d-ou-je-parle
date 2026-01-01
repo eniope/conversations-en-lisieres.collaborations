@@ -1,0 +1,19 @@
+---
+type: billet
+date: 2025-12-31
+title: "D'où je parle/D'où j'écris"
+
+tags:
+  - auto-ethnographie
+  - posture
+  - intelligence-de-situation
+  - sciences-citoyennes
+
+# Tags internes (atelier)
+_tags:
+  - _premier-billet
+  - _genese
+  - _doujeparle
+  - _doujecris
+  - _conversations-en-lisieres
+---
