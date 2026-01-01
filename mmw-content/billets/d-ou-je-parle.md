@@ -58,4 +58,6 @@ La série #doujeparle #doujecris apparaîtra chaque fois que cela sera nécessai
 Elle vise une chose simple et exigeante, maintenir une justesse de parole dans un monde incertain.
 Le reste se fera par les faits.
 
-[^1]: ![[mmw-content/static/assets/images/La-demarche-autoethnographique.png]]
+[^1]: ![La démarche auto-ethnographique](static/assets/images/La-demarche-autoethnographique.png)
+
+
