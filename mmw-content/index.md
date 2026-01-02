@@ -29,7 +29,7 @@ pour penser ensemble ce qui nous concerne, et retrouver des prises là où l’i
 ## Une première zone pour entrer
 
 Pour celles et ceux qui souhaitent aller plus loin, un premier espace est proposé :
-le **[[mmw-content/Labo/index.md]]**.
+le labo de l'idée à la pensée (en création > page de présentation accessible à [[mmw-content/Labo|Labo de l’idée à la pensée]].
 
 Plutôt que se limiter à donner à voir un travail en cours ce labo propose des formes, des situations et des essais permettant d’éprouver comment une idée devient pensée [^2] : comment elle résiste, se déplace, s’organise, s'élabore, se formule.
 
