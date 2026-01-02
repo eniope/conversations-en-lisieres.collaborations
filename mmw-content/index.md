@@ -6,69 +6,41 @@ _tags:
   - _accueil
   - _architecture
 ---
-
 # Conversations en lisières
 
-Conversations en lisières est un espace de publication, de réflexion et de mise en relation.
-Il se situe volontairement à la lisière :
-- entre expérience et savoirs,
+Conversations en lisières est un lieu d’écriture et de publication pour tenter de rendre certaines situations intelligibles, sans les simplifier à l’excès, sans les refermer trop vite.
+
+Il se tient volontairement à la lisière :
+- entre expérience vécue et savoirs constitués,
 - entre science et société,
 - entre parole située et recherche de partage.
 
-Ce qui est proposé ici n’est ni un blog d’opinion, ni un site d’expertise, ni un dispositif militant clé en main.
+Ce qui se déploie ici n’est ni un blog d’opinion [^1], ni un site d’expertise, ni un dispositif militant prêt à l’emploi.
 
-C’est un lieu pour tenter de rendre des choses intelligibles, sans prétendre les clore.
-## Une posture : habitant-chercheur
+C’est un espace pour travailler des situations réelles, à partir de ce qui y fait question, de ce qui trouble, de ce qui résiste à l’évidence. 
+## Une manière d’écrire
 
-J’écris ici depuis une posture d’habitant-chercheur auto-missionné :
-un profane animé d’un esprit de recherche [^1], qui s’efforce de comprendre les situations qu’il traverse et les milieux dans lesquels il agit.
+Les textes publiés ici prennent souvent appui sur un trouble ordinaire : un « tiens, c’est bizarre » éprouvé dans une situation concrète.
 
-Cette posture implique :
-- d’assumer un point de vue situé,
-- de rendre explicite d’où je parle,
-- de ne pas confondre expérience et vérité générale,
-- de considérer les savoirs comme des ressources,
-  non comme des arguments d’autorité.
-## Un projet : faire ressource, rendre intelligible
+Ce trouble n’est pas raconté pour lui-même mais sert de point d’entrée à un travail de mise en relation entre expériences, cadres, concepts, pratiques, décisions.
 
-Ce site s’inscrit dans un projet plus large :
-**« Ose ta trace avec les autres pour le commun »**.
+L’enjeu n’est pas de convaincre, ni de capter l’attention, mais de contribuer à rouvrir des conditions
+pour penser ensemble ce qui nous concerne, et retrouver des prises là où l’impuissance semble aller de soi.
+## Une première zone pour entrer
 
-L’enjeu n’est pas de convaincre, mais de faire ressource pour celles et ceux qui viennent :
-lecteurs, lectrices, praticiens, chercheurs, habitantes et habitants.
+Pour celles et ceux qui souhaitent aller plus loin, un premier espace est proposé :
+le **[[mmw-content/Labo/index.md|Labo de l’idée à la pensée]]**.
 
-Les textes, dossiers et fiches proposés ici cherchent à :
-- éclairer des phénomènes complexes,
-- rendre visibles des conditions souvent implicites,
-- soutenir des pratiques de décision plus lucides,
-- contribuer à des formes de coopération habitables.
-## Une manière de lire : circuler
+Plutôt que se limiter à donner à voir un travail en cours ce labo propose des formes, des situations et des essais permettant d’éprouver comment une idée devient pensée [^2] : comment elle résiste, se déplace, s’organise, s'élabore, se formule.
 
-Il n’y a pas d’ordre de lecture imposé.
+On n’y trouve pas des réponses stabilisées mais des propositions à expérimenter. C’est une zone d’exploration active, où chacun peut tester des chemins, observer ce que cela fait, s’arrêter, revenir,
+ou repartir. 
+## Un espace en construction
 
-Tu peux :
-- entrer par un billet,
-- explorer un dossier thématique,
-- naviguer dans la boîte à fiches,
-- suivre des liens et t’arrêter quand tu veux.
+Conversations en lisières est un lieu en évolution. Les contenus se déplacent, se précisent, s’enrichissent et  ce qui compte ici n’est pas la complétude, mais la qualité des prises,
+des liens, et des conditions de dialogue.
 
-La navigation fait partie du travail de pensée.
-Lire ici, c’est accepter de circuler, de revenir, de reprendre.
-## Un premier dossier pour entrer
+Si cette manière de lire et de chercher te parle, tu peux parcourir, revenir, et prendre ce qui t’est utile.
 
-Parmi les premiers ensembles proposés, le dossier **« De quel “je” parlons-nous ? »**
-interroge la manière dont une parole se situe, s’énonce, et engage des décisions.
-
-Il constitue une porte d’entrée possible pour comprendre l’esprit de ce lieu
-et la logique des contenus qui y sont développés.
-## Un espace en évolution
-
-Conversations en lisières est un espace en construction. Les contenus évoluent, se déplacent, s’enrichissent.
-
-Ce qui compte ici n’est pas la complétude, mais la qualité des prises, des liens, et des conditions de dialogue.
-
-Si tu te reconnais dans cette manière de chercher, de lire et de penser, tu es invité·e à parcourir, revenir, et t’approprier ce qui t’est utile.
-
-[^1]: ![Les métiers de nos pensées](static/assets/images/Les-métiers-de-nos-pensées.jpg)
-
-
+[^1]: Devon Zuegel invite, dans la page de description de son blog : "> _I aim to write frequently enough that readers don’t ascribe posts as my static opinions but rather a stream of thoughts, caught in the middle of updates._"  > "J’essaie d’écrire suffisamment souvent pour que les lecteurs ne prennent pas mes textes pour des opinions figées, mais pour un flux de pensées, saisi en plein milieu de leur mise à jour."
+[^2]: ![Les métiers de nos pensées](static/assets/images/Les-métiers-de-nos-pensées.jpg)
