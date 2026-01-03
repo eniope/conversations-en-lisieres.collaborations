@@ -1,6 +1,6 @@
 ---
 type: page
-title: "À propos de Conversations en lisière"
+title: "À propos"
 status: publié
 orientation: médiation-scientifique-située
 posture: habitant-chercheur
