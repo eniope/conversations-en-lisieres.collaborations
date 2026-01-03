@@ -8,7 +8,7 @@ _tags:
 ---
 # Conversations en lisières
 
-Conversations en lisières est un lieu d’écriture et de publication pour tenter de rendre certaines situations intelligibles, sans les simplifier à l’excès, sans les refermer trop vite.
+Conversations en lisières est un lieu d’écriture et de publication pour tenter de rendre certaines situations intelligibles, sans les simplifier à l’excès ni les refermer trop vite.
 
 Il se tient volontairement à la lisière :
 - entre expérience vécue et savoirs constitués,
@@ -31,14 +31,14 @@ pour penser ensemble ce qui nous concerne, et retrouver des prises là où l’i
 Pour celles et ceux qui souhaitent aller plus loin, un premier espace est proposé :
 le labo de l'idée à la pensée (en création > page de présentation accessible à [[labo|Labo de l’idée à la pensée]].
 
-Plutôt que se limiter à donner à voir un travail en cours ce labo propose des formes, des situations et des essais permettant d’éprouver comment une idée devient pensée [^2] : comment elle résiste, se déplace, s’organise, s'élabore, se formule.
+Plutôt que de se limiter à donner à voir un travail en cours ce labo propose des formes, des situations et des essais permettant d’éprouver comment une idée devient pensée [^2] : comment elle résiste, se déplace, s’organise, s'élabore, se formule.
 
 On n’y trouve pas des réponses stabilisées mais des propositions à expérimenter. C’est une zone d’exploration active, où chacun peut tester des chemins, observer ce que cela fait, s’arrêter, revenir,
 ou repartir. 
 ## Un espace en construction
 
 Conversations en lisières est un lieu en évolution. Les contenus se déplacent, se précisent, s’enrichissent et  ce qui compte ici n’est pas la complétude, mais la qualité des prises,
-des liens, et des conditions de dialogue.
+des liens et des conditions de dialogue.
 
 Si cette manière de lire et de chercher te parle, tu peux parcourir, revenir, et prendre ce qui t’est utile.
 
