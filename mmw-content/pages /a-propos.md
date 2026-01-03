@@ -23,3 +23,5 @@ Cette posture n’est pas solitaire : habiter en chercheur, c’est faire avec s
 
 *Conversations en lisières* propose de rendre visibles les coulisses de ce travail, non comme des résultats stabilisés, mais comme une médiation située, attentive au sens qui se loge dans les activités ordinaires.
 
+D’autres textes prolongent ces questions ailleurs sur le site, sous des formes différentes.
+
