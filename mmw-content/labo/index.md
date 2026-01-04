@@ -40,4 +40,4 @@ Ce labo repose sur un postulat simple : le pouvoir de penser n’a pas disparu m
 Ici, le pari est inverse. Des conditions modestes, situées, non spectaculaires peuvent rouvrir des possibles.
 Ce labo n’extrait rien, n’optimise rien, il propose des situations à habiter.
 
-[^1]: Jean-François Noubel, *L’intelligence collective, la révolution invisible*, 2004 : « L’intelligence collective d’un groupe est sa capacité à se formuler un futur et à y parvenir dans un contexte complexe. »
+[^1]: Jean-François Noubel, *L’intelligence collective, la révolution invisible*, 2004 : « L’intelligence collective pour un groupe c'est sa capacité à se formuler un futur et à y parvenir dans un contexte complexe. »
