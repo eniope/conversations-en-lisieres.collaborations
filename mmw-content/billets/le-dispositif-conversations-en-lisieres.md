@@ -48,7 +48,7 @@ et laisser apparaître ce qui se cherche encore.
 ## Organisation, contenu, technologie
 
 Cette structuration repose sur le triptyque suivant : Organisation, Contenu, Technologie, pensé comme un équilibre dynamique  
-au service de la réflexivité et de la circulation du sens.
+au service de la réflexivité et de la circulation du sens.[^4]
 
 Issues du web 2.0, les technologies mobilisées me permettent de soutenir mémoire, écriture, partage et mise en relation.
 
