@@ -8,7 +8,7 @@ Ce parcours propose d’éprouver, par une traversée courte, ce que peut vouloi
 [Ouvrir le parcours interactif](../static/labo/twine/penser-ensemble.html)
 
 <iframe
-  src="/conversations-en-lisieres/labo/twine/penser-ensemble/penser-ensemble.html"
+  src="/conversations-en-lisieres/static/labo/twine/penser-ensemble.html"
   style="width:100%; height:80vh; border:1px solid var(--lightgray); border-radius:12px;"
   loading="lazy">
 </iframe>
