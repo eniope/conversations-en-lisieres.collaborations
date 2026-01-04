@@ -19,7 +19,7 @@ visibility:
 ---
 # Labo Penser ensemble l'oeuvre à faire
 Ce labo est un espace d’essais. Il ne présente pas des résultats, ne transmet pas une méthode, ne cherche pas à convaincre.
-Il propose des situations à éprouver pour observer comment ce qui se joue dans les groupes au sens large. "L'intelligence collective pour un groupe c'est sa capacité à se formuler un futur et à y parvenir dans un contexte complexe" Jean François Noubel- L'intelligence collective, la révolution invisible-2004
+Il propose des situations à éprouver pour observer ce qui se joue dans les dynamiques collectives au sens large. "L'intelligence collective pour un groupe c'est sa capacité à se formuler un futur et à y parvenir dans un contexte complexe" Jean François Noubel- L'intelligence collective, la révolution invisible-2004
 
 ## Pourquoi un Labo
 
