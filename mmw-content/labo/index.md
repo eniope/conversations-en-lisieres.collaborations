@@ -1,9 +1,9 @@
 ---
 type: index
 status: en-cours
-title: "Labo de l’idée à la pensée"
-subtitle: "Éprouver le passage de l’idée à la pensée"
-description: "Un espace d’essais et d’expérimentation pour éprouver comment une idée se transforme en pensée."
+title: "Labo Penser ensemble l'oeuvre à faire"
+subtitle: "Éprouver les enjeux du faire ensemble"
+description: "Un espace d’essais et d’expérimentation pour s'exercer aux pratiques collectives"
 tags:
   - labo
   - processus
@@ -17,26 +17,26 @@ visibility:
   toc: false
   backlinks: true
 ---
-# Labo de l’idée à la pensée
+# Labo Penser ensemble l'oeuvre à faire
 Ce labo est un espace d’essais. Il ne présente pas des résultats, ne transmet pas une méthode, ne cherche pas à convaincre.
-Il propose des situations à éprouver pour observer comment une idée, encore floue, encore fragile,
-peut devenir pensée.
+Il propose des situations à éprouver pour observer comment ce qui se joue dans les groupes au sens large. "L'intelligence collective pour un groupe c'est sa capacité à se formuler un futur et à y parvenir dans un contexte complexe" Jean François Noubel- L'intelligence collective, la révolution invisible-2004
 
 ## Pourquoi un Labo
 
-Certaines idées apparaissent comme un trouble elles ne sont pas encore formulables.
+Dans nos expérimentations collectives, certains phenomènes créent du trouble dont la portée n'est pas directement comprise dans l'action.
 Elles résistent à la mise en mots. Elles produisent un « tiens, c’est bizarre ».
 Ce labo existe pour travailler ce moment-là. Non pour le résoudre, mais pour l’habiter assez longtemps afin de voir ce qui s’y joue. Ici, on ne part pas d’une thèse, on part d’un frottement avec le réel. 
 ## Ce qui est proposé ici
 Dans ce labo, tu trouveras : 
 
+- des jeux sérieux
 - des fragments d’écriture,
 - des essais de formulation,
 - des déplacements de notions,
 - des formes encore instables,
 - des propositions à manipuler ou à prolonger.
 
-Chaque objet vise moins à dire quelque chose qu’à faire éprouver un passage, celui par lequel une idée se transforme, se structure, ou parfois se défait. 
+Chaque objet vise moins à dire quelque chose qu’à faire éprouver un passage, celui par lequel un trouble se transforme, se structure, ou parfois se défait. 
 ## Ce que ce Labo n’est pas
 
 Ce Labo n’est pas :
