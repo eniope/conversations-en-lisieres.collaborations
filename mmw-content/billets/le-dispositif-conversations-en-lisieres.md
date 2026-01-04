@@ -50,9 +50,7 @@ et laisser apparaître ce qui se cherche encore.
 Cette structuration repose sur le triptyque suivant : Organisation, Contenu, Technologie, pensé comme un équilibre dynamique  
 au service de la réflexivité et de la circulation du sens.[^4]
 
-Issues du web 2.0, les technologies mobilisées me permettent de soutenir mémoire, écriture, partage et mise en relation.
-
-Elles permettent à un individu de tenir ensemble expérience vécue, travail documentaire et publication progressive,  
+Issues du web 2.0, les technologies mobilisées me permettent de soutenir mémoire, écriture, partage et mise en relation. Mais aussi de tenir ensemble expérience vécue, travail documentaire et publication progressive,  
 sans réduire la complexité du réel ni figer les interprétations.
 
 ## Un outil d’auto-outillage ouvert
