@@ -1,7 +1,7 @@
 ---
 type: page
 title: "À propos"
-description: "Habiter en chercheur, penser depuis l’expérience vécue, et documenter les conditions ordinaires du penser et agir ensemble.""Une médiation située pour penser et agir depuis l’expérience vécue"
+description: "Habiter en chercheur, penser depuis l’expérience vécue, et documenter les conditions ordinaires du penser et agir ensemble."
 orientation: médiation-scientifique-située
 posture: habitant-chercheur
 regime: explicitation
