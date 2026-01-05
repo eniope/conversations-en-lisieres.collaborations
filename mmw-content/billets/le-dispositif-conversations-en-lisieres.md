@@ -13,11 +13,10 @@ status: public
 
 ## Un dispositif d’abord adressé à moi-même
 
-*Conversations en lisières* est d’abord un dispositif que je m’adresse à moi-même. Il répond à un besoin de médiation scientifique dont je suis le premier destinataire,  
-en tant qu’habitant-chercheur[^1] automissionné publiquement depuis 2020.
+*Conversations en lisières* répond à un besoin de médiation scientifique dont j'ai besoin en tant qu’habitant-chercheur[^1] automissionné publiquement depuis 2020.
 
-Je reste avant tout un profane, animé depuis longtemps d’un esprit de recherche, mais lucide sur ce que je ne connais pas encore des pratiques de recherche elles-mêmes,  
-et attentif aux écarts entre curiosité, engagement et outillage méthodologique.
+J'en ai besoin car je reste avant tout un profane, certes animé depuis longtemps d’un esprit de recherche, mais lucide sur ce que je ne connais pas encore des pratiques de recherche elles-même et attentif aux écarts entre curiosité, engagement et outillage méthodologique. 
+Et j'en ai aussi besoin pour soutenir ce choix de posture : L'habitant chercheur, nouvelle figure des sciences impliquées. 
 
 Je mets donc à profit mes compétences de documentaliste-jardinier et j’apprends en autodidacte, par essais, reprises, ajustements successifs,  
 en prenant soin de ce que ces apprentissages me font vivre et comprendre.
