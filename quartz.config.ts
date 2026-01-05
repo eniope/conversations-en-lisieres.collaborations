@@ -1,5 +1,6 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
+import { Citations } from "./quartz/plugins/transformers/citations"
 
 /**
  * Quartz 4.0 Configuration
@@ -109,7 +110,9 @@ const config: QuartzConfig = {
       }),
 
       Plugin.GitHubFlavoredMarkdown(),
-
+      
+      Citations(),
+      
       Plugin.TableOfContents(),
 
       Plugin.CrawlLinks({
