@@ -18,7 +18,7 @@ Conversations en lisières n’est pas conçu pour transmettre un savoir stabili
 On y trouve des billets, des dossiers, des fiches et un Labo. Ils n’ont pas la même fonction ni le même régime d’écriture tout en participant d’une même intention : soutenir une capacité politique ordinaire, depuis l’expérience vécue et située.
 
 ## Lire, c’est déjà agir
-Lire ici, c’est accepter de s’exposer à l’incertitude, aux hésitations et aux tensions propres à l’action collective. C’est une manière d’éprouver ce que signifie penser et agir ensemble, sans garantie de résultat ni promesse de maîtrise.
+Lire ici, c’est accepter de s’exposer à l’incertitude, aux hésitations et aux tensions propres à l’action collective. C’est une manière d’éprouver ce que signifie penser et agir ensemble sans garanties de résultat ni promesse de maîtrise.
 
 ## Une expérience de citoyenneté
 Ce site s’inscrit dans une conception de la citoyenneté qui ne se limite ni au vote ni à la participation formelle, mais qui se construit dans la capacité à juger des situations vécues, à formuler des problèmes communs et à transformer le cours ordinaire de l’action[^1].
