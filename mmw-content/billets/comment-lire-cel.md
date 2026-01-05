@@ -26,4 +26,4 @@ Ce site s’inscrit dans une conception de la citoyenneté qui ne se limite ni a
 ---
 
 ## Notes
-[^1]: Sur la notion de **capacité politique des citoyens**, voir **:contentReference[oaicite:0]{index=0} & **:contentReference[oaicite:1]{index=1}**, *Le principe démocratie. Enquête sur les formes du politique aujourd’hui*, qui analyse la citoyenneté comme pouvoir ordinaire d’agir, de juger et de prendre part à la fabrication du commun. https://journals.openedition.org/mcv/9683
+[^1]: Sur la notion de **capacité politique des citoyens**, voir *Le principe démocratie. Enquête sur les formes du politique aujourd’hui*, qui analyse la citoyenneté comme pouvoir ordinaire d’agir, de juger et de prendre part à la fabrication du commun. https://journals.openedition.org/mcv/9683
