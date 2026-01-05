@@ -11,21 +11,7 @@ tags:
   - citoyenneté-politique
 status: public
 ---
----
-type: billet
-date: 2026-01-04
-title: "Conversations en lisières : un dispositif que je m’adresse d’abord à moi-même"
-tags:
-  - mediation-scientifique
-  - habitant-chercheur
-  - bibliotheque-vivante
-  - journal-de-bord
-  - auto-outillage
-  - citoyenneté-politique
-status: public
----
-
-## Un dispositif d’abord adressé à moi-même
+## Un dispositif auto-adressé
 
 *Conversations en lisières* répond à un besoin de médiation scientifique dont j'ai besoin en tant qu’habitant-chercheur[^1] automissionné publiquement depuis 2020.  
 J'en ai besoin car je reste avant tout un profane, certes animé d’un esprit de recherche, mais lucide sur ce que je ne connais pas encore des pratiques de recherche elles-mêmes et attentif aux écarts entre curiosité, engagement et outillage méthodologique.  
