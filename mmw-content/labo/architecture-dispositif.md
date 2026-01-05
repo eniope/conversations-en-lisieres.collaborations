@@ -27,7 +27,8 @@ Ces contenus ne sont pas cloisonnés. Ils sont reliés par des entrelacements ac
 L’espace labo est le lieu d’expérimentation par la pratique et de méta-fonction. Il accueille des formes à éprouver : parcours, jeux sérieux, dispositifs exploratoires, mais aussi l’observation de la manière dont une idée devient pensée, dont un apprentissage se construit, dont un outillage se stabilise.
 L’ensemble fonctionne en boucles : les expérimentations produisent des retours vers les contenus, sous forme de nouveaux billets, de nouvelles fiches ou d’enrichissements de dossiers. À ce stade, la finalité est l’auto-outillage, la clarification de la posture et la préparation d’un travail de thèse, avec une ouverture progressive vers des usages partagés lorsque les conditions seront réunies.
 
-                       CONVERSATIONS EN LISIÈRES
+```text
+CONVERSATIONS EN LISIÈRES
                 médiation scientifique auto-drigée
                                    |
                                    |
@@ -99,3 +100,5 @@ d’un travail)  déplacement)                                      |
                          FINALITÉ ACTUELLE (J+4)
         auto-outillage → clarification → préparation de la thèse
         → ouverture progressive à des usages partagés
+```
+
