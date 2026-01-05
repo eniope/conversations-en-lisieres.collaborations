@@ -11,7 +11,7 @@ tags:
 status: public
 ---
 
-## Une actualité qui fait paysage
+## Une actualité qui fait paysage 
 
 Demain à 14 heures se tiendra un webinaire de présentation de l’appel **Science avec et pour la société – Recherche-action, co-construction des politiques publiques et participation citoyenne (SAPS-RA-CPPE-2026)**. Cet appel, porté par l’Agence nationale de la recherche, s’inscrit dans un moment particulier du rapport entre science, société et action publique. Il mérite d’être lu non seulement comme une opportunité de financement, mais comme un indicateur de déplacement institutionnel. C’est dans ce contexte qu’un échange récent sur LinkedIn m’a amené à formuler la question suivante : « De la science avec la société à la science depuis la société : l’habitant-chercheur, une figure encore impensée des appels à projets ? »
 
