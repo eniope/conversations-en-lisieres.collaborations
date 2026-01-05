@@ -6,7 +6,8 @@ status: expérimental
 orientation: écologie des pratiques collectives
 regime: éprouver pour comprendre
 ---
-Ce labo est un espace d’essais dont les activités sont orientées vers l’écologie des pratiques collectives. Il ne présente pas des résultats, ne transmet pas une méthode, ne cherche pas à convaincre. Il propose des situations à éprouver pour observer ce qui se joue dans les dynamiques collectives et explore comment s’élabore l’alchimie de l’intelligence collective[^1].
+Le Labo est un espace d’expérimentation citoyenne : on y éprouve, en situation incertaine, les conditions du penser et agir ensemble, là où se forme concrètement la capacité politique des collectifs.
+Il ne présente pas des résultats, ne transmet pas une méthode, ne cherche pas à convaincre. Il propose des situations à éprouver pour observer ce qui se joue dans les dynamiques collectives et explore comment s’élabore l’alchimie de l’intelligence collective[^1].
 
 ## Pourquoi un Labo
 
