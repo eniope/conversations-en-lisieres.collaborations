@@ -38,7 +38,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
 
     // --- Langue et contexte ---
-    locale: "fr",
+    // locale: "fr",
 
     // --- Déploiement GitHub Pages ---
     baseUrl: "/conversations-en-lisieres/",
