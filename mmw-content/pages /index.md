@@ -1,1 +1,4 @@
-blabla
+---
+Title: "Pages"
+---
+Dossier fournissant les pages autonomes
