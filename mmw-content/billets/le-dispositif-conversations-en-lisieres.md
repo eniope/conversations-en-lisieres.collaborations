@@ -1,7 +1,7 @@
 ---
 type: billet
 date: 2026-01-03
-title: "Conversations en lisières : un dispositif que je m’adresse d’abord à moi-même"
+title: "Ici, une activité auto-administrée"
 tags:
   - mediation-scientifique
   - habitant-chercheur
@@ -11,9 +11,9 @@ tags:
   - citoyenneté-politique
 status: public
 ---
-## Un dispositif auto-adressé
+## Un dispositif auto-administré
 
-*Conversations en lisières* répond à un besoin de médiation scientifique dont j'ai besoin en tant qu’habitant-chercheur[^1] automissionné publiquement depuis 2020.  
+*Conversations en lisières* répond à un besoin de médiation scientifique dont j'ai besoin en tant qu’habitant-chercheur[^1] automissionné publiquement depuis 2020. Je me l'auto-administre mais ce n'est pas pour ça que ça doit être une purge.  
 J'en ai besoin car je reste avant tout un profane, certes animé d’un esprit de recherche, mais lucide sur ce que je ne connais pas encore des pratiques de recherche elles-mêmes et attentif aux écarts entre curiosité, engagement et outillage méthodologique.  
 Et j'en ai aussi besoin parce qu’il n'existe pas de cadre clé en main pour aider à s'assumer pleinement “nouvelle figure des sciences impliquées” - une posture reconnue dans certains dispositifs collaboratifs où habitants et chercheurs co-construisent sens et méthodes.[^2]  
 Dire que cette figure est « nouvelle » ne signifie pas qu’elle n’a jamais existé, mais qu’elle ne dispose pas encore de cadres stabilisés pour être décrite, transmise et reconnue d’où l’importance de l’apprentissage.  
