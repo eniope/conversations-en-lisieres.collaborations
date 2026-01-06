@@ -32,6 +32,13 @@ temporalite:
   adresse: futur
   reference: annee-2025
 ---
+>Cette lettre existe sous plusieurs formes.
+>Celle que vous allez lire est la version longue, écrite pour tenir dans le temps.
+
+>Si vous préférez une entrée plus expérientielle, plus mobile, une version alternative est disponible dans le labo.
+>Elle ne s’explique pas : elle se traverse.
+
+→ Entrer par la version expérimentale (a venir)
 
 ## Lettre à mon futur moi
 
