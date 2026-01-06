@@ -1,7 +1,7 @@
 ---
 type: billet
 date: 2025-12-16
-title: "Entrer en citoyenneté par l’expérience : comment lire Conversations en lisières"
+title: "Citoyenneté par l’expérience"
 tags:
   - billet-seuil
   - citoyenneté
