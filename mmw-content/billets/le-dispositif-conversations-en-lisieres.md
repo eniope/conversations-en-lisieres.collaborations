@@ -1,7 +1,7 @@
 ---
 type: billet
 date: 2026-01-03
-title: "Ici, une activité auto-administrée"
+title: "Ici, activité auto-administrée"
 tags:
   - mediation-scientifique
   - habitant-chercheur
