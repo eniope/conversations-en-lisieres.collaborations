@@ -1,7 +1,7 @@
 ---
 type: billet
 date: 2026-01-05
-title: "De la science avec la société à la science depuis la société ?"
+title: "Science depuis la société ?"
 tags:
   - science-et-societe
   - action-publique
