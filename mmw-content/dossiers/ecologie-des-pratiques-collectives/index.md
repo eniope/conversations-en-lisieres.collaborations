@@ -32,8 +32,8 @@ Dans cette perspective, la médiation scientifique devient un travail situé sur
 > Il propose un cadre de lecture pour comprendre pourquoi certaines coopérations sont difficiles, malgré la bonne volonté des acteurs, et comment il est possible d’habiter ces difficultés sans chercher à les faire disparaître.
 >
 > #### Pages associées
-> - [[dossiers/ecologie-des-pratiques-collectives/objet-frontière|Objet-frontière]]
-> - [[dossiers/ecologie-des-pratiques-collectives/milieu-capacitant|Milieu capacitant]]
+> - [[dossiers/ecologie-des-pratiques-collectives/objet-frontière.md|Objet-frontière]]
+> - [[milieu-capacitant.md|Milieu capacitant]]
 
 ^ecologie-des-pratiques-navbox
 
