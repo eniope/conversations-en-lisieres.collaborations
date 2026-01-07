@@ -1,5 +1,5 @@
 ---
-title: "2025-apprendre de la citoyenneté vécue"
+title: "2025 : citoyenneté apprenante"
 date: 2026-01-01
 status: "résultat intermédiaire"
 type: "billet"
