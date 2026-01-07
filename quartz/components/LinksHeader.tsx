@@ -5,6 +5,7 @@ const LinksHeader: QuartzComponent = (_props: QuartzComponentProps) => {
     <nav class="links-header">
       <a class="links-header-item" href="/conversations-en-lisieres/billets/">Billets</a>
       <a class="links-header-item" href="/conversations-en-lisieres/dossiers/">Dossiers</a>
+      <a class="links-header-item" href="/conversations-en-lisieres/dossiers/">Veilles</a>
       <a class="links-header-item" href="/conversations-en-lisieres/pages-/a-propos">À propos</a>
       <a class="links-header-item" href="/conversations-en-lisieres/pages-/abonnement">Abonnement</a>
     </nav>
