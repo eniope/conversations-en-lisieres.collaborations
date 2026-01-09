@@ -312,25 +312,32 @@ a.mmw-download-link div.popover {
   display: none !important;
 }
 
-/* --- Bouton "Entrer dans l'exploration" (Twine plein écran) --- */
+/* Seuil d'exploration – bouton Twine */
 
 .exploration-entry {
   margin-top: 2rem;
   text-align: center;
 }
 
-.exploration-button {
+.exploration-entry a.exploration-button {
   display: inline-block;
   padding: 0.75rem 1.5rem;
+
   font-size: 1.05rem;
   font-weight: 600;
+
+  color: #ffffff;
   text-decoration: none;
-  color: #fff;
+
   background-color: #1f2937;
+  border: 1px solid rgba(255, 255, 255, 0.15);
   border-radius: 6px;
-  transition: background-color 0.2s ease;
+
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
 }
 
-.exploration-button:hover {
+.exploration-entry a.exploration-button:hover {
   background-color: #374151;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
 }
