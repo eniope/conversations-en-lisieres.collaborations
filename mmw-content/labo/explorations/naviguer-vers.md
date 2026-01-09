@@ -37,7 +37,7 @@ draft: false
 <div class="exploration-entry">
   <a
     class="exploration-button"
-    href="./naviguer-vers.html"
+    href="static/twine/naviguer-vers.html"
     target="_blank"
     rel="noopener"
   >
