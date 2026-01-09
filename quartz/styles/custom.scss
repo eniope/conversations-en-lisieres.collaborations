@@ -311,3 +311,26 @@ a.mmw-download-link div.popover {
 #edit-btn-container {
   display: none !important;
 }
+
+/* --- Bouton "Entrer dans l'exploration" (Twine plein écran) --- */
+
+.exploration-entry {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.exploration-button {
+  display: inline-block;
+  padding: 0.75rem 1.5rem;
+  font-size: 1.05rem;
+  font-weight: 600;
+  text-decoration: none;
+  color: #fff;
+  background-color: #2d2d2d;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.exploration-button:hover {
+  background-color: #444;
+}
