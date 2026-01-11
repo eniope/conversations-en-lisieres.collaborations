@@ -10,21 +10,15 @@ description: "Un lieu ouvert, fait de seuils, de logiques et de gestes possibles
 
 # Conversations en lisières
 
-À son ouverture, le site peut sembler vide.  
-Il est déjà fait de **seuils**, de **logiques** et de **gestes possibles**.
+À son ouverture, le site peut sembler vide. Pourtant il est déjà fait de **seuils**, de **logiques** et de **gestes possibles**.
 
-Le milieu de futures interactions est en place :  
-la structure, la navigation, les manières d’entrer et de sortir.  
+Le milieu de futures interactions est en place : la structure, la navigation, les manières d’entrer et de sortir.  
 Les contenus se fabriquent dans le temps.
 
-Ici, on **relève un défi**.  
-Celui de tenter des conversations,  
-même lorsque l’incommunication semble parfois l’emporter.
+Ici, on **relève un défi**, celui de tenter des conversations, même lorsque l’incommunication semble parfois l’emporter.
 
-Avant de voir de quoi il retourne,  
-il s’agit surtout de **faire un pas**.
+Avant de voir de quoi il retourne, il s’agit surtout de **faire un pas**.
 
----
 <div class="exploration-entry">
   <a
     class="exploration-button"
@@ -36,9 +30,7 @@ il s’agit surtout de **faire un pas**.
   </a>
 </div>
 
-[**Entrer en conversations**](../static/twine/premiers-pas-ici.html)
 
----
 
 **État** : ouverture  
 Ce qui est donné à voir correspond à cet état.
