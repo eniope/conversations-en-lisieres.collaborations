@@ -30,7 +30,3 @@ Avant de voir de quoi il retourne, il s’agit surtout de **faire un pas**.
   </a>
 </div>
 
-
-
-**État** : ouverture  
-Ce qui est donné à voir correspond à cet état.
