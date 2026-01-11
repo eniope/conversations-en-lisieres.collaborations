@@ -1,12 +1,12 @@
 ---
 type: page
-title: "Labo"
+title: "Fabrique"
 date: 2026-01-04
 status: expérimental
 orientation: écologie des pratiques collectives
 regime: éprouver pour comprendre
 ---
-Le Labo est un espace d’expérimentation citoyenne : on y éprouve, en situation incertaine, les conditions du penser et agir ensemble, là où se forme concrètement la capacité politique des collectifs.
+La Fabrique est un espace d’expérimentation citoyenne : on y éprouve, en situation incertaine, les conditions du penser et agir ensemble, là où se forme concrètement la capacité politique des collectifs.
 Il ne présente pas des résultats, ne transmet pas une méthode, ne cherche pas à convaincre. Il propose des situations à éprouver pour observer ce qui se joue dans les dynamiques collectives et explore comment s’élabore l’alchimie de l’intelligence collective[^1].
 
 ## Pourquoi un Labo
