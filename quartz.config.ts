@@ -41,7 +41,7 @@ const config: QuartzConfig = {
     // locale: "fr",
 
     // --- Déploiement GitHub Pages ---
-    baseUrl: "/conversations-en-lisieres/",
+    baseUrl: "/conversations-en-lisieres.collaborations/",
 
     // --- Contenu ignoré ---
     ignorePatterns: ["private", "**/templates/", ".obsidian"],
