@@ -116,7 +116,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
 
       Plugin.CrawlLinks({
-        markdownLinkResolution: "shortest",
+        markdownLinkResolution: "absolute",
       }),
 
       // Exploite les descriptions (frontmatter ou extrait)
