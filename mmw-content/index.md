@@ -12,6 +12,12 @@ description: "Un lieu ouvert, fait de seuils, de logiques et de gestes possibles
 
 > imaginé en mode hybridation créative pour entretenir des conversations dédiées aux alliances avec les sciences impliquées .  
 
-![Les métiers de nos pensées](/static/assets/images/les-metiers-de-nos-pensees.jpg)
+<p style="text-align:center;">
+  <img
+    src="/static/images/Les-metiers-de-nos-pensees.jpg"
+    alt="Les métiers de nos pensées"
+    style="max-width:60%; height:auto;"
+  />
+</p>
 
 
