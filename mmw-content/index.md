@@ -10,7 +10,7 @@ description: "Un lieu ouvert, fait de seuils, de logiques et de gestes possibles
 
 # Conversations en lisières pour collaborations  
 
-> imaginé en mode hybridation créative pour entretenir des conversations dédiées aux alliances avec les sciences impliquées .  
+> imaginé en mode hybridation créative pour entretenir des conversations dédiées aux alliances dans les pratiques des sciences impliquées .  
 
 <p style="text-align:center;">
   <img
