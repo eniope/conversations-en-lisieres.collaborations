@@ -21,4 +21,4 @@ description: "Un lieu ouvert, fait de seuils, de logiques et de gestes possibles
 </p>
 
 
-![Texte alternatif](/static/images/schema-autorisation.png)
+
