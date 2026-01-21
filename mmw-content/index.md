@@ -8,7 +8,7 @@ regime: seuil
 description: "Un lieu ouvert, fait de seuils, de logiques et de gestes possibles, pour éprouver les conditions ordinaires des conversations."
 ---
 
-# Conversations en lisières (volet collaborations ) 
+# Conversations en lisières
 
 > Ce dispositif documentaire est pensé comme un espace de création où se tissent des conversations et des alliances au sein même des pratiques de recherche engagées .  
 
