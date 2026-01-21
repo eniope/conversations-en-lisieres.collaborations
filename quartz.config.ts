@@ -47,7 +47,7 @@ const config: QuartzConfig = {
     ignorePatterns: ["private", "**/templates/", ".obsidian", "_static"],
 
     // --- Métadonnées temporelles ---
-    defaultDateType: "modified",
+    defaultDateType: "published",
 
     // --- Partage & réseaux ---
     generateSocialImages: false,
