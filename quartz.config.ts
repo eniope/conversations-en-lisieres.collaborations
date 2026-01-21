@@ -44,7 +44,7 @@ const config: QuartzConfig = {
     baseUrl: "/conversations-en-lisieres.collaborations/",
 
     // --- Contenu ignoré ---
-    ignorePatterns: ["private", "**/templates/", ".obsidian"],
+    ignorePatterns: ["private", "**/templates/", ".obsidian", "_static"],
 
     // --- Métadonnées temporelles ---
     defaultDateType: "modified",
