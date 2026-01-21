@@ -1,5 +1,5 @@
 ---
-title: "Conversation en lisières"
+title: "Conversations en lisières"
 date: 2026-01-21
 type: billet
 status: published
