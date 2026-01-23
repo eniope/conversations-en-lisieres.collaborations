@@ -37,7 +37,7 @@ couplage:
   publication: Quartz
 ---
 
-## **Conversation en lisières**
+## **Conversations en lisières**
 ### *Point de départ*
 
 Aucune décision ne s’est imposée ce matin de 2018, il y avait juste cette intuition qu’un possible s’ouvrait, sans plans ni promesses, mais avec assez de consistance pour demander à être habité.
