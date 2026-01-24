@@ -71,7 +71,7 @@ Ces conversations ne vont pas de soi car elles supposent d’accepter les désac
 
 Les conversations collaboratives ne visent ni à convaincre ni à conclure prématurément. Elles constituent plutôt un cadre relationnel et cognitif au sein duquel les activités vécues peuvent faire l’objet d’une réflexion partagée, ouvrir des possibles, et soutenir une coordination progressive des actions.
 
-Dans cette perspective, le sens commun n’est ni préalable ni stabilisé une fois pour toutes : il émerge d’un va-et-vient continu entre l’expérience, la mise en mots, l’exploration et l’apprentissage collectif. Les conversations collaboratives apparaissent alors non comme une solution, mais comme l’une des conditions permettant de rendre ce travail du sens pensable et habitable dans l’incertitude.[3]
+Dans cette perspective, le sens commun n’est ni préalable ni stabilisé une fois pour toutes : il émerge d’un va-et-vient continu entre l’expérience, la mise en mots, l’exploration et l’apprentissage collectif. Les conversations collaboratives apparaissent alors non comme une solution, mais comme l’une des conditions permettant de rendre ce travail du sens pensable et habitable dans l’incertitude.[^3]
 
 ---
 
