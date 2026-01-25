@@ -112,10 +112,11 @@ Ce qui importe n’est pas d’en faire le tour, mais de voir s’il permet, à 
 ---
 
 > [!infobox]
+> ### Ce dossier fait partie de la constellation *Conversations en lisières/Collaborations*
 > <p style="text-align:center;">
 >   <img src="/static/images/agenda-civique.png" style="max-width:80%; height:auto;" />
-> </p>
-> ### Ce dossier fait partie de la constellation *Conversations en lisières*
+> </p> 
+>
 > #### Pages associées
-> [Qu'appelle t on agenda ?](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)**
+>- [Qu'appelle t on agenda ?](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)**
 
