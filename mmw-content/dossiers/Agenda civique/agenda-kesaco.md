@@ -1,5 +1,5 @@
 ---
-title: "I.1 — Qu’appelle-t-on un agenda ?"
+title: "I.1 - Qu’appelle-t-on un agenda ?"
 tags:
   - agenda
   - canonique
