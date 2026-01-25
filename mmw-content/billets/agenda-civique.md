@@ -32,7 +32,7 @@ Dans la description même de ce cours en ligne, l’agenda civique sert à dési
 
 ## Une réactivation : la notion à l’épreuve de l’expérience
 
-La lecture du retour sur l’expérience ISOPOLIS, menée à La Réunion[^4][^5] est venue agir comme une réactivation.  
+La lecture du retour sur l’expérience ISOPOLIS, menée à La Réunion[^4][@chabanet2025_isopolis][^5] est venue agir comme une réactivation.  
 Elle n’a pas fonctionné comme un modèle à reproduire, mais comme un **miroir contrefactuel** : un dispositif permettant de réfléchir, par contraste, aux conditions, aux tensions et aux déplacements qu’impliquerait une mobilisation de la notion d’agenda civique dans d’autres contextes.
 
 Dans ce cas précis, la notion n’est plus simplement évoquée dans un cadre pédagogique : elle est mise au travail dans un dispositif complexe d’alliance entre société civile et recherche.
@@ -66,13 +66,12 @@ Le dossier qui suit s’ouvre donc par une exploration des définitions, cadres 
 
 👉 **[Accéder au dossier « Agenda civique »](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/)**
 
-
+##Références 
 ---
 
 [^1]:  Raphaëlle Bats, conservateur des bibliothèques, co-responsable, référent « Information scientifique et technique » URFIST Bordeaux
 [^2]: Raphaëlle Bats introduit les cafés citoyens de Biganos pour valoriser l’importance des échanges de savoir et d’investir le « comment » [Vidéo](https://youtu.be/uSOKjfoKuIM?si=BazNBeNF0dVHciq-=)
 [^3]: Les projets de science citoyenne orientés vers l'action encouragent l'intervention des participants dans les préoccupations locales, en utilisant la recherche scientifique comme un outil pour soutenir les agendas civiques. [Cours en ligne Sciences et recherches participatives-Volet Action locale](https://callisto-formation.fr/course/view.php?id=320&section=1)
-[^4]:[ISOPOLIS ou les enjeux d’une alliance sciencesociété à l’initiative de la société civile](https://www.participation-et-democratie.fr/system/files/2025-05/P2-1_CHABANET%26CHON-NAM%26DELAHAIS%26DEVAKARNE%26NOEL.pdf) [@chabanet2025_isopolis]
+[^4]:[ISOPOLIS ou les enjeux d’une alliance sciencesociété à l’initiative de la société civile](https://www.participation-et-democratie.fr/system/files/2025-05/P2-1_CHABANET%26CHON-NAM%26DELAHAIS%26DEVAKARNE%26NOEL.pdf) 
 [^5]:[« La démarche d'ISOPOLIS vue de l'extérieur », par Thomas Delahais](https://youtu.be/93Pne1X1QRI?si=rylQyknM8kBAOcN4)
 
-##Références 
