@@ -117,5 +117,5 @@ Ce qui importe n’est pas d’en faire le tour, mais de voir s’il permet, à 
 > </p>
 > ### Ce dossier fait partie de la constellation *Conversations en lisières*
 > #### Pages associées
-> - [Qu'appelle t on agenda ?](/dossiers/Agenda-civique/agenda-kesaco)
+> [Qu'appelle t on agenda ?](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)**
 
