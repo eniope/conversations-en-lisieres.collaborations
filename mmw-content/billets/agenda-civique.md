@@ -72,5 +72,7 @@ Le dossier qui suit s’ouvre donc par une exploration des définitions, cadres 
 [^1]:  Raphaëlle Bats, conservateur des bibliothèques, co-responsable, référent « Information scientifique et technique » URFIST Bordeaux
 [^2]: Raphaëlle Bats introduit les cafés citoyens de Biganos pour valoriser l’importance des échanges de savoir et d’investir le « comment » [Vidéo](https://youtu.be/uSOKjfoKuIM?si=BazNBeNF0dVHciq-=)
 [^3]: Les projets de science citoyenne orientés vers l'action encouragent l'intervention des participants dans les préoccupations locales, en utilisant la recherche scientifique comme un outil pour soutenir les agendas civiques. [Cours en ligne Sciences et recherches participatives-Volet Action locale](https://callisto-formation.fr/course/view.php?id=320&section=1)
-[^4]:
+[^4]:[ISOPOLIS ou les enjeux d’une alliance sciencesociété à l’initiative de la société civile](https://www.participation-et-democratie.fr/system/files/2025-05/P2-1_CHABANET%26CHON-NAM%26DELAHAIS%26DEVAKARNE%26NOEL.pdf) [@chabanet2025_isopolis]
 [^5]:[« La démarche d'ISOPOLIS vue de l'extérieur », par Thomas Delahais](https://youtu.be/93Pne1X1QRI?si=rylQyknM8kBAOcN4)
+
+##Références 
