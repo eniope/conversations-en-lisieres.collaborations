@@ -112,17 +112,10 @@ Ce qui importe n’est pas d’en faire le tour, mais de voir s’il permet, à 
 ---
 
 > [!infobox]
-> ![[agenda-civique.png]]
+> <p style="text-align:center;">
+>   <img src="/static/images/agenda-civique.png" style="max-width:80%; height:auto;" />
+> </p>
 > ### Ce dossier fait partie de la constellation *Conversations en lisières*
->  
-> 
 > #### Pages associées
-> *
-<p style="text-align:center;">
-  <img
-    src="/static/images/Les-metiers-de-nos-pensees.jpg"
-    alt="Les métiers de nos pensées"
-    style="max-width:60%; height:auto;"
-  />
-</p>
+> - [Qu'appelle t on agenda ?](/dossiers/Agenda-civique/agenda-kesaco)
 
