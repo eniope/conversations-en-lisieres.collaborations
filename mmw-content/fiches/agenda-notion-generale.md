@@ -1,4 +1,4 @@
-# Agenda — notion générale
+# Agenda - notion générale
 
 ## Définition provisoire
 Dans les sciences sociales, l’agenda désigne les processus par lesquels certains enjeux accèdent à une visibilité et à une reconnaissance comme prioritaires, tandis que d’autres restent marginalisés.
