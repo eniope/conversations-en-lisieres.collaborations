@@ -117,4 +117,12 @@ Ce qui importe n’est pas d’en faire le tour, mais de voir s’il permet, à 
 >  
 > 
 > #### Pages associées
-> 
+> *
+<p style="text-align:center;">
+  <img
+    src="/static/images/Les-metiers-de-nos-pensees.jpg"
+    alt="Les métiers de nos pensées"
+    style="max-width:60%; height:auto;"
+  />
+</p>
+
