@@ -18,5 +18,5 @@ Dans les sciences sociales, l’agenda désigne les processus par lesquels certa
 [@baumgartner2009_agendas]
 
 ## Liens
-- [[I.1 - Qu’appelle-t-on un agenda ?]]
-- [[Agenda civique]] (à venir)
+- [[dossiers/Agenda-civique/agenda-kesaco|I.1 - Qu’appelle-t-on un agenda ?]]
+- [[Agenda civique (à venir)|Agenda civique]] 
