@@ -68,7 +68,8 @@ Elle donne des repères, mais **n’a rien de définitif**.  Elle pourra évolue
 – Ancrages théoriques  
 – Débats, tensions et usages concurrents
 
-### III. Ce que l’agenda civique n’est pas
+### III. Ce que l’agenda civique n’est pas- [Qu'appelle t on agenda ?](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)**
+
 
 – Clarifications nécessaires  
 – Confusions fréquentes  
@@ -118,5 +119,5 @@ Ce qui importe n’est pas d’en faire le tour, mais de voir s’il permet, à 
 > </p> 
 >
 > #### Pages associées
->- [Qu'appelle t on agenda ?](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)**
+>- [Qu'appelle t on agenda ?](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)
 
