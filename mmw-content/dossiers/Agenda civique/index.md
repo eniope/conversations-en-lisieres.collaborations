@@ -1,5 +1,5 @@
 ---
-title: "Dossier — Agenda civique"
+title: "Dossier - Agenda civique"
 description: "Index du dossier en cours : repères canoniques, tensions, méthodes, appropriations situées."
 tags:
   - dossier
