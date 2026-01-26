@@ -1,5 +1,5 @@
 ---
-title: "VI. Du personnel au collectif : intériorité citoyenne et tenue d’un agenda civique"
+title: "VI. Du personnel au collectif"
 type: dossier
 status: draft
 tags:
