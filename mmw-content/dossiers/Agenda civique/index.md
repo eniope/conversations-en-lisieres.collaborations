@@ -87,7 +87,15 @@ Elle donne des repères, mais **n’a rien de définitif**.  Elle pourra évolue
 – Traductions, récupérations, neutralisations  
 – Le rôle des « passeurs d’agenda »
 
-### VI. Appropriations situées (à venir)
+### VI. Du personnel au collectif : intériorité citoyenne et tenue d’un agenda civique
+- La capacité politique comme expérience vécue
+- Agenda civique personnel : un espace de clarification, non un programme
+- Furtivité, individuation et tenue des collectifs
+- Nourrir l’intériorité citoyenne pour « faire autrement ensemble »
+- Action, nomination et expérience partagée
+- Vers une conception soutenable de l’agenda civique
+  
+### VII. Appropriations situées (à venir)
 
 – Ce que la notion rend possible localement  
 – Ce qu’elle complique ou empêche  
