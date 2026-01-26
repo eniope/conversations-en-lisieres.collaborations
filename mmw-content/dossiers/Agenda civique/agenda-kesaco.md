@@ -1,5 +1,5 @@
 ---
-title: "I.1 - Notions générales"
+title: "I - Notions générales"
 tags:
   - agenda
   - canonique
