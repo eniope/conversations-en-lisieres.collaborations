@@ -24,3 +24,6 @@ Charte du Verstohlen
 
 ## Citations clés
 [fleury2022_verstohlen]
+
+## Liens
+[[fiches/index|Boîte à fiches]]
