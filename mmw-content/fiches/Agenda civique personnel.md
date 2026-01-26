@@ -18,4 +18,4 @@ Il existe un travail personnel, souvent invisible, de clarification des priorit�
 - Va-et-vient constant entre personnel et collectif
 
 ## Références à mobiliser
-[@dansembourg_interieorite] (piste)
+[@dansembourg_interiorite_citoyenne] (piste)
