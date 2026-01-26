@@ -22,3 +22,6 @@ Nommer le monde est un acte de transformation, qui engage ceux qui nomment et re
 [@freire1992_pedagogie]
 [@dewey2001_public]
 [@renault2007_transactionnelle]
+
+## Liens
+[[fiches/index|Boîte à fiches]]
