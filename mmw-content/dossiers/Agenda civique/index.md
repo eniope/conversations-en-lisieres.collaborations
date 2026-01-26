@@ -127,7 +127,7 @@ Ce qui importe n’est pas d’en faire le tour, mais de voir s’il permet, à 
 > </p> 
 >
 > #### Pages associées
->- [I - Notions générales](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)
->- [VI - Du personnel au collectif](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/du-personnel-au-collectif)
+>- [1 - Notions générales](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/agenda-kesaco)
+>- [6 - Du personnel au collectif](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Agenda-civique/du-personnel-au-collectif)
 
 
