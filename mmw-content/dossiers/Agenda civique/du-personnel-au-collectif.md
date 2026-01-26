@@ -15,7 +15,7 @@ Les travaux consacrés à l’agenda civique abordent le plus souvent la questio
 
 Cette focale tend toutefois à laisser dans l’ombre un enjeu décisif : la capacité politique des citoyennes et des citoyens comme expérience vécue, antérieure ou parallèle à toute structuration collective formalisée.
 
-Dans cette perspective, la citoyenneté ne se réduit ni à un statut juridique ni à un ensemble de comportements attendus. Elle peut être comprise comme une expérience pratique, faite d’apprentissages, d’épreuves, d’hésitations et de reprises, par laquelle des individus se découvrent capables de juger, de prendre part et de répondre de ce qu’ils engagent. [ogien2019_capacite_politique]
+Dans cette perspective, la citoyenneté ne se réduit ni à un statut juridique ni à un ensemble de comportements attendus. Elle peut être comprise comme une expérience pratique, faite d’apprentissages, d’épreuves, d’hésitations et de reprises, par laquelle des individus se découvrent capables de juger, de prendre part et de répondre de ce qu’ils engagent. [@ogien2019_capacite_politique]
 
 La capacité politique n’est pas donnée une fois pour toutes : elle se construit dans des situations concrètes, souvent modestes, où s’articulent expression personnelle, confrontation à l’altérité et mise en commun partielle des préoccupations.
 
@@ -31,7 +31,7 @@ Cet agenda personnel n’est ni stabilisé ni exhaustif. Il est traversé par de
 Sans ce travail d’élucidation, les engagements risquent de se traduire par des formes de surcharge affective, de confusion des registres ou d’épuisement, qui fragilisent autant les individus que les collectifs qu’ils rejoignent.
 
 ## 6.3. Furtivité, individuation et tenue des collectifs
-La Charte du Verstohlen offre ici un cadre particulièrement éclairant pour penser l’articulation entre individuation et engagement collectif. Elle part d’un constat anthropologique et politique fort : l’humanisme est fragile, et les formes de lien collectif ne peuvent être soutenables que si elles respectent cette fragilité au lieu de la nier.[fleury2022_verstohlen]
+La Charte du Verstohlen offre ici un cadre particulièrement éclairant pour penser l’articulation entre individuation et engagement collectif. Elle part d’un constat anthropologique et politique fort : l’humanisme est fragile, et les formes de lien collectif ne peuvent être soutenables que si elles respectent cette fragilité au lieu de la nier.[@fleury2022_verstohlen]
 
 Loin d’exalter une visibilité permanente ou une exposition constante, la charte invite à penser une technique de la furtivité : des manières d’être au monde et aux collectifs qui permettent de consolider les pouvoirs d’agir sans sacrifier les libertés individuelles ni l’intégrité subjective.
 
@@ -58,7 +58,7 @@ Dewey, de son côté, rappelle que l’expérience partagée repose sur des syst
 
 Appliquée à l’agenda civique, cette approche souligne que les priorités collectives ne préexistent pas aux interactions : elles émergent de processus de nomination, de reformulation et de mise en discussion, toujours situés.
 
-L’agenda civique apparaît alors moins comme un programme à défendre que comme un processus continu de traduction entre expériences personnelles, langages partagés et formes d’action collective.[renault2007_transactionnelle]
+L’agenda civique apparaît alors moins comme un programme à défendre que comme un processus continu de traduction entre expériences personnelles, langages partagés et formes d’action collective.[@renault2007_transactionnelle]
 
 ## 6.6. Vers une conception soutenable de l’agenda civique
 Penser conjointement intériorité citoyenne, capacité politique et action collective conduit à envisager l’agenda civique comme un équilibre instable, toujours à reprendre, entre :
