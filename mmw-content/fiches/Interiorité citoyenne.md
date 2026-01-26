@@ -20,3 +20,6 @@ Travail intérieur permettant de soutenir une participation citoyenne lucide, re
 
 ## Citations clés
 [@lilot_interiorite]
+
+## Liens 
+[[fiches/index|Boîte à fiches]]
