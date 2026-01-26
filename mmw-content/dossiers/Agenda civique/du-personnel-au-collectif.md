@@ -1,5 +1,5 @@
 ---
-title: "VI. Du personnel au collectif"
+title: "6. Du personnel au collectif"
 type: dossier
 status: draft
 tags:
