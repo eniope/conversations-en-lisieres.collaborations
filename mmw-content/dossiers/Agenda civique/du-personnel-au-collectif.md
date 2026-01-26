@@ -9,7 +9,7 @@ tags:
 - engagement
 - care
 ---
-## VI. Du personnel au collectif : intériorité citoyenne et tenue d’un agenda civique
+## 6. Du personnel au collectif : intériorité citoyenne et tenue d’un agenda civique
 ### 6.1. La capacité politique comme expérience vécue
 Les travaux consacrés à l’agenda civique abordent le plus souvent la question à partir de collectifs déjà constitués, d’organisations identifiables ou d’arènes publiques stabilisées. 
 
