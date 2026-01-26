@@ -18,3 +18,4 @@ La citoyenneté peut être comprise comme une expérience vécue de capacité po
 
 ## Liens
 [[Agenda civique]]
+[[fiches/index|Boîte à fiches]]
