@@ -19,3 +19,6 @@ Il existe un travail personnel, souvent invisible, de clarification des priorit�
 
 ## Références à mobiliser
 [@dansembourg_interiorite_citoyenne] (piste)
+
+## Liens 
+[[fiches/index|Boîte à fiches]]
