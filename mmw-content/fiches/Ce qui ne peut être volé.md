@@ -23,4 +23,4 @@ L’humanisme est fragile : les formes de lien collectif doivent intégrer cette
 Charte du Verstohlen
 
 ## Citations clés
-fleury2022_verstohlen
+[fleury2022_verstohlen]
