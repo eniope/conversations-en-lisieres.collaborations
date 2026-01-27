@@ -1,6 +1,6 @@
 ---
 title: "Lettre à mon futur moi"
-pulishDate: 2026-01-20
+publishDate: 2026-01-20
 type: lettre
 status: draft
 auteur: "je"
