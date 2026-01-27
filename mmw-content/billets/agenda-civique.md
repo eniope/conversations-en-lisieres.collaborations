@@ -1,6 +1,6 @@
 ---
 title: "Agenda civique ?"
-date: 2026-01-25
+publishDate: 2026-01-25
 type: billet
 status: published
 tags:
