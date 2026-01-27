@@ -85,6 +85,5 @@ N’en fais pas un monument.
 Laisse-le vivant.
 
 Signé :
-toi,
-encore en chemin.
+toi,encore en chemin.
 
