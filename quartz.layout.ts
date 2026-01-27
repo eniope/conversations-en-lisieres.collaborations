@@ -36,7 +36,6 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       GitHub: "https://github.com/morrowind-modding/wiki",
-      "Discord Community": "https://discord.gg/UdM3VrmJsc",
     },
   }),
 }
