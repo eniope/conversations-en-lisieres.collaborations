@@ -51,7 +51,11 @@ const config: QuartzConfig = {
 
     // --- Partage & réseaux ---
     generateSocialImages: false,
-
+    
+    socialLinks: {
+    discord: undefined,
+    },
+    
     // --- Thème & lisibilité ---
     theme: {
       fontOrigin: "googleFonts",
