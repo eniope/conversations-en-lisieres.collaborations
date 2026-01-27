@@ -32,12 +32,12 @@ export default ((opts?: Options) => {
         <ul>
           <li>
             <a href="#">
-            Scroll to top ↑
+            Haut de page ↑
             </a> 
           </li>
           <li>
             <a id="random-page-button">
-            Random Page 🎲
+            Page au hasard 🎲
             </a>
           </li>
         </ul>
