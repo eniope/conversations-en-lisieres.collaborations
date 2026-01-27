@@ -19,7 +19,7 @@ dossiers:
   - agenda-civique
 ---
 
-Ce billet suit le chemin par lequel la notion d’agenda civique est devenue pertinente avant toute tentative de stabilisation ailleurs. 
+Ce billet suit le chemin par lequel la notion d’agenda civique est devenue pertinente pour moi. 
 La notion  n’apparaît pas ici comme un choix théorique posé d’emblée et si elle mérite aujourd’hui d’être travaillée c’est parce qu’elle a été rencontrée, puis réactivée, avant de devenir questionnante au regard de situations locales en devenir.
 
 ## Une première rencontre : la notion comme médiation
