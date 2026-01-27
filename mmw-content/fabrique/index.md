@@ -22,7 +22,7 @@ Dans cette fabrique, vous trouverez des formes hétérogènes, parfois fragiles,
 
 Chaque objet vise moins à dire quelque chose qu’à faire éprouver un passage où un trouble se transforme, se structure, se déplace, ou parfois se défait car l’attention porte sur le cheminement et non sur l’aboutissement.
 
-## Ce que cete Fabrique n’est pas
+## Ce que cette Fabrique n’est pas
 
 Cette fabrique n’est pas un espace d’explication ni un lieu de démonstration. Ce n'est pas non plus un atelier pédagogique ou un présentoir de textes finalisés et elle ne promet ni clarté immédiate ni validation externe.
 
