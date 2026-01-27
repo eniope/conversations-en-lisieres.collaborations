@@ -1,4 +1,4 @@
----
+, surtout, ---
 title: "Lettre à mon futur moi"
 publishDate: 2026-01-20
 type: lettre
@@ -54,8 +54,7 @@ Te demander si tu allais trop loin.
 Ou si tu restais encore trop prudent.
 Et surtout te demander si tu allais tenir dans la durée sans t’user, sans te laisser enfermer dans des formes qui ne te correspondaient plus.
 
-À un moment, quelque chose a basculé.
-Tu as arrêté d’essayer de convaincre.
+À un moment, quelque chose a basculé. Tu as arrêté d’essayer de convaincre.
 Tu as choisi de rendre lisible.
 
 Lisible pour toi, d’abord.
@@ -66,7 +65,7 @@ Des conditions pour que la pensée circule. Pour que les conversations tiennent.
 
 Tu as accepté de montrer les coutures.
 De dire d’où tu parlais.
-D’assumer une enquête située, traversée par le temps qui passe, par la maladie, par des bifurcations parfois subies.
+D’assumer une enquête située, traversée par le temps qui passe et par des bifurcations parfois subies.
 
 Et loin d’affaiblir ton propos, ça l’a rendu plus tenable. Plus respirable aussi.
 
