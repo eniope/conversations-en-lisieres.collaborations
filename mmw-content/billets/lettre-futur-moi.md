@@ -77,7 +77,7 @@ Tu as appris à faire confiance au temps long.
 À l’idée que penser ensemble n’est pas un résultat à livrer, mais une œuvre qui se fabrique en marchant.
 
 Si je t’écris depuis ce présent encore un peu fragile, c’est pour te dire merci d’avoir tenu là où j’avais envie de lâcher. 
-Merci d’avoir choisi l’habitabilité plutôt que la reconnaissance. Merci d’avoir protégé ce qui comptait vraiment : ta capacité à relier, à transmettre, à laisser quelque chose d’utile pour ceux qui viendront après — y compris toi.
+Merci d’avoir choisi l’habitabilité plutôt que la reconnaissance. Merci d’avoir protégé ce qui comptait vraiment : ta capacité à relier, à transmettre, à laisser quelque chose d’utile pour ceux qui viendront après - y compris toi.
 
 Prends soin de ce que tu as ouvert.
 N’en fais pas un monument.
