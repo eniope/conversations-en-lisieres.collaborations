@@ -37,7 +37,7 @@ notes_meta:
 ---
 **Lettre à mon futur moi**
 
-Eh vieux, eh ben, t’as bien réussi ton coup.
+Hey vieux ! eh ben, t’as bien réussi ton coup.
 
 Franchement, je commençais à douter que tu allais oser mettre en place tout ce qu’il fallait pour porter hors de toi, et rendre intelligible, ton projet de thèse :
 *« L’évaluation comme conduite du collectif pensant : vers une épistémologie développementale des sciences citoyennes ».*
