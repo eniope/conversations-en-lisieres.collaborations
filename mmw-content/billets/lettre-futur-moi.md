@@ -1,4 +1,4 @@
-, surtout, ---
+---
 title: "Lettre à mon futur moi"
 publishDate: 2026-01-20
 type: lettre
