@@ -35,15 +35,6 @@ notes_meta:
   - "Choix stylistique assumé : éviter les énumérations ternaires"
   - "Premier lecteur = moi"
 ---
-D’accord. Voici une **réécriture complète**, avec une vigilance stricte :
-
-* pas de triades visibles,
-* phrases qui respirent,
-* un rythme qui varie,
-* et un texte que **toi, premier lecteur**, peux relire sans soupirer au bout de trois lignes.
-
----
-
 **Lettre à mon futur moi**
 
 Eh vieux, eh ben, t’as bien réussi ton coup.
