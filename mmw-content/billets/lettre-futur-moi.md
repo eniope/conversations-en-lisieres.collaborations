@@ -42,8 +42,7 @@ Hey vieux ! eh ben, t’as bien réussi ton coup.
 Franchement, je commençais à douter que tu allais oser mettre en place tout ce qu’il fallait pour porter hors de toi, et rendre intelligible, ton projet de thèse :
 *« L’évaluation comme conduite du collectif pensant : vers une épistémologie développementale des sciences citoyennes ».*
 
-Pas le titre.
-Le geste qu’il recouvre.
+Pas le titre mais le geste qu’il recouvre.
 
 Parce que le plus difficile n’a jamais été d’avoir des idées. Des références non plus. Tu en avais depuis longtemps. 
 Ce qui coinçait, c’était autre chose : accepter que ce que tu avais vécu, éprouvé, parfois encaissé, puisse devenir une matière légitime pour penser. 
