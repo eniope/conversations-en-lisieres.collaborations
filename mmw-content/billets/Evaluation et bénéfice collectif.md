@@ -39,11 +39,7 @@ lectures, échanges, situations vécues, contraintes et possibilités du quotidi
 Apprendre à conduire une thèse hors-pistes, avec exigence scientifique, suppose aussi de tenir compte du réel de sa propre vie et
 des conditions concrètes de production de la pensée.
 
-Dans un premier temps, ce carnet travaillera en visibilité partielle pour d’abord questionner la grammaire conceptuelle, et les ancrages situés viendront plus
-tard, lorsque leur exposition sera juste.
-
-Ce carnet sera partiellement visible ; il travaillera d’abord la grammaire conceptuelle, et les ancrages situés viendront plus
-tard, lorsque leur exposition sera juste et que les conditions de leur partage seront réunies.
+Dans un premier temps, ce carnet travaillera en visibilité partielle pour questionner d’abord la grammaire conceptuelle, et les ancrages situés viendront plus tard, lorsque leur exposition sera juste et que les conditions de leur partage seront réunies.
 
 👉 **[Accéder au dossier « Carnet d’exploration de thèse »](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Carnet-d'exploration-de-thèse/)**
 
