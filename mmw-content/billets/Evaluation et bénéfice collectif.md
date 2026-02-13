@@ -2,7 +2,7 @@
 title: "Evaluation et bénéfice collectif"
 publishDate: 2026-01-22
 type: billet
-section: Carnet d’exploration thèse
+section: Carnet d’exploration de thèse
 status: publié
 tags:
   - these
@@ -42,5 +42,9 @@ des conditions concrètes de production de la pensée.
 Dans un premier temps, ce carnet travaillera en visibilité partielle pour d’abord questionner la grammaire conceptuelle, et les ancrages situés viendront plus
 tard, lorsque leur exposition sera juste.
 
-→ [[Carnet_d_exploration de_these]]
+Ce carnet sera partiellement visible ; il travaillera d’abord la grammaire conceptuelle, et les ancrages situés viendront plus
+tard, lorsque leur exposition sera juste et que les conditions de leur partage seront réunies.
+
+👉 **[Accéder au dossier « Carnet d’exploration de thèse »](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Carnet-d'exploration-de-thèse/)**
+
 
