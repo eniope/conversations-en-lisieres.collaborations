@@ -1,6 +1,6 @@
 ---
 title: Conversations en lisières ?
-publishDate: 2026-01-21
+publishDate: 2026-01-25
 type: billet
 status: published
 tags:
