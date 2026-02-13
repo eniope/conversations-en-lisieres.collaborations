@@ -1,6 +1,6 @@
 ---
 title: "Nommer le bénéfice collectif"
-date: 2026-01-22
+publishDate: 2026-01-22
 type: billet
 section: Carnet d’exploration thèse
 status: publié
