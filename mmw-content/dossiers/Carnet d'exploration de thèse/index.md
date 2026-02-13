@@ -9,84 +9,59 @@ tags:
   - sciences-citoyennes
   - carnet
 ---
+# Carnet d’exploration de thèse
 
-# Carnet d’exploration thèse
+Ce dossier rassemble les chantiers conceptuels ouverts dans le cadre de la thèse consacrée à l’évaluation comme conduite du
+collectif pensant et à l’élaboration d’une épistémologie développementale des sciences citoyennes.
 
-> Évaluation – Collectif pensant – Sciences citoyennes  
-> Exploration progressive, structurée et ouverte.
-
-Ce dossier rassemble les chantiers conceptuels en cours dans le cadre de la thèse :
-**L’évaluation comme conduite du collectif pensant vers une épistémologie développementale des sciences citoyennes.**
-
-Il ne constitue pas un plan arrêté, mais documente une exploration en train de se structurer et d’articuler progressivement
-dossiers analytiques, fiches conceptuelles et références bibliographiques.
-
----
+Il ne constitue pas un plan arrêté, mais un espace d’exploration structuré, dont l’orientation évolue en fonction des ressources
+capacitantes rencontrées en chemin, qu’elles soient théoriques, relationnelles ou issues du réel quotidien.
 
 ## 1. Question inaugurale
 
-Comment penser le bénéfice collectif à la clôture d’une recherche participative, lorsque l’exigence de rendre compte rencontre la
-complexité d’une expérience collective ?
+Point de départ du carnet : comment penser le bénéfice collectif à la clôture d’une recherche participative lorsque l’exigence
+institutionnelle de rendre compte rencontre la complexité d’une expérience collective ?
 
-→ [[1_Question_inaugurale]]
-
----
+👉 **[1.Question inaugurale](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Question-inaugurale/)**
 
 ## 2. Bénéfice collectif et clôture
 
-Tension entre attendu programmatique inscrit dans un dispositif et effet émergent reconnu par les acteurs à partir de leur
-expérience située.
+Explorer la tension entre bénéfice attendu par un dispositif et bénéfice émergent reconnu par les acteurs à partir de leur
+expérience vécue et partagée.
 
-→ [[2_Benefice_collectif]]
-
----
+👉 **[2.Bénéfice collectif et clôture](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Benefice-collectif-et-cloture/)**
 
 ## 3. Évaluation : hétéronomie / développement
 
-Distinction théorique issue du croisement de références telles que Patton, Dewey et Zacklad, permettant de penser la bascule entre
-validation externe et processus réflexif collectif.
+Analyser la distinction entre évaluation fondée sur des critères externes et évaluation développementale soutenant la capacité
+d’un collectif à se penser et à redéfinir ses propres critères d’action.
 
-→ [[3_Evaluation_heteronomie_developpement]]
-
----
+👉 **[3.Évaluation : hétéronomie / développement](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Evaluation-heteronomie-developpement/)**
 
 ## 4. Autorité de nomination
 
-Interroger qui est légitime pour nommer le bénéfice collectif et selon quels critères, dans des dynamiques où savoirs experts et
-savoirs situés se rencontrent.
+Interroger qui est légitime pour nommer le bénéfice collectif et selon quelles modalités, dans des dynamiques où savoirs experts
+et savoirs situés coexistent et parfois se confrontent.
 
-→ [[4_Autorite_de_nommer]]
-
----
+👉 **[4.Autorité de nomination](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Autorite-de-nomination/)**
 
 ## 5. Collectif pensant
 
-Explorer les conditions d’émergence d’un collectif capable de se penser lui-même, de formuler ses apprentissages et de redéfinir
-ses critères d’action.
+Examiner les conditions d’émergence d’un collectif capable de se penser lui-même, d’expliciter ses apprentissages et d’assumer
+une capacité politique dans la conduite de son action.
 
-→ [[5_Collectif_pensant]]
-
----
+👉 **[5.Collectif pensant](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Collectif-pensant/)**
 
 ## 6. Dispositifs et artefacts
 
-Analyser le rôle des dispositifs d’évaluation comme médiateurs possibles d’une mise en pensée collective plutôt que comme simples
-instruments de mesure.
+Étudier le rôle des dispositifs d’évaluation comme médiateurs possibles d’une mise en pensée collective plutôt que comme simples
+instruments de mesure ou de validation externe.
 
-→ [[6_Dispositifs_et_artefacts]]
-
----
+👉 **[6.Dispositifs et artefacts](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/Dispositifs-et-artefacts/)**
 
 ## 7. Références mobilisées
 
-Bibliographie active en cours de constitution, appelée à évoluer au fil des ressources capacitantes rencontrées et intégrées dans
-le travail.
+Constituer une bibliographie active appelée à s’enrichir au fil des lectures et des ressources capacitantes rencontrées dans le
+déploiement du carnet.
 
-→ [[7_References_mobilisees]]
-
----
-
-## 8. Méthode d’exploration
-
-Logique de progression assumée : étonnement, problématisation, dossier exploratoire, stabilisation en fiche, activation
-bibliographique, puis réajustement en fonction des apprentissages et des conditions réelles de travail.
+👉 **[7.Références mobilisées](https://eniope.github.io/conversations-en-lisieres.collaborations/dossiers/References-mobilisees/)**
