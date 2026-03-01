@@ -33,10 +33,14 @@ jobs:
         run: npx quartz build -d mmw-content
 
       - name: Copy shared images into public
+        - name: Copy static assets
         run: |
           mkdir -p public/static/images
-          cp -R mmw-content/_static/images/* public/static/images/ 
-
+          cp -R mmw-content/_static/images/* public/static/images/
+      
+          mkdir -p public/static/timeline
+          cp -R mmw-content/_static/timeline/* public/static/timeline/
+         
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
