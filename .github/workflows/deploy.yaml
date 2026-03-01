@@ -36,8 +36,7 @@ jobs:
         run: |
           mkdir -p public/static
           cp -R mmw-content/_static/images public/static/
-          cp -R mmw-content/_static/timeline public/static/
-         
+      
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
