@@ -4,7 +4,7 @@ import { Citations } from "./quartz/plugins/transformers/citations"
 
 /**
  * Quartz 4.0 Configuration
- * 
+ * javascript:void(0);
  * Configuration située pour le site :
  * "Conversations en lisière"
  * 
@@ -41,7 +41,7 @@ const config: QuartzConfig = {
     // locale: "fr",
 
     // --- Déploiement GitHub Pages ---
-    baseUrl: "/conversations-en-lisieres.collaborations/",
+    baseUrl: "conversations.cooplab.org",
 
     // --- Contenu ignoré ---
     ignorePatterns: ["private", "**/templates/", ".obsidian", "_static"],
