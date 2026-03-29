@@ -120,7 +120,7 @@ const config: QuartzConfig = {
       Plugin.TableOfContents(),
 
       Plugin.CrawlLinks({
-        markdownLinkResolution: "absolute",
+        markdownLinkResolution: "relative",
       }),
 
       // Exploite les descriptions (frontmatter ou extrait)
