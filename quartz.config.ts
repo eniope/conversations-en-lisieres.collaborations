@@ -1,62 +1,28 @@
 import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
-import { Citations } from "./quartz/plugins/transformers/citations"
 
 /**
- * Quartz 4.0 Configuration
- * javascript:void(0);
- * Configuration située pour le site :
- * "Conversations en lisière"
- * 
- * Espace de publication progressive,
- * dédié au partage de fragments documentés
- * d’un travail d’enquête, d’écriture et de réflexion en situation.
+ * Quartz — cooplab.org (hub)
+ * Point d'entrée de l'écosystème cooplab.
+ * Fork de conversations-en-lisieres.collaborations
  */
 const config: QuartzConfig = {
-  contentDir: "mmw-content",
-  
-  // ⬇️ AJOUT collection billets
-  collections: {
-  billets: {
-    filter: (page) => {
-      console.log("FILE:", page.filePath)
-      console.log("FRONTMATTER:", page.frontmatter)
-      return page.frontmatter?.type === "billet"
-    },
-  },
-},
+  contentDir: "content",
 
-  // ⬆️ FIN AJOUT
-  
   configuration: {
-    // --- Identité du site ---
-    pageTitle: "Conversations en lisières",
+    pageTitle: "cooplab.org",
     pageTitleSuffix: "",
-    
-    // --- Expérience de navigation ---
+
     enableSPA: true,
-    enablePopovers: true,
+    enablePopovers: false,   // hub = navigation simple, pas de popover
 
-    // --- Langue et contexte ---
-    // locale: "fr",
+    baseUrl: "cooplab.org",
 
-    // --- Déploiement GitHub Pages ---
-    baseUrl: "conversations.cooplab.org",
+    ignorePatterns: ["private", "**/templates/", ".obsidian"],
 
-    // --- Contenu ignoré ---
-    ignorePatterns: ["private", "**/templates/", ".obsidian", "_static"],
-
-    // --- Métadonnées temporelles ---
     defaultDateType: "published",
-
-    // --- Partage & réseaux ---
     generateSocialImages: false,
-    
-    socialLinks: {
-    discord: undefined,
-    },
-    
-    // --- Thème & lisibilité ---
+
     theme: {
       fontOrigin: "googleFonts",
       cdnCaching: true,
@@ -67,78 +33,52 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#faf8f8",
+          light: "#fdf8f6",       // fond légèrement terracotta-blanc
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
+          secondary: "#C1623F",   // terracotta — couleur signature hub
+          tertiary: "#d4896a",
+          highlight: "rgba(193, 98, 63, 0.08)",
+          textHighlight: "#f5d5c888",
         },
         darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
+          light: "#1a1210",
+          lightgray: "#3a2820",
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
+          secondary: "#d4896a",
+          tertiary: "#C1623F",
+          highlight: "rgba(193, 98, 63, 0.12)",
+          textHighlight: "#5a2a1a88",
         },
       },
     },
   },
 
-  // --- Plugins Quartz ---
   plugins: {
     transformers: [
       Plugin.FrontMatter(),
-
       Plugin.CreatedModifiedDate({
         priority: ["frontmatter", "git", "filesystem"],
       }),
-
       Plugin.SyntaxHighlighting({
-        theme: {
-          light: "github-light",
-          dark: "github-dark",
-        },
+        theme: { light: "github-light", dark: "github-dark" },
         keepBackground: false,
       }),
-
-      Plugin.ObsidianFlavoredMarkdown({
-        enableInHtmlEmbed: false,
-      }),
-
+      Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
-      
-      Citations(),
-      
-      Plugin.TableOfContents(),
-
-      Plugin.CrawlLinks({
-        markdownLinkResolution: "relative",
-      }),
-
-      // Exploite les descriptions (frontmatter ou extrait)
+      Plugin.CrawlLinks({ markdownLinkResolution: "relative" }),
       Plugin.Description(),
-
-      Plugin.Latex({
-        renderEngine: "katex",
-      }),
-
       Plugin.HardLineBreaks(),
     ],
 
-    // --- Filtres ---
     filters: [
       Plugin.RemoveDrafts(),
     ],
 
-    // --- Émetteurs ---
     emitters: [
       Plugin.AliasRedirects(),
       Plugin.ComponentResources(),
@@ -147,7 +87,7 @@ const config: QuartzConfig = {
       Plugin.TagPage(),
       Plugin.ContentIndex({
         enableSiteMap: true,
-        enableRSS: true,
+        enableRSS: false,    // hub = pas de flux RSS propre
       }),
       Plugin.Assets(),
       Plugin.Static(),
