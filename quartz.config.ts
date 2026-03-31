@@ -7,16 +7,16 @@ import * as Plugin from "./quartz/plugins"
  * Fork de conversations-en-lisieres.collaborations
  */
 const config: QuartzConfig = {
-  contentDir: "content",
+  contentDir: "mmw-content",
 
   configuration: {
-    pageTitle: "cooplab.org",
+    pageTitle: "Conversations en lisières",
     pageTitleSuffix: "",
 
     enableSPA: true,
     enablePopovers: false,   // hub = navigation simple, pas de popover
 
-    baseUrl: "cooplab.org",
+    baseUrl: "conversations.cooplab.org",
 
     ignorePatterns: ["private", "**/templates/", ".obsidian"],
 
@@ -33,15 +33,15 @@ const config: QuartzConfig = {
       },
       colors: {
         lightMode: {
-          light: "#fdf8f6",       // fond légèrement terracotta-blanc
+          light: "#faf8f8",       // fond neutre (blanc cassé)
           lightgray: "#e5e5e5",
           gray: "#b8b8b8",
           darkgray: "#4e4e4e",
           dark: "#2b2b2b",
-          secondary: "#C1623F",   // terracotta — couleur signature hub
+          secondary: "#3A7CB8",   // bleu acier — couleur signature conversations
           tertiary: "#d4896a",
-          highlight: "rgba(193, 98, 63, 0.08)",
-          textHighlight: "#f5d5c888",
+          highlight: "rgba(58, 124, 184, 0.08)",
+          textHighlight: "#b8d4f088",
         },
         darkMode: {
           light: "#1a1210",
@@ -49,10 +49,10 @@ const config: QuartzConfig = {
           gray: "#646464",
           darkgray: "#d4d4d4",
           dark: "#ebebec",
-          secondary: "#d4896a",
+          secondary: "#6a9fcb",
           tertiary: "#C1623F",
-          highlight: "rgba(193, 98, 63, 0.12)",
-          textHighlight: "#5a2a1a88",
+          highlight: "rgba(58, 124, 184, 0.12)",
+          textHighlight: "#3a5a8888",
         },
       },
     },

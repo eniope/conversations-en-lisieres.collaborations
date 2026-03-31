@@ -2,30 +2,26 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 /**
- * Layout — cooplab.org (hub)
+ * Layout — conversations.cooplab.org
  *
- * Différences vs conversations :
- * - Pas d'Explorer (site de quelques pages, pas un wiki)
- * - Pas de Graph
- * - Pas de Backlinks
- * - Pas de TableOfContents (pages courtes)
- * - LinksHeader simplifié (3 destinations)
- * - Search conservé
+ * Espace : billets, dossiers, fiches — wiki de lisières
+ * Couleur signature : bleu acier #3A7CB8
+ * Inter-quartz : footer uniquement (cooplab.org + utopia.cooplab.org)
  */
 
 export const sharedPageComponents: SharedLayout = {
   head: Component.Head(),
 
   header: [
-    Component.LinksHeader(),   // → LinksHeader.tsx spécifique hub
+    Component.LinksHeader(),   // navigation locale (billets, dossiers, fiches...)
   ],
 
   afterBody: [],
 
   footer: Component.Footer({
     links: {
+      "cooplab.org": "https://cooplab.org",
       "utopia.cooplab.org": "https://utopia.cooplab.org",
-      "conversations.cooplab.org": "https://conversations.cooplab.org",
       "CC BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/",
     },
   }),
@@ -36,6 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Breadcrumbs(),
     Component.ArticleTitle(),
     Component.ContentMeta(),
+    Component.TagList(),
   ],
 
   left: [
@@ -43,11 +40,18 @@ export const defaultContentPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
-    // Pas d'Explorer — le hub n'est pas un wiki
+    Component.DesktopOnly(Component.Explorer({
+      filterFn: (node) => {
+        const excluded = ["templates", "_static", "medias", "ressources"]
+        return !excluded.includes(node.name)
+      },
+    })),
   ],
 
   right: [
-    // Colonne droite quasi vide — le contenu respire
+    Component.Graph(),
+    Component.DesktopOnly(Component.TableOfContents()),
+    Component.Backlinks(),
   ],
 }
 
@@ -63,6 +67,12 @@ export const defaultListPageLayout: PageLayout = {
     Component.MobileOnly(Component.Spacer()),
     Component.Search(),
     Component.Darkmode(),
+    Component.DesktopOnly(Component.Explorer({
+      filterFn: (node) => {
+        const excluded = ["templates", "_static", "medias", "ressources"]
+        return !excluded.includes(node.name)
+      },
+    })),
   ],
 
   right: [],
