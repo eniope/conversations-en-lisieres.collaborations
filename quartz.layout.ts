@@ -2,11 +2,11 @@ import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
 /**
- * Layout — conversations.cooplab.org
+ * Layout — these.cooplab.org
  *
- * Espace : billets, dossiers, fiches — wiki de lisières
- * Couleur signature : bleu acier #3A7CB8
- * Inter-quartz : footer uniquement (cooplab.org + utopia.cooplab.org)
+ * Espace : thèse, billets, fiches conceptuelles
+ * Couleur signature : bleu #3A7CB8
+ * Inter-quartz : footer (cooplab.org + utopia.cooplab.org)
  */
 
 export const sharedPageComponents: SharedLayout = {
@@ -22,6 +22,7 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "cooplab.org": "https://cooplab.org",
       "utopia.cooplab.org": "https://utopia.cooplab.org",
+      "these.cooplab.org": "https://these.cooplab.org",
       "CC BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/",
     },
   }),

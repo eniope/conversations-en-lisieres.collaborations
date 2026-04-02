@@ -2,21 +2,21 @@ import { QuartzConfig } from "./quartz/cfg"
 import * as Plugin from "./quartz/plugins"
 
 /**
- * Quartz — cooplab.org (hub)
- * Point d'entrée de l'écosystème cooplab.
+ * Quartz — these.cooplab.org
+ * Thèse : l'évaluation comme conduite du collectif pensant.
  * Fork de conversations-en-lisieres.collaborations
  */
 const config: QuartzConfig = {
   contentDir: "mmw-content",
 
   configuration: {
-    pageTitle: "Conversations en lisières",
-    pageTitleSuffix: "",
+    pageTitle: "thèse",
+    pageTitleSuffix: " · cooplab.org",
 
     enableSPA: true,
-    enablePopovers: false,   // hub = navigation simple, pas de popover
+    enablePopovers: true,
 
-    baseUrl: "conversations.cooplab.org",
+    baseUrl: "these.cooplab.org",
 
     ignorePatterns: ["private", "**/templates/", ".obsidian"],
 
