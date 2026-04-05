@@ -2,7 +2,7 @@
 title: "Lettre à mon futur moi"
 publishDate: 2026-01-20
 type: lettre
-status: draft
+status: 
 auteur: "je"
 destinataire: "futur-moi"
 projet: "Thèse-vie"
