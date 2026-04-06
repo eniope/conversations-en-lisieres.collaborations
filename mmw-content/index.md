@@ -1,24 +1,24 @@
 ---
 type: page
-title: "Conversations en lisières"
-date: 2026-01-04
+title: "these.cooplab.org"
+date: 2026-04-05
 status: ouverture
-orientation: conversations-situées
+orientation: these-vie
 regime: seuil
-description: "Un lieu ouvert, fait de seuils, de logiques et de gestes possibles, pour éprouver les conditions ordinaires des conversations."
+publish: true
 ---
 
-# Conversations en lisières
+## Une thèse-vie, hors les murs
 
-> Ce dispositif documentaire est pensé comme un espace de création où se tissent des conversations et des alliances au sein même des pratiques de recherche engagées .  
+l'incubation d'un projet d'une personne animée d'un esprit de recherche, habitant-chercheur automissionné, sans institution d'accueil, depuis le Boischaut Sud.
 
-<p style="text-align:center;">
-  <img
-    src="/static/images/Les-metiers-de-nos-pensees.jpg"
-    alt="Les métiers de nos pensées"
-    style="max-width:60%; height:auto;"
-  />
-</p>
+La thèse s'intitule :  
+**L'évaluation comme conduite du collectif pensant : vers une épistémologie développementale des sciences citoyennes**
 
+Elle ne sépare pas la vie qui la porte de la connaissance qu'elle produit, elle se construit dans l'expérience vécue, hors dépendance première à la validation institutionnelle.
 
+## Ce que ce site porte
 
+Le chantier doctoral au fil de son avancement : cadre théorique, résultats intermédiaires, tensions ouvertes, ressources capacitantes rencontrées en chemin.
+
+Finalement, une enquête qui se documente elle-même plutôt qu'une vitrine de résultats. 
