@@ -1,22 +1,26 @@
-![Morrowind Modding Wiki logo](https://raw.githubusercontent.com/morrowind-modding/morrowind-modding.github.io/main/quartz/static/og-image.png)
+![cooplab logo](https://raw.githubusercontent.com/eniope/cooplab/main/quartz/static/Logo.png)
 
-# Welcome to the Morrowind Modding Wiki
+# cooplab.org
 
-**MMW** is a community wiki aiming to bring together over twenty years of Morrowind modding knowledge.
+**Cooplab** est un espace de publication ouvert, ancré dans le Boischaut Sud,
+au carrefour de la recherche participative, de l'éducation populaire et des sciences citoyennes.
 
-Contributions are always welcome and appreciated. Read [How to Contribute](https://morrowind-modding.github.io/contributing/how-to-contribute) to get started using [Obsidian.md](https://obsidian.md/) and publish content to the wiki. For content and writing guidelines, review the [Manual of Style](https://morrowind-modding.github.io/contributing/manual-of-style/).
+Ce site documente des expériences situées, des outils conceptuels et des alliances capacitantes
+construits depuis le "premier kilomètre" de l'espace vécu.
 
-As development so far has been focused mainly on designing the website, the wiki itself currently lacks content. Whether you're an experienced modmaker or are just starting out, we'd love to see your contributions. If you'd like to discuss the wiki or ask for help, drop by the [Discord Server](https://discord.gg/7uBsMyw8yU) or use the comments section at the bottom of each page.
+Contenu publié sous licence [CC BY-SA](https://creativecommons.org/licenses/by-sa/4.0/).
 
-----
+---
 
-### Developers
+### Remerciements
 
-* [Greatness7](https://github.com/Greatness7)
-* [magicaldave](https://github.com/magicaldave)
-* [MasssiveJuice08](https://github.com/MasssiveJuice08)
+La configuration Quartz de ce site s'appuie directement sur le travail de la
+[Morrowind Modding Wiki](https://morrowind-modding.github.io/),
+qui a rendu leur setup librement accessible.
+Merci à [Greatness7](https://github.com/Greatness7),
+[magicaldave](https://github.com/magicaldave) et
+[MasssiveJuice08](https://github.com/MasssiveJuice08).
 
-_Authored in [Obsidian.md](https://obsidian.md/)_  
-_Deployed with [Quartz](https://quartz.jzhao.xyz/)_
-
+_Rédigé avec [Obsidian.md](https://obsidian.md/)_
+_Déployé avec [Quartz](https://quartz.jzhao.xyz/)_
 .
