@@ -203,6 +203,8 @@ export default (() => {
           .filter((resource) => resource.loadTime === "beforeDOMReady")
           .map((res) => JSResourceToScriptElement(res, true))}
         <meta name="google-site-verification" content="foXMGhryV_jc3zDQXTna-V0A_ZVWFrlDf5wCZlUfTYI" />
+        {/* Hypothesis — couche d'annotation disputatio, groupe restreint these.cooplab.org */}
+        <script src="https://hypothes.is/embed.js" async></script>
       </head>
     )
   }
