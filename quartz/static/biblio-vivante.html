@@ -292,30 +292,39 @@ function parseBib(raw) {
 
 function parseFields(body) {
   const fields = {};
-  // Champ = valeur entre accolades ou guillemets, ou nombre nu
   const fieldRe = /(\w+)\s*=\s*(?:\{((?:[^{}]|\{[^{}]*\})*)\}|"([^"]*)"|(\d+))/g;
   let m;
   while ((m = fieldRe.exec(body)) !== null) {
     const name = m[1].toLowerCase();
     const val  = (m[2] !== undefined ? m[2] : m[3] !== undefined ? m[3] : m[4] || '').trim();
-    fields[name] = val;
+    fields[name] = nettoyerLatex(val);
   }
   return fields;
 }
 
+// Nettoyer les commandes LaTeX courantes
+function nettoyerLatex(s) {
+  if (!s) return s;
+  return s
+    .replace(/\\emph\{([^}]*)\}/g, '<em>$1</em>')  // \emph{} → <em>
+    .replace(/\\&/g, '&')                            // \& → &
+    .replace(/^\{(.+)\}$/, '$1')                    // {valeur littérale} → valeur
+    .replace(/\{([^}]*)\}/g, '$1');                 // autres accolades résiduelles
+}
+
 function formatAuteur(raw) {
   if (!raw) return '';
-  // Prendre le premier auteur, simplifier
-  const premiers = raw.split(' and ')[0];
-  // Gérer "Nom, Prénom" ou "Prénom Nom"
-  if (premiers.includes(',')) {
-    const parts = premiers.split(',');
-    return parts[0].trim();
+  const premiers = raw.split(' and ')[0].trim();
+  // Nom entre accolades = nom collectif/institution
+  if (premiers.startsWith('{') && premiers.endsWith('}')) {
+    return premiers.slice(1, -1);
   }
-  // Sinon prendre le dernier mot comme nom de famille
-  const mots = premiers.trim().split(/\s+/);
+  if (premiers.includes(',')) {
+    return premiers.split(',')[0].trim();
+  }
+  const mots = premiers.split(/\s+/);
   if (mots.length > 1) return mots[mots.length - 1];
-  return premiers.trim();
+  return premiers;
 }
 
 function formatMeta(e) {
