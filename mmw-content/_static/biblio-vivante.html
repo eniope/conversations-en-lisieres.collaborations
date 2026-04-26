@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bibliographie vivante — Conversations en lisières</title>
+  <style>
+    :root {
+      --fond:       #f7f5f0;
+      --surface:    #ffffff;
+      --bord:       #e0dbd0;
+      --texte:      #1a1a18;
+      --discret:    #6b6860;
+      --circ-fond:  #e8f4e8;
+      --circ-bord:  #4a8c4a;
+      --circ-texte: #2d5a2d;
+      --dorm-fond:  #ede9e0;
+      --dorm-bord:  #a09880;
+      --dorm-texte: #5a5040;
+      --vide-fond:  #f0f0f0;
+      --vide-bord:  #c8c8c8;
+      --vide-texte: #888;
+      --accentue:   #3d6b8c;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: Georgia, 'Times New Roman', serif;
+      background: var(--fond);
+      color: var(--texte);
+      min-height: 100vh;
+    }
+
+    header {
+      padding: 2.5rem 2rem 1.5rem;
+      border-bottom: 1px solid var(--bord);
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: normal;
+      letter-spacing: 0.01em;
+    }
+
+    header p {
+      margin-top: 0.4rem;
+      font-size: 0.9rem;
+      color: var(--discret);
+      font-style: italic;
+    }
+
+    .controls {
+      max-width: 1100px;
+      margin: 1.5rem auto 0;
+      padding: 0 2rem;
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+
+    .filtres {
+      display: flex;
+      gap: 0.5rem;
+      flex-wrap: wrap;
+    }
+
+    .filtre-btn {
+      font-family: inherit;
+      font-size: 0.82rem;
+      padding: 0.35rem 0.8rem;
+      border-radius: 2rem;
+      border: 1px solid var(--bord);
+      background: var(--surface);
+      cursor: pointer;
+      color: var(--discret);
+      transition: all 0.15s;
+    }
+
+    .filtre-btn:hover { border-color: var(--accentue); color: var(--accentue); }
+
+    .filtre-btn.actif {
+      background: var(--accentue);
+      border-color: var(--accentue);
+      color: white;
+    }
+
+    .recherche {
+      font-family: inherit;
+      font-size: 0.88rem;
+      padding: 0.35rem 0.8rem;
+      border: 1px solid var(--bord);
+      border-radius: 2rem;
+      background: var(--surface);
+      color: var(--texte);
+      width: 220px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+
+    .recherche:focus { border-color: var(--accentue); }
+    .recherche::placeholder { color: var(--discret); }
+
+    .compteur {
+      font-size: 0.8rem;
+      color: var(--discret);
+      margin-left: auto;
+    }
+
+    .grille {
+      max-width: 1100px;
+      margin: 1.5rem auto 3rem;
+      padding: 0 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+
+    .carte {
+      background: var(--surface);
+      border: 1px solid var(--bord);
+      border-radius: 6px;
+      padding: 1.1rem 1.2rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      transition: box-shadow 0.15s;
+    }
+
+    .carte:hover { box-shadow: 0 2px 8px rgba(0,0,0,0.07); }
+
+    .carte-entete {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 0.5rem;
+    }
+
+    .auteur {
+      font-size: 0.78rem;
+      color: var(--discret);
+      font-style: italic;
+      flex: 1;
+    }
+
+    .badge {
+      font-size: 0.7rem;
+      padding: 0.2rem 0.55rem;
+      border-radius: 2rem;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    .badge-circulante {
+      background: var(--circ-fond);
+      border: 1px solid var(--circ-bord);
+      color: var(--circ-texte);
+    }
+
+    .badge-dormante {
+      background: var(--dorm-fond);
+      border: 1px solid var(--dorm-bord);
+      color: var(--dorm-texte);
+    }
+
+    .badge-vide {
+      background: var(--vide-fond);
+      border: 1px solid var(--vide-bord);
+      color: var(--vide-texte);
+    }
+
+    .titre {
+      font-size: 0.95rem;
+      line-height: 1.4;
+    }
+
+    .meta {
+      font-size: 0.75rem;
+      color: var(--discret);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .note-carte {
+      font-size: 0.78rem;
+      color: var(--discret);
+      font-style: italic;
+      line-height: 1.4;
+      border-top: 1px solid var(--bord);
+      padding-top: 0.5rem;
+      margin-top: 0.2rem;
+    }
+
+    .lien-carte {
+      font-size: 0.75rem;
+      color: var(--accentue);
+      text-decoration: none;
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .lien-carte:hover { text-decoration: underline; }
+
+    .message {
+      max-width: 600px;
+      margin: 3rem auto;
+      padding: 1.5rem 2rem;
+      background: var(--surface);
+      border: 1px solid var(--bord);
+      border-radius: 6px;
+      font-size: 0.9rem;
+      line-height: 1.6;
+      color: var(--discret);
+    }
+
+    .message code {
+      background: var(--fond);
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      font-size: 0.85em;
+      color: var(--texte);
+    }
+
+    .carte.masquee { display: none; }
+
+    .legende {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 2rem 0.5rem;
+      font-size: 0.78rem;
+      color: var(--discret);
+      font-family: 'Helvetica Neue', Arial, sans-serif;
+    }
+
+    .legende span {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.3rem;
+      margin-right: 1.2rem;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Bibliographie vivante</h1>
+  <p>Ce qui traverse ma pensée, ce qui dort — <em>Conversations en lisières</em></p>
+</header>
+
+<div class="controls">
+  <div class="filtres">
+    <button class="filtre-btn actif" data-filtre="tout">Toutes</button>
+    <button class="filtre-btn" data-filtre="circulante">◉ Circulantes</button>
+    <button class="filtre-btn" data-filtre="dormante">◎ Dormantes</button>
+    <button class="filtre-btn" data-filtre="vide">— Non classées</button>
+  </div>
+  <input class="recherche" type="search" placeholder="Chercher auteur, titre…" id="recherche">
+  <span class="compteur" id="compteur"></span>
+</div>
+
+<div class="legende">
+  <span><strong>◉ circulante</strong> : présente dans ma pensée en cours, partagée localement</span>
+  <span><strong>◎ dormante</strong> : en réserve, pas activée actuellement</span>
+</div>
+
+<div class="grille" id="grille">
+  <div class="message" id="chargement">Chargement du .bib…</div>
+</div>
+
+<script>
+// ── Parseur BibTeX minimal ───────────────────────────────────────────────
+
+function parseBib(raw) {
+  const entries = [];
+  // Extraire chaque entrée @type{key, ...}
+  const entryRe = /@(\w+)\s*\{\s*([^,]+),\s*([\s\S]*?)\n\}/g;
+  let m;
+  while ((m = entryRe.exec(raw)) !== null) {
+    const type = m[1].toLowerCase();
+    if (type === 'comment' || type === 'preamble' || type === 'string') continue;
+    const key  = m[2].trim();
+    const body = m[3];
+    const fields = parseFields(body);
+    fields._type = type;
+    fields._key  = key;
+    entries.push(fields);
+  }
+  return entries;
+}
+
+function parseFields(body) {
+  const fields = {};
+  // Champ = valeur entre accolades ou guillemets, ou nombre nu
+  const fieldRe = /(\w+)\s*=\s*(?:\{((?:[^{}]|\{[^{}]*\})*)\}|"([^"]*)"|(\d+))/g;
+  let m;
+  while ((m = fieldRe.exec(body)) !== null) {
+    const name = m[1].toLowerCase();
+    const val  = (m[2] !== undefined ? m[2] : m[3] !== undefined ? m[3] : m[4] || '').trim();
+    fields[name] = val;
+  }
+  return fields;
+}
+
+function formatAuteur(raw) {
+  if (!raw) return '';
+  // Prendre le premier auteur, simplifier
+  const premiers = raw.split(' and ')[0];
+  // Gérer "Nom, Prénom" ou "Prénom Nom"
+  if (premiers.includes(',')) {
+    const parts = premiers.split(',');
+    return parts[0].trim();
+  }
+  // Sinon prendre le dernier mot comme nom de famille
+  const mots = premiers.trim().split(/\s+/);
+  if (mots.length > 1) return mots[mots.length - 1];
+  return premiers.trim();
+}
+
+function formatMeta(e) {
+  const parties = [];
+  const journal = e.journal || e.booktitle || e.howpublished || '';
+  if (journal) parties.push(journal);
+  if (e.year) parties.push(e.year);
+  if (e.volume && e.number) parties.push(`vol. ${e.volume} n°${e.number}`);
+  else if (e.volume) parties.push(`vol. ${e.volume}`);
+  return parties.join(' · ');
+}
+
+// ── Rendu d'une carte ────────────────────────────────────────────────────
+
+function creerCarte(e) {
+  const etat = (e.etat || '').trim().toLowerCase();
+  const auteurCourt = formatAuteur(e.author || '');
+  const auteurComplet = (e.author || '').replace(/\s+and\s+/g, ', ');
+  const meta = formatMeta(e);
+
+  let badgeClass, badgeLabel;
+  if (etat === 'circulante') {
+    badgeClass = 'badge-circulante'; badgeLabel = '◉ circulante';
+  } else if (etat === 'dormante') {
+    badgeClass = 'badge-dormante'; badgeLabel = '◎ dormante';
+  } else {
+    badgeClass = 'badge-vide'; badgeLabel = '—';
+  }
+
+  const div = document.createElement('div');
+  div.className = 'carte';
+  div.dataset.etat  = etat || 'vide';
+  div.dataset.texte = [auteurComplet, e.title || ''].join(' ').toLowerCase();
+
+  let lienHtml = '';
+  const url = e.url || e.doi && `https://doi.org/${e.doi}` || '';
+  if (url) {
+    const href = url.startsWith('10.') ? `https://doi.org/${url}` : url;
+    lienHtml = `<a class="lien-carte" href="${href}" target="_blank" rel="noopener">↗ accès</a>`;
+  }
+
+  let noteHtml = '';
+  if (e.note) noteHtml = `<div class="note-carte">${e.note}</div>`;
+
+  div.innerHTML = `
+    <div class="carte-entete">
+      <span class="auteur">${auteurCourt}${e.year ? ', ' + e.year : ''}</span>
+      <span class="badge ${badgeClass}">${badgeLabel}</span>
+    </div>
+    <div class="titre">${e.title || '(sans titre)'}</div>
+    ${meta ? `<div class="meta">${meta}</div>` : ''}
+    ${noteHtml}
+    ${lienHtml ? `<div>${lienHtml}</div>` : ''}
+  `;
+  return div;
+}
+
+// ── Filtres et recherche ─────────────────────────────────────────────────
+
+let filtreActif = 'tout';
+let termeRecherche = '';
+
+function filtrer() {
+  const cartes = document.querySelectorAll('.carte[data-etat]');
+  let visible = 0;
+  cartes.forEach(c => {
+    const matchFiltre = filtreActif === 'tout' || c.dataset.etat === filtreActif;
+    const matchRecherche = !termeRecherche || c.dataset.texte.includes(termeRecherche);
+    if (matchFiltre && matchRecherche) {
+      c.classList.remove('masquee');
+      visible++;
+    } else {
+      c.classList.add('masquee');
+    }
+  });
+  document.getElementById('compteur').textContent = `${visible} référence${visible > 1 ? 's' : ''}`;
+}
+
+document.querySelectorAll('.filtre-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.filtre-btn').forEach(b => b.classList.remove('actif'));
+    btn.classList.add('actif');
+    filtreActif = btn.dataset.filtre;
+    filtrer();
+  });
+});
+
+document.getElementById('recherche').addEventListener('input', e => {
+  termeRecherche = e.target.value.toLowerCase().trim();
+  filtrer();
+});
+
+// ── Chargement ───────────────────────────────────────────────────────────
+
+async function charger() {
+  const grille = document.getElementById('grille');
+
+  let raw = '';
+  try {
+    const resp = await fetch('./bibliography.bib');
+    if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+    raw = await resp.text();
+  } catch (err) {
+    grille.innerHTML = `
+      <div class="message">
+        <strong>Impossible de charger le .bib.</strong><br><br>
+        En local, ouvrez cette page via un serveur HTTP :<br>
+        <code>python3 -m http.server 8000</code><br><br>
+        Sur GitHub Pages, assurez-vous que <code>bibliography.bib</code>
+        est dans le même dossier que cette page.
+      </div>`;
+    return;
+  }
+
+  const entries = parseBib(raw);
+  grille.innerHTML = '';
+
+  // Trier : circulantes d'abord, puis dormantes, puis non classées
+  const ordre = { circulante: 0, dormante: 1, '': 2 };
+  entries.sort((a, b) => {
+    const ea = (a.etat || '').trim().toLowerCase();
+    const eb = (b.etat || '').trim().toLowerCase();
+    return (ordre[ea] ?? 2) - (ordre[eb] ?? 2) || (a.author || '').localeCompare(b.author || '');
+  });
+
+  entries.forEach(e => grille.appendChild(creerCarte(e)));
+  filtrer();
+}
+
+charger();
+</script>
+</body>
+</html>
