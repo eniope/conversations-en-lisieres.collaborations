@@ -6,7 +6,7 @@ import * as Component from "./quartz/components"
  *
  * Espace : thèse, billets, fiches conceptuelles
  * Couleur signature : bleu #3A7CB8
- * Inter-quartz : footer (cooplab.org + utopia.cooplab.org)
+ * Inter-quartz : footer (cooplab.org + lisieres.cooplab.org + utopia.cooplab.org)
  */
 
 export const sharedPageComponents: SharedLayout = {
@@ -21,6 +21,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       "cooplab.org": "https://cooplab.org",
+      "lisieres.cooplab.org": "https://lisieres.cooplab.org",
       "utopia.cooplab.org": "https://utopia.cooplab.org",
       "these.cooplab.org": "https://these.cooplab.org",
       "CC BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/",

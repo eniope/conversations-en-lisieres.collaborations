@@ -1,7 +1,6 @@
 ---
 type: note
-title: "EFF-0001 — Du Hello World à un geste habitable par autrui"
-sidebarTitle: "EFF-0001"
+title: "EFF-0001"
 date: 2026-08-20
 statut: en cours
 draft: false
@@ -9,9 +8,9 @@ publish: true
 description: "Le passage de la version v0.0.1 à la v0.0.2 : donner des prises sans alourdir la page inaugurale."
 ---
 
-# EFF-0001 — Du Hello World à un geste habitable par autrui
+# Du Hello World à un geste habitable par autrui
 
-**Situation.** La [version v0.0.1](/archives/hello-world-v0-0-1) est en ligne : le premier geste public de l'enquête, l'énigme inaugurale et la table des instruments encore vides.
+**Situation.** La [version v0.0.1](/dossiers/archives/hello-world-v0-0-1) est en ligne : le premier geste public de l'enquête, l'énigme inaugurale et la table des instruments encore vides.
 
 **Intention.** Rendre le geste public. Poser l'énigme, le sujet provisoire, le dispositif, sans rien démontrer.
 

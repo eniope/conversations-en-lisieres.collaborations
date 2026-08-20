@@ -1,5 +1,5 @@
 ---
-title: "Journal d'effectuation"
+title: "Journal"
 draft: false
 publish: true
 description: "Comment cette enquête se fabrique, version après version."
@@ -13,4 +13,4 @@ Distinguer les deux tient toute la méthode. La version est l'état visible à u
 
 ## Épisodes
 
-- [EFF-0001 — Du Hello World à un geste habitable par autrui](/journal/eff-0001-du-hello-world-a-un-geste-habitable)
+- [EFF-0001 : Du Hello World à un geste habitable par autrui](/dossiers/journal/eff-0001-du-hello-world-a-un-geste-habitable)
