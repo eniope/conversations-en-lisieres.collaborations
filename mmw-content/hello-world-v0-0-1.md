@@ -1,13 +1,17 @@
 ---
 type: page
-title: "these.cooplab.org"
+title: "Hello World v0.0.1 — archive"
+sidebarTitle: "v0.0.1 (archive)"
 date: 2026-08-20
-status: ouverture
+status: archive
 orientation: these-vie
 regime: hello-world
 draft: false
 publish: true
 ---
+
+> [!note] Version archivée — v0.0.1
+> Ceci est le tout premier geste public de cette enquête, publié le 20 août 2026 et gardé tel quel, comme trace. La version courante est [la page d'accueil](/). Ce qui a changé depuis, et pourquoi, se lit dans le [journal d'effectuation](/journal/).
 
 # Ça m'a pris un matin
 
@@ -42,11 +46,11 @@ J'enquête avec un assemblage d'instruments. Aucun ne contient encore de donnée
 | Instrument | Ce qu'il permettra d'interroger | Sa fonction dans l'enquête |
 |---|---|---|
 | Modèle de données | Selon quelles catégories je décris mon parcours | Rendre le matériau comparable et interrogeable, tout en restant révisable |
-| [TimelineJS](https://timeline.knightlab.com/) | Quand ? dans quel ordre ? | Donner à voir séquences, bifurcations, latences, réactivations |
-| [StoryMapJS](https://storymap.knightlab.com/) | Où ? dans quels lieux et quels milieux ? | Situer géographiquement l'apparition de certains possibles |
-| [Kumu](https://kumu.io/) | Qu'est-ce qui s'est relié à quoi ? | Cartographier les liens entre épisodes, acteurs, ressources |
-| Traces et fiches ([Quartz](https://quartz.jzhao.xyz/)) | Sur quelles traces telle proposition repose-t-elle ? | Permettre le retour aux sources, la vérification |
-| Corpus [Obsidian](https://obsidian.md/) | Qu'ai-je déjà écrit, et quand ? | Tenir la mémoire, la source unique dont tout dérive |
+| TimelineJS | Quand ? dans quel ordre ? | Donner à voir séquences, bifurcations, latences, réactivations |
+| StoryMapJS | Où ? dans quels lieux et quels milieux ? | Situer géographiquement l'apparition de certains possibles |
+| Kumu | Qu'est-ce qui s'est relié à quoi ? | Cartographier les liens entre épisodes, acteurs, ressources |
+| Traces et fiches (Quartz) | Sur quelles traces telle proposition repose-t-elle ? | Permettre le retour aux sources, la vérification |
+| Corpus Obsidian | Qu'ai-je déjà écrit, et quand ? | Tenir la mémoire, la source unique dont tout dérive |
 | Journal réflexif | Ce que je comprends aujourd'hui, distinct de ce que je comprenais alors | Tenir les trois temps sans écraser l'un par l'autre |
 | IA / RAG | Où sont les traces dispersées, les récurrences, les premières occurrences ? | Instrument d'exploration, jamais arbitre de la généalogie |
 
@@ -54,11 +58,11 @@ L'IA, dans la façon dont je tente de la mettre au travail, à savoir comme une 
 
 ## Une hypothèse de description (modèle V0)
 
-Pour rendre ce parcours interrogeable, il me faut un vocabulaire minimal pour le décrire. Le voici, à l'état d'hypothèse, pas d'ontologie[^ontologie] stabilisée :
+Pour rendre ce parcours interrogeable, il me faut un vocabulaire minimal pour le décrire. Le voici, à l'état d'hypothèse, pas d'ontologie stabilisée :
 
-**ÉPISODE · ACTEUR · RESSOURCE · MILIEU · TRACE · QUESTION · CAPACITÉ · [FORK](/notions/fork)**
+**ÉPISODE · ACTEUR · RESSOURCE · MILIEU · TRACE · QUESTION · CAPACITÉ · FORK**
 
-Un mot mérite d'être signalé, le [FORK](/notions/fork). Je le traite provisoirement comme une catégorie du modèle, bien qu'il puisse s'avérer être plutôt une propriété de certains épisodes : le moment où plusieurs suites étaient encore possibles. Le documenter, c'est se rappeler qu'à ce moment-là je ne savais pas encore ce qui allait suivre. C'est mon garde-fou principal contre la relecture téléologique, celle qui fait croire que tout devait arriver. Le modèle lui-même est un objet de recherche : il gardera l'historique de ses versions et dira pourquoi telle catégorie apparaît, se transforme ou disparaît.
+Un mot mérite d'être signalé, le FORK. Je le traite provisoirement comme une catégorie du modèle, bien qu'il puisse s'avérer être plutôt une propriété de certains épisodes : le moment où plusieurs suites étaient encore possibles. Le documenter, c'est se rappeler qu'à ce moment-là je ne savais pas encore ce qui allait suivre. C'est mon garde-fou principal contre la relecture téléologique, celle qui fait croire que tout devait arriver. Le modèle lui-même est un objet de recherche : il gardera l'historique de ses versions et dira pourquoi telle catégorie apparaît, se transforme ou disparaît.
 
 ## Le problème que je ne cache pas
 
@@ -66,11 +70,7 @@ Pour rendre mon parcours intelligible hors de moi, je dois le rendre en partie c
 
 ## Pourquoi de cette façon-là, en 2026 ?
 
-Cette enquête devient techniquement envisageable dans un moment particulier de l'histoire numérique et des puissances de calcul : un corpus personnel devenu interrogeable, l'hypertexte, les visualisations, les données structurées, la recherche sémantique, l'IA et le RAG[^rag]. Les instruments avec lesquels j'enquête font eux-mêmes partie de l'enquête. Je ne m'en sers pas comme d'outils transparents : ce qu'ils rendent visible, et ce qu'ils rendent calculable, appartient à la question.
-
-## Un dispositif qui apprend de lui-même
-
-Cette page est une version, pas une vitrine. Elle porte un numéro (v0.0.2) parce qu'elle change. Ce qui la fait changer, les épreuves rencontrées, les questions apparues, les bifurcations prises, se documente à part, dans le [journal d'effectuation](/journal/). La [version v0.0.1](/hello-world-v0-0-1), mon tout premier geste public, y reste consultable : on peut voir d'où je suis parti.
+Cette enquête devient techniquement envisageable dans un moment particulier de l'histoire numérique et des puissances de calcul : un corpus personnel devenu interrogeable, l'hypertexte, les visualisations, les données structurées, la recherche sémantique, l'IA et le RAG. Les instruments avec lesquels j'enquête font eux-mêmes partie de l'enquête. Je ne m'en sers pas comme d'outils transparents : ce qu'ils rendent visible, et ce qu'ils rendent calculable, appartient à la question.
 
 ## L'enquête commence ici
 
@@ -81,9 +81,5 @@ Si quelque chose ici fait écho à votre propre matin, ou si vous voyez un angle
 ---
 
 *Stéphane Caillaud · 20 août 2026 · CC BY-SA 4.0*
-*Hello World / v0.0.2*
+*Hello World / v0.0.1*
 *Thèse hors les murs : « L'évaluation comme milieu réflexif du collectif pensant »*
-
-[^ontologie]: En informatique comme en philosophie, une ontologie est une description explicite et structurée des types d'entités d'un domaine et des relations entre elles. Dire « pas d'ontologie stabilisée », c'est refuser de figer trop tôt ces catégories.
-
-[^rag]: RAG, pour *Retrieval-Augmented Generation*. Une IA qui, avant de répondre, va d'abord chercher des passages dans un corpus donné, ici mes notes, et s'appuie dessus au lieu de puiser seulement dans ce qu'elle a appris. C'est ce qui permet de lui faire citer mes sources, donc de vérifier.
