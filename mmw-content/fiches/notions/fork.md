@@ -16,6 +16,6 @@ J'emprunte le mot pour nommer, dans cette enquête, un épisode où plusieurs su
 
 Statut dans le modèle : je traite provisoirement le fork comme une catégorie, tout en sachant qu'il pourrait s'avérer plutôt une propriété de certains épisodes, le moment où ils bifurquent. Cette hésitation n'est pas un défaut à corriger vite, elle est elle-même un objet de l'enquête. Elle sera tranchée par l'usage, et le [journal d'effectuation](/journal/) en gardera la trace.
 
-Cette fiche est appelée depuis [la page inaugurale](/). Elle est en cours, elle évoluera.
+Cette fiche est appelée depuis [la page inaugurale](/) et rangée dans les [fiches](/fiches/). Elle est en cours, elle évoluera.
 
 *Stéphane Caillaud · CC BY-SA 4.0*

@@ -1,7 +1,6 @@
 ---
 type: page
-title: "Hello World v0.0.1 — archive"
-sidebarTitle: "v0.0.1 (archive)"
+title: "Hello World v0.0.1"
 date: 2026-08-20
 status: archive
 orientation: these-vie
@@ -10,7 +9,7 @@ draft: false
 publish: true
 ---
 
-> [!note] Version archivée — v0.0.1
+> [!note] Version archivée : v0.0.1
 > Ceci est le tout premier geste public de cette enquête, publié le 20 août 2026 et gardé tel quel, comme trace. La version courante est [la page d'accueil](/). Ce qui a changé depuis, et pourquoi, se lit dans le [journal d'effectuation](/journal/).
 
 # Ça m'a pris un matin

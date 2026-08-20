@@ -11,7 +11,7 @@ description: "Le passage de la version v0.0.1 à la v0.0.2 : donner des prises s
 
 # EFF-0001 — Du Hello World à un geste habitable par autrui
 
-**Situation.** La [version v0.0.1](/hello-world-v0-0-1) est en ligne : le premier geste public de l'enquête, l'énigme inaugurale et la table des instruments encore vides.
+**Situation.** La [version v0.0.1](/archives/hello-world-v0-0-1) est en ligne : le premier geste public de l'enquête, l'énigme inaugurale et la table des instruments encore vides.
 
 **Intention.** Rendre le geste public. Poser l'énigme, le sujet provisoire, le dispositif, sans rien démontrer.
 
@@ -25,6 +25,6 @@ description: "Le passage de la version v0.0.1 à la v0.0.2 : donner des prises s
 
 **À observer.** Une personne qui arrive sans mon vocabulaire trouve-t-elle de quoi comprendre et approfondir ? Les fiches restent-elles légères, ou commencent-elles à peser ? Le découpage note contre fiche tient-il à l'usage ?
 
-**Ce qui est advenu.** [Version v0.0.2](/) publiée : la page inaugurale allégée, deux notes de bas de page, des liens externes sur les instruments, une première fiche ([fork](/notions/fork)), et ce journal. La suite reste ouverte.
+**Ce qui est advenu.** [Version v0.0.2](/) publiée : la page inaugurale allégée, deux notes de bas de page, des liens externes sur les instruments, une première fiche ([fork](/fiches/notions/fork)), et ce journal. La suite reste ouverte.
 
 *Stéphane Caillaud · 20 août 2026 · CC BY-SA 4.0*

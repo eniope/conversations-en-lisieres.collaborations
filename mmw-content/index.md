@@ -56,9 +56,9 @@ L'IA, dans la façon dont je tente de la mettre au travail, à savoir comme une 
 
 Pour rendre ce parcours interrogeable, il me faut un vocabulaire minimal pour le décrire. Le voici, à l'état d'hypothèse, pas d'ontologie[^ontologie] stabilisée :
 
-**ÉPISODE · ACTEUR · RESSOURCE · MILIEU · TRACE · QUESTION · CAPACITÉ · [FORK](/notions/fork)**
+**ÉPISODE · ACTEUR · RESSOURCE · MILIEU · TRACE · QUESTION · CAPACITÉ · [FORK](/fiches/notions/fork)**
 
-Un mot mérite d'être signalé, le [FORK](/notions/fork). Je le traite provisoirement comme une catégorie du modèle, bien qu'il puisse s'avérer être plutôt une propriété de certains épisodes : le moment où plusieurs suites étaient encore possibles. Le documenter, c'est se rappeler qu'à ce moment-là je ne savais pas encore ce qui allait suivre. C'est mon garde-fou principal contre la relecture téléologique, celle qui fait croire que tout devait arriver. Le modèle lui-même est un objet de recherche : il gardera l'historique de ses versions et dira pourquoi telle catégorie apparaît, se transforme ou disparaît.
+Un mot mérite d'être signalé, le [FORK](/fiches/notions/fork). Je le traite provisoirement comme une catégorie du modèle, bien qu'il puisse s'avérer être plutôt une propriété de certains épisodes : le moment où plusieurs suites étaient encore possibles. Le documenter, c'est se rappeler qu'à ce moment-là je ne savais pas encore ce qui allait suivre. C'est mon garde-fou principal contre la relecture téléologique, celle qui fait croire que tout devait arriver. Le modèle lui-même est un objet de recherche : il gardera l'historique de ses versions et dira pourquoi telle catégorie apparaît, se transforme ou disparaît.
 
 ## Le problème que je ne cache pas
 
@@ -70,7 +70,7 @@ Cette enquête devient techniquement envisageable dans un moment particulier de 
 
 ## Un dispositif qui apprend de lui-même
 
-Cette page est une version, pas une vitrine. Elle porte un numéro (v0.0.2) parce qu'elle change. Ce qui la fait changer, les épreuves rencontrées, les questions apparues, les bifurcations prises, se documente à part, dans le [journal d'effectuation](/journal/). La [version v0.0.1](/hello-world-v0-0-1), mon tout premier geste public, y reste consultable : on peut voir d'où je suis parti.
+Cette page est une version, pas une vitrine. Elle porte un numéro (v0.0.2) parce qu'elle change. Ce qui la fait changer, les épreuves rencontrées, les questions apparues, les bifurcations prises, se documente à part, dans le [journal d'effectuation](/journal/). La [version v0.0.1](/archives/hello-world-v0-0-1), mon tout premier geste public, y reste consultable : on peut voir d'où je suis parti.
 
 ## L'enquête commence ici
 
