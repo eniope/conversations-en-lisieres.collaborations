@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 /**
  * Quartz — these.cooplab.org
- * Thèse : l'évaluation comme conduite du collectif pensant.
+ * Thèse : l'évaluation comme milieu réflexif du collectif pensant.
  * Fork de conversations-en-lisieres.collaborations
  */
 const config: QuartzConfig = {
