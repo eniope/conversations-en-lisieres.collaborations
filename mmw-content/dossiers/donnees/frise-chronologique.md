@@ -18,12 +18,12 @@ Elle est faite pour donner à voir ce qu'une ligne droite reconstruite après co
 
 Pour l'instant, la frise est vide de mon parcours réel. Cette version pédagogique montre les formes qu'elle sait rendre visibles, et dit à quoi chacune servira. C'est cohérent avec la manière dont j'ouvre chaque instrument : le nommer et le montrer vide, c'est déjà dire comment je compte chercher.
 
-<iframe src="/_static/timeline/effectuation-didactique-preview.html" style="width:100%; height:640px; border:1px solid #d0d7de; border-radius:8px" title="Frise chronologique, version pédagogique" loading="lazy"></iframe>
+<iframe src="https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https://these.cooplab.org/_static/timeline/effectuation-didactique.json&font=Default&lang=fr&height=640" width="100%" height="640" frameborder="0" style="border:1px solid #d0d7de; border-radius:8px" title="Frise chronologique, version pédagogique" loading="lazy"></iframe>
 
-Si la frise ne s'affiche pas ici, [l'ouvrir en pleine page](/_static/timeline/effectuation-didactique-preview.html).
+Si la frise ne s'affiche pas ici, [l'ouvrir en pleine page](https://cdn.knightlab.com/libs/timeline3/latest/embed/index.html?source=https://these.cooplab.org/_static/timeline/effectuation-didactique.json&font=Default&lang=fr).
 
 ## Deux lectures
 
-La frise que tu lis et les données qui la produisent sont un même objet sous deux formes. Une personne lit la frise ; un système lit le [fichier de données](/_static/timeline/effectuation-didactique.json) qui la nourrit, structuré et daté. C'est un cas concret de la double lecture que tout ce site cherche : le récit pour les humains, les relations explicites pour les machines.
+La frise que tu lis et les données qui la produisent sont un même objet sous deux formes. Une personne lit la frise ; un système lit le [fichier de données](https://these.cooplab.org/_static/timeline/effectuation-didactique.json) qui la nourrit, structuré et daté. C'est un cas concret de la double lecture que tout ce site cherche : le récit pour les humains, les relations explicites pour les machines.
 
 *Stéphane Caillaud · CC BY-SA 4.0*
