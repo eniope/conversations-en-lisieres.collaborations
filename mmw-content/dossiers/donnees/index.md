@@ -7,7 +7,7 @@ description: "Comment une expérience vécue devient, ou non, une donnée de rec
 
 # Les données de ma recherche
 
-Ce dossier est la pièce de `these.cooplab.org` vers laquelle pointe le [point d'entrée Cooplab](https://cooplab.org). Il documente une question qui est aussi un objet de ma recherche : comment quelque chose qui arrive dans une expérience vécue en vient à être constitué en donnée, puis en connaissance.
+Ce dossier est la pièce de `these.cooplab.org` vers laquelle pointe le [point d'entrée Cooplab](https://cooplab.org/pages/a-propos). Il documente une question qui est aussi un objet de ma recherche : comment quelque chose qui arrive dans une expérience vécue en vient à être constitué en donnée, puis en connaissance.
 
 J'emploie « données de la recherche » au sérieux, au sens de la science ouverte. Mais sans supposer que tout ce qui m'arrive serait spontanément une donnée. Trois distinctions tiennent tout le dossier : ce qui arrive n'est pas ce dont je garde trace ; ce dont je garde trace n'est pas nécessairement une donnée de recherche ; une donnée ne devient pas mécaniquement une connaissance.
 
