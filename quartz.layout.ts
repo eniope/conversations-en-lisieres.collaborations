@@ -22,8 +22,6 @@ export const sharedPageComponents: SharedLayout = {
     links: {
       "cooplab.org": "https://cooplab.org",
       "lisieres.cooplab.org": "https://lisieres.cooplab.org",
-      "utopia.cooplab.org": "https://utopia.cooplab.org",
-      "these.cooplab.org": "https://these.cooplab.org",
       "CC BY-SA": "https://creativecommons.org/licenses/by-sa/4.0/",
     },
   }),
