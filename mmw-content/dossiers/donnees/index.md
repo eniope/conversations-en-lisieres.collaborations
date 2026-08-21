@@ -17,7 +17,7 @@ Le dossier documente progressivement cette fabrique : quelles traces sont conser
 
 ## Les instruments
 
-Les instruments avec lesquels cette fabrique se documente vivent dans le sous-dossier [[dossiers/donnees/instruments/index|Instruments]]. La frise chronologique (version pédagogique) est la première ouverte. La carte-récit (StoryMapJS) vit pour l'instant sur [lisieres.cooplab.org](https://lisieres.cooplab.org) et sera reliée ici.
+Les instruments avec lesquels cette fabrique se documente vivent dans le sous-dossier [[dossiers/donnees/instruments/index|Instruments]]. Deux sont ouverts, en version pédagogique : la frise chronologique (quand, dans quel ordre) et la carte-récit (où, dans quels lieux et milieux).
 
 D'autres suivront à mesure qu'elles s'ouvrent : le modèle de données, une carte de liens, une carte des lieux. Chacune n'apparaîtra qu'à partir d'un besoin réel, comme les fiches.
 

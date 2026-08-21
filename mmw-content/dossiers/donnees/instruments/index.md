@@ -11,14 +11,11 @@ Les instruments donnent à voir et à interroger la matière de la recherche. Ch
 
 ## Ouverts
 
-- [[dossiers/donnees/instruments/frise-chronologique|La frise chronologique]] : quand, et dans quel ordre. Séquences, bifurcations, latences, réactivations. Pour l'instant en version pédagogique.
-
-## Reliés ailleurs
-
-- La carte-récit (StoryMapJS) : où, dans quels lieux et quels milieux. Ses fichiers sont hébergés dans ce site ; elle est présentée sur [lisieres.cooplab.org/boussole](https://lisieres.cooplab.org/boussole), réduite à son ouverture et à son horizon.
+- [[dossiers/donnees/instruments/frise-chronologique|La frise chronologique]] : quand, et dans quel ordre. Séquences, bifurcations, latences, réactivations. Version pédagogique.
+- [[dossiers/donnees/instruments/carte-recit|La carte-récit]] : où, dans quels lieux et quels milieux. Version pédagogique.
 
 ## À venir
 
-Le modèle de données, une carte de liens (Kumu), une carte des lieux. Chacun quand un besoin réel se présente.
+Le modèle de données, une carte de liens (Kumu). Chacun quand un besoin réel se présente.
 
 *Stéphane Caillaud · CC BY-SA 4.0*

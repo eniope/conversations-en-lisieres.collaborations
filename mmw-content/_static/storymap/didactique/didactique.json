@@ -1,0 +1,61 @@
+{
+  "storymap": {
+    "call_to_action": true,
+    "call_to_action_text": "Parcourir →",
+    "language": "fr",
+    "map_as_image": false,
+    "map_type": "osm:standard",
+    "map_background_color": "#e8e4dc",
+    "slides": [
+      {
+        "type": "overview",
+        "location": { "lat": 46.8, "lon": 2.5, "zoom": 5, "line": false },
+        "media": { "url": "", "caption": "", "credit": "" },
+        "text": {
+          "headline": "À quoi sert une carte-récit (version pédagogique)",
+          "text": "<p>Une carte-récit <strong>situe</strong> : elle répond à « où ? dans quels lieux et quels milieux ? ». Elle place, elle ne prouve pas, et elle ne remplace pas le récit.</p><p>Cette version est vide de mon parcours réel : <em>les points ci-dessous sont fictifs</em>. Ils montrent seulement ce qu'une carte-récit rend visible, et ce à quoi elle servira dans ma thèse.</p>"
+        }
+      },
+      {
+        "location": { "lat": 47.0, "lon": 1.9, "zoom": 8, "line": true },
+        "media": { "url": "", "caption": "", "credit": "" },
+        "text": {
+          "headline": "Un lieu vécu",
+          "text": "<p><strong>En général :</strong> un endroit où quelque chose a eu lieu.<br><strong>Pour ma thèse :</strong> situer où un possible est apparu, sans réduire le lieu à un point.</p>"
+        }
+      },
+      {
+        "location": { "lat": 46.6, "lon": 2.4, "zoom": 8, "line": true },
+        "media": { "url": "", "caption": "", "credit": "" },
+        "text": {
+          "headline": "Un milieu, pas un point",
+          "text": "<p><strong>En général :</strong> un milieu est un tissu de relations, pas une coordonnée. La carte le pointe, elle ne le contient pas.<br><strong>Pour ma thèse :</strong> rappeler que le lieu vécu est le milieu <em>depuis lequel</em> j'enquête, pas mon matériau.</p>"
+        }
+      },
+      {
+        "location": { "lat": 45.4, "lon": 3.2, "zoom": 6, "line": true },
+        "media": { "url": "", "caption": "", "credit": "" },
+        "text": {
+          "headline": "Un déplacement",
+          "text": "<p><strong>En général :</strong> passer d'un lieu à un autre trace un déplacement.<br><strong>Pour ma thèse :</strong> montrer qu'un ancrage a ouvert des rencontres qu'aucun plan n'avait prévues.</p>"
+        }
+      },
+      {
+        "location": { "lat": 46.8, "lon": 2.5, "zoom": 6, "line": true },
+        "media": { "url": "", "caption": "", "credit": "" },
+        "text": {
+          "headline": "Ce que la carte ne fait pas",
+          "text": "<p>Elle situe, elle ne prouve pas. Et ce qui arrive dans un lieu n'est pas automatiquement une donnée de recherche : il faut le remarquer, le tracer, le constituer. Relier les lieux entre eux est le travail d'une carte de liens ; les dater, celui d'une frise.</p>"
+        }
+      },
+      {
+        "location": { "lat": 46.8, "lon": 2.5, "zoom": 5, "line": true },
+        "media": { "url": "", "caption": "", "credit": "" },
+        "text": {
+          "headline": "Comment cette carte servira à ma thèse",
+          "text": "<p>Situer géographiquement l'apparition de certains possibles, distinguer le milieu vécu du matériau, et relier lieux, rencontres et milieux sans les aplatir en une seule ligne.</p>"
+        }
+      }
+    ]
+  }
+}
