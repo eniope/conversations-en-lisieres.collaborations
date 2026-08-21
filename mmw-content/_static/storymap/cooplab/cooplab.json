@@ -1,0 +1,56 @@
+{
+  "height": "3000",
+  "width": "4000",
+  "storymap": {
+    "call_to_action": true,
+    "call_to_action_text": "Entrer dans le parcours →",
+    "language": "fr",
+    "map_as_image": false,
+    "map_background_color": "#d9cfc0",
+    "map_type": "zoomify",
+    "zoomify": {
+      "attribution": "",
+      "height": 3000,
+      "width": 4000,
+      "path": "https://eniope.github.io/CEL-projet/outils/storymaps/utopia/images/tuiles/"
+    },
+    "slides": [
+      {
+        "type": "overview",
+        "location": {
+          "lat": 60,
+          "lon": 20,
+          "zoom": 2,
+          "line": false
+        },
+        "media": {
+          "url": "",
+          "caption": "",
+          "credit": ""
+        },
+        "text": {
+          "headline": "Boussole cooplab",
+          "text": "<p>Un parcours en trois espaces entrelacés, depuis un élément déclencheur jusqu'à un horizon ouvert.</p><p><strong>Trois strates :</strong><br>→ <a href='https://cooplab.org'>cooplab.org</a> — le hub<br>→ <a href='https://utopia.cooplab.org'>utopia.cooplab.org</a> — le living lab<br>→ <a href='https://these.cooplab.org'>these.cooplab.org</a> — la thèse</p>"
+        }
+      },
+      {
+        "date": "10 avril 2026",
+        "location": {
+          "lat": 71,
+          "lon": 100,
+          "zoom": 4,
+          "line": true
+        },
+        "media": {
+          "url": "",
+          "caption": "",
+          "credit": ""
+        },
+        "text": {
+          "headline": "Les jours d'après",
+          "text": "<p>L'horizon s'ouvre. Ce qui a été semé peut maintenant vivre sans moi si nécessaire.</p><p><em>« Mon corps décline mais ma pensée croît. Dans ma vieillesse il y a une éclosion. » — Victor Hugo</em></p><p>→ <a href='https://cooplab.org'>cooplab.org</a><br>→ <a href='https://utopia.cooplab.org'>utopia.cooplab.org</a><br>→ <a href='https://these.cooplab.org'>these.cooplab.org</a></p>"
+        }
+      }
+    ]
+  }
+}
