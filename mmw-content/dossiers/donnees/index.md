@@ -9,6 +9,8 @@ description: "Comment une expérience vécue devient, ou non, une donnée de rec
 
 Ce dossier est la pièce de `these.cooplab.org` vers laquelle pointe le [point d'entrée Cooplab](https://cooplab.org/). Il documente une question qui est aussi un objet de ma recherche : comment quelque chose qui arrive dans une expérience vécue en vient à être constitué en donnée, puis en connaissance.
 
+Cette préoccupation vient de loin, comme le raconte l'[À propos](https://cooplab.org/) : une attention ancienne à la qualité de mes pensées, l'entrée en 2003 dans une vie numérique connectée, puis la rencontre du passage donnée → information → connaissance → capacité d'agir.
+
 J'emploie « données de la recherche » au sérieux, au sens de la science ouverte. Mais sans supposer que tout ce qui m'arrive serait spontanément une donnée. Trois distinctions tiennent tout le dossier : ce qui arrive n'est pas ce dont je garde trace ; ce dont je garde trace n'est pas nécessairement une donnée de recherche ; une donnée ne devient pas mécaniquement une connaissance.
 
 Entre ces états, des opérations que je distingue provisoirement : vivre, remarquer, tracer, constituer en donnée, contextualiser, relier, interpréter, élaborer une connaissance, la mettre à l'épreuve. Aucune n'est neutre. Choisir ce qu'on garde, c'est sélectionner ; catégoriser, c'est déjà interpréter. Une part de ce travail est désormais appareillée par des outils numériques et des IA, ce qui rend ces précautions plus nécessaires, pas moins.
@@ -17,10 +19,10 @@ Le dossier documente progressivement cette fabrique : quelles traces sont conser
 
 ## Les instruments
 
-La [[dossiers/donnees/raison-d-etre|raison d'être]] de ce dossier, et l'enjeu des données interopérables, sont expliquées à part.
+Les instruments avec lesquels cette fabrique se documente vivent dans le sous-dossier [[dossiers/donnees/instruments/index|Instruments]]. Trois donnent déjà à voir : la frise chronologique (quand, dans quel ordre) et la carte-récit (où, dans quels lieux et milieux), pour l'instant en version pédagogique ; et GoGoCarto (qui, quels acteurs et initiatives), la seule déjà peuplée, avec une instance vivante sur le territoire.
 
-Les instruments avec lesquels cette fabrique se documente vivent dans le sous-dossier [[dossiers/donnees/instruments/index|Instruments]]. Trois sont ouverts : la frise chronologique (quand, dans quel ordre) et la carte-récit (où, dans quels lieux et milieux), pour l'instant en version pédagogique ; et GoGoCarto (qui, quels acteurs et initiatives), la seule pièce déjà peuplée, avec une instance vivante sur le territoire.
+Un quatrième est en gestation : le [[dossiers/donnees/instruments/modele-de-donnees|modèle de données]], la pièce où les autres s'accordent ou choisissent de ne pas s'accorder, et où se pose l'enjeu des données interopérables. Il n'existe encore que sous forme de texte.
 
-D'autres suivront à mesure qu'elles s'ouvrent : le modèle de données, une carte de liens, une carte des lieux. Chacune n'apparaîtra qu'à partir d'un besoin réel, comme les fiches.
+D'autres suivront à mesure qu'un besoin réel se présente : une carte de liens, une carte des lieux.
 
 *Stéphane Caillaud · CC BY-SA 4.0*
