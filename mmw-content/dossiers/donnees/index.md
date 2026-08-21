@@ -17,7 +17,7 @@ Le dossier documente progressivement cette fabrique : quelles traces sont conser
 
 ## Les pièces
 
-- [La frise chronologique](/dossiers/donnees/frise-chronologique) : quand, et dans quel ordre. Séquences, bifurcations, latences, réactivations. Première pièce ouverte, pour l'instant en version pédagogique.
+- [[dossiers/donnees/frise-chronologique|La frise chronologique]] : quand, et dans quel ordre. Séquences, bifurcations, latences, réactivations. Première pièce ouverte, pour l'instant en version pédagogique.
 
 D'autres suivront à mesure qu'elles s'ouvrent : le modèle de données, une carte de liens, une carte des lieux. Chacune n'apparaîtra qu'à partir d'un besoin réel, comme les fiches.
 

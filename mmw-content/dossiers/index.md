@@ -9,6 +9,6 @@ description: "Les dossiers du site : archives des versions, journal de fabricati
 
 Ce que le site garde et tient au fil de l'enquête.
 
-- [Archives](/dossiers/archives/) : les versions passées du dispositif, gardées telles quelles.
-- [Journal](/dossiers/journal/) : comment l'enquête se fabrique, version après version.
-- [Les données de ma recherche](/dossiers/donnees/) : comment une expérience devient, ou non, une donnée, et les instruments qui la rendent visible.
+- [[dossiers/archives/index|Archives]] : les versions passées du dispositif, gardées telles quelles.
+- [[dossiers/journal/index|Journal]] : comment l'enquête se fabrique, version après version.
+- [[dossiers/donnees/index|Les données de ma recherche]] : comment une expérience devient, ou non, une donnée, et les instruments qui la rendent visible.

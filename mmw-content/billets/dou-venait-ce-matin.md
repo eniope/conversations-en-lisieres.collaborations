@@ -10,7 +10,7 @@ description: "Comment une vieille lecture est redevenue opératoire, et pourquoi
 
 # D'où pouvait bien venir ce matin
 
-*Récit provisoire d'un épisode réel. Une première version le racontait trop bien ; celle-ci a été corrigée après confrontation à mes propres traces. Comment, c'est dans le [journal d'effectuation](/dossiers/journal/eff-0002-quand-le-recit-precede-les-traces).*
+*Récit provisoire d'un épisode réel. Une première version le racontait trop bien ; celle-ci a été corrigée après confrontation à mes propres traces. Comment, c'est dans le [[dossiers/journal/eff-0002-quand-le-recit-precede-les-traces|journal d'effectuation]].*
 
 Il y a quelques jours, j'ai posé le premier geste public d'une thèse restée longtemps dans mes tiroirs. Une page, presque rien, avec une énigme en porte d'entrée : ça m'a pris un matin, mais d'où ce matin pouvait-il bien venir ? Ce billet ne répond pas à l'énigme. Il raconte ce que j'ai fait le lendemain, en essayant de la prendre au sérieux.
 

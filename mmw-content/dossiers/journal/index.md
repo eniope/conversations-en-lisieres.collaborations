@@ -13,5 +13,5 @@ Distinguer les deux tient toute la méthode. La version est l'état visible à u
 
 ## Épisodes
 
-- [EFF-0001 : Du Hello World à un geste habitable par autrui](/dossiers/journal/eff-0001-du-hello-world-a-un-geste-habitable)
-- [EFF-0002 : Quand le récit précédait les traces](/dossiers/journal/eff-0002-quand-le-recit-precede-les-traces)
+- [[dossiers/journal/eff-0001-du-hello-world-a-un-geste-habitable|EFF-0001 : Du Hello World à un geste habitable par autrui]]
+- [[dossiers/journal/eff-0002-quand-le-recit-precede-les-traces|EFF-0002 : Quand le récit précédait les traces]]

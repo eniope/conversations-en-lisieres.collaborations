@@ -18,6 +18,6 @@ Puis on cherche activement ce que le récit a fait disparaître : les hésitatio
 
 On produit enfin deux représentations séparées : la chronologie minimale que les traces permettent d'établir, et l'hypothèse interprétative du moment. Comparer le récit aux deux fait ressortir les phrases qui présentent comme un fait ce qui n'appartient qu'à l'interprétation.
 
-Ce que ce test prétend n'est pas que le résultat dit vrai. Il augmente les chances de détecter, de rendre visibles et de corriger les histoires qu'on se raconte quand elles sont trop cohérentes pour être sûres. Première application datée : [EFF-0002](/dossiers/journal/eff-0002-quand-le-recit-precede-les-traces).
+Ce que ce test prétend n'est pas que le résultat dit vrai. Il augmente les chances de détecter, de rendre visibles et de corriger les histoires qu'on se raconte quand elles sont trop cohérentes pour être sûres. Première application datée : [[dossiers/journal/eff-0002-quand-le-recit-precede-les-traces|EFF-0002]].
 
 *Stéphane Caillaud · CC BY-SA 4.0*

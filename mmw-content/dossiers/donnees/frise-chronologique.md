@@ -10,7 +10,7 @@ description: "L'instrument qui donne à voir le quand et l'ordre, sans jamais tr
 
 # La frise chronologique de l'enquête
 
-Première pièce des [données de ma recherche](/dossiers/donnees/). Une frise répond à deux questions, et à deux seulement : quand, et dans quel ordre. Elle ne trace aucune flèche de cause. Relier les éléments entre eux (« ceci a nourri cela ») est le travail d'une [carte de liens](https://kumu.io/), pas d'une frise.
+Première pièce des [[dossiers/donnees/index|données de ma recherche]]. Une frise répond à deux questions, et à deux seulement : quand, et dans quel ordre. Elle ne trace aucune flèche de cause. Relier les éléments entre eux (« ceci a nourri cela ») est le travail d'une [carte de liens](https://kumu.io/), pas d'une frise.
 
 Elle est faite pour donner à voir ce qu'une ligne droite reconstruite après coup efface : des séquences, des bifurcations, des latences, des réactivations. Une ressource peut dormir des années puis redevenir opératoire. La frise montre le fait daté, elle n'invente pas la cause du réveil.
 

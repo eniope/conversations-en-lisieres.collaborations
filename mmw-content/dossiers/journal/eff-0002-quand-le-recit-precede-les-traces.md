@@ -10,11 +10,11 @@ description: "Un récit assisté par IA s'était raconté une causalité trop co
 
 # Quand le récit précédait les traces
 
-**Situation.** Après le premier geste public ([EFF-0001](/dossiers/journal/eff-0001-du-hello-world-a-un-geste-habitable)), j'ai voulu témoigner d'un épisode réel : comment une vieille lecture, un article de 2012 sur la gestion des connaissances en entreprise, était redevenue opératoire dans mon présent, et ce qu'une idée d'Isabelle Stengers m'avait permis d'en faire. J'en ai écrit une première version, avec l'aide d'une IA.
+**Situation.** Après le premier geste public ([[dossiers/journal/eff-0001-du-hello-world-a-un-geste-habitable|EFF-0001]]), j'ai voulu témoigner d'un épisode réel : comment une vieille lecture, un article de 2012 sur la gestion des connaissances en entreprise, était redevenue opératoire dans mon présent, et ce qu'une idée d'Isabelle Stengers m'avait permis d'en faire. J'en ai écrit une première version, avec l'aide d'une IA.
 
 **Intention.** Un billet lisible, au « je », qui ne démontre pas la thèse mais raconte honnêtement un épisode.
 
-**Épreuve, surprise.** En relisant cette première version, puis en la passant à un protocole que j'ai appelé le [test anti-belle-histoire](/fiches/notions/test-anti-belle-histoire), une chose est apparue. Le récit tenait une causalité séduisante, mais incompatible avec la chronologie de mes propres traces. Il laissait entendre que la relecture, puis Stengers, avaient remis ma thèse en mouvement. Or le geste public qui la remet en mouvement date de la veille, le 20 août ; la relecture, du lendemain, le 21. La cause supposée venait après son effet.
+**Épreuve, surprise.** En relisant cette première version, puis en la passant à un protocole que j'ai appelé le [[fiches/notions/test-anti-belle-histoire|test anti-belle-histoire]], une chose est apparue. Le récit tenait une causalité séduisante, mais incompatible avec la chronologie de mes propres traces. Il laissait entendre que la relecture, puis Stengers, avaient remis ma thèse en mouvement. Or le geste public qui la remet en mouvement date de la veille, le 20 août ; la relecture, du lendemain, le 21. La cause supposée venait après son effet.
 
 **Correction factuelle majeure.** Le Hello World précède la relecture. Une fois cet ordre rétabli, plusieurs phrases du billet ne tenaient plus.
 
@@ -39,7 +39,7 @@ Aucun de ces états n'efface le précédent. C'est le passage qui instruit, pas 
 
 **Fork.** Trois suites étaient possibles : garder la belle version parce qu'elle se lit mieux ; la corriger ; renoncer au billet. J'ai corrigé, et gardé la trace du geste plutôt que de la lisser.
 
-**Futur essayé.** [La version publiée du billet](/billets/dou-venait-ce-matin) est la V2. La V1 n'est pas en ligne ; ses phrases fautives sont citées ici, ce qui suffit à montrer ce qui a bougé.
+**Futur essayé.** [[billets/dou-venait-ce-matin|La version publiée du billet]] est la V2. La V1 n'est pas en ligne ; ses phrases fautives sont citées ici, ce qui suffit à montrer ce qui a bougé.
 
 **Ce que je prétends, et ce que je ne prétends pas.** Je ne dis pas que mon dispositif garantit que je dis vrai. Je dis qu'il augmente mes chances de détecter, de rendre visibles et de corriger certaines façons dont je pourrais me raconter une histoire trop cohérente. C'est une prétention plus modeste, et plus solide. Elle rejoint le « scout mindset » de Julia Galef, chercher ce qui est vrai plutôt que défendre ce qu'on a déjà écrit, et ce que Devon Zuegel dit de son blog : écrire assez souvent pour qu'on ne prenne pas mes textes pour des opinions figées, mais pour un flux de pensée saisi en plein cours de révision.
 
