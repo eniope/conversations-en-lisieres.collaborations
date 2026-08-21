@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>À quoi sert une frise · version pédagogique</title>
+<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+<style>
+  :root { --ink:#1f2328; --muted:#57606a; --line:#d0d7de; --bg:#ffffff; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  header { padding:18px 22px 12px; border-bottom:1px solid var(--line); }
+  header h1 { font-size:1.15rem; margin:0 0 6px; font-weight:600; }
+  header p { margin:0; color:var(--muted); font-size:.9rem; max-width:74ch; line-height:1.5; }
+  #timeline-embed { width:100%; height:640px; }
+  .fallback { padding:22px; color:var(--muted); font-size:.9rem; }
+  .fallback code { background:#f6f8fa; padding:1px 5px; border-radius:4px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6edf3; --muted:#9198a1; --line:#30363d; --bg:#0d1117; }
+    .fallback code { background:#161b22; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>À quoi sert une frise chronologique · version pédagogique</h1>
+  <p>Un conteneur vide de contenu réel, sur un axe schématique (an 1 à an 16). Chaque carte montre une forme qu'une frise sait rendre visible (élément, latence, réactivation, bifurcation, séquence) et dit, en deux temps, à quoi ça sert en général et à quoi ça servira pour la thèse. La frise dit quand et dans quel ordre, jamais pourquoi.</p>
+</header>
+
+<div id="timeline-embed"><div class="fallback">Si la frise n'apparaît pas, ouvre ce fichier dans un navigateur avec accès internet (la librairie se charge depuis <code>cdn.knightlab.com</code>). L'aperçu intégré à l'app peut bloquer ce chargement externe.</div></div>
+
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<script>
+  var timeline_data = {
+    "title": { "text": {
+      "headline": "À quoi sert une frise chronologique (version pédagogique)",
+      "text": "Une frise répond à deux questions, et à deux seulement : quand, et dans quel ordre. Elle ne dit jamais pourquoi ni à cause de quoi : relier les éléments entre eux (« ceci a nourri cela ») est le travail d'une carte de liens, pas d'une frise. Cette version est vide de contenu réel. Elle montre, sur un axe schématique, les formes qu'une frise sait donner à voir, et dit à quoi chacune servira dans ma thèse : « l'évaluation comme milieu réflexif du collectif pensant »."
+    } },
+    "events": [
+      { "start_date": { "year": "1", "month": "1", "day": "1" }, "display_date": "an 1", "group": "Élément",
+        "text": { "headline": "Un point de départ possible", "text": "<b>En général :</b> une ressource, une rencontre, une idée apparaît. Rien ne dit encore qu'elle comptera.<br><b>Pour ma thèse :</b> repérer ce qui était déjà là bien avant de servir (une lecture, une personne, un lieu)." } },
+      { "start_date": { "year": "1", "month": "1", "day": "1" }, "end_date": { "year": "15", "month": "1", "day": "1" }, "display_date": "an 1 → an 15", "group": "Latence",
+        "text": { "headline": "Une latence", "text": "<b>En général :</b> une longue période où un élément existe mais ne sert pas. La frise la rend visible comme une barre.<br><b>Pour ma thèse :</b> montrer qu'un savoir peut dormir des années, et refuser de dire après coup qu'il « attendait son heure »." } },
+      { "start_date": { "year": "15", "month": "1", "day": "1" }, "display_date": "an 15", "group": "Réactivation",
+        "text": { "headline": "Une réactivation", "text": "<b>En général :</b> le moment daté où l'élément dormant redevient opératoire.<br><b>Pour ma thèse :</b> marquer <i>quand</i> une ressource ancienne se remet à travailler, comme un fait, sans inventer la cause du réveil." } },
+      { "start_date": { "year": "15", "month": "2", "day": "1" }, "display_date": "an 15", "group": "Bifurcation",
+        "text": { "headline": "Une bifurcation (fork)", "text": "<b>En général :</b> un moment où plusieurs suites étaient encore possibles. La documenter rappelle qu'à cet instant, rien n'était joué.<br><b>Pour ma thèse :</b> mon garde-fou principal contre la relecture qui fait croire que tout devait arriver ainsi." } },
+      { "start_date": { "year": "15", "month": "3", "day": "1" }, "display_date": "an 15 · étape 1", "group": "Séquence",
+        "text": { "headline": "Une séquence · étape 1", "text": "<b>En général :</b> des gestes qui se suivent dans un ordre attesté.<br><b>Pour ma thèse :</b> restituer l'ordre réel des gestes d'écriture et de décision, quand cet ordre est documenté." } },
+      { "start_date": { "year": "15", "month": "4", "day": "1" }, "display_date": "an 15 · étape 2", "group": "Séquence",
+        "text": { "headline": "Une séquence · étape 2", "text": "<b>Point de vigilance :</b> l'ordre compte. Inverser deux étapes changerait le sens. La frise tient cet ordre au lieu de le laisser flotter." } },
+      { "start_date": { "year": "15", "month": "5", "day": "1" }, "display_date": "an 15 · étape 3", "group": "Séquence",
+        "text": { "headline": "Une séquence · étape 3", "text": "<b>À ne jamais oublier :</b> une séquence attestée dit « après », pas « donc ». La succession n'est pas une cause." } },
+      { "start_date": { "year": "15", "month": "6", "day": "1" }, "display_date": "an 15", "group": "Méthode",
+        "text": { "headline": "Trois registres à ne pas confondre", "text": "<b>En général :</b> un fait daté n'est pas un souvenir, qui n'est pas une interprétation d'aujourd'hui.<br><b>Pour ma thèse :</b> la frise ne porte que des faits datés ; les souvenirs et les interprétations sont signalés comme tels, ou renvoyés au journal." } },
+      { "start_date": { "year": "15", "month": "7", "day": "1" }, "display_date": "an 15", "group": "Méthode",
+        "text": { "headline": "Ce que la frise ne fait pas", "text": "<b>Elle ne trace aucune flèche de cause.</b> Relier les éléments est le travail d'une <a href=\"https://kumu.io/\">carte de liens (Kumu)</a>, pas d'une frise. Et les dates y sont des dates de gestes, pas de vécu." } },
+      { "start_date": { "year": "16", "month": "1", "day": "1" }, "display_date": "an 16", "group": "Méthode",
+        "text": { "headline": "Comment cet instrument servira à ma thèse", "text": "Reconstituer le parcours qui a rendu un avenir pensable, sans le raconter comme une ligne droite. Donner à voir séquences, bifurcations, latences et réactivations. Et rappeler que l'instrument lui-même fait partie de l'enquête : ce qu'il rend visible appartient à la question." } }
+    ]
+  };
+  function boot() {
+    if (typeof TL === "undefined") { return; }
+    window.timeline = new TL.Timeline('timeline-embed', timeline_data, { language: 'fr', start_at_end: false, initial_zoom: 3 });
+  }
+  if (document.readyState === "complete") { boot(); } else { window.addEventListener("load", boot); }
+</script>
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chronologie de la fabrique · aperçu</title>
+<link title="timeline-styles" rel="stylesheet" href="https://cdn.knightlab.com/libs/timeline3/latest/css/timeline.css">
+<style>
+  :root { --ink:#1f2328; --muted:#57606a; --line:#d0d7de; --bg:#ffffff; }
+  * { box-sizing: border-box; }
+  body { margin:0; font-family: -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif; color:var(--ink); background:var(--bg); }
+  header { padding:18px 22px 12px; border-bottom:1px solid var(--line); }
+  header h1 { font-size:1.15rem; margin:0 0 6px; font-weight:600; }
+  header p { margin:0; color:var(--muted); font-size:.9rem; max-width:70ch; line-height:1.45; }
+  #timeline-embed { width:100%; height:640px; }
+  .fallback { padding:22px; color:var(--muted); font-size:.9rem; }
+  .fallback code { background:#f6f8fa; padding:1px 5px; border-radius:4px; }
+  @media (prefers-color-scheme: dark) {
+    :root { --ink:#e6edf3; --muted:#9198a1; --line:#30363d; --bg:#0d1117; }
+    .fallback code { background:#161b22; }
+  }
+</style>
+</head>
+<body>
+<header>
+  <h1>Chronologie de la fabrique · aperçu en situation d'usage</h1>
+  <p>Quand, et dans quel ordre. Aucune flèche de cause. Les dates de 2026 sont des gestes d'écriture, pas de l'expérience vécue. La latence de Dudézert est une barre de quatorze ans ; sa réactivation, un point daté. L'une n'explique pas l'autre : la timeline ne le prétend pas.</p>
+</header>
+
+<div id="timeline-embed"><div class="fallback">Si la frise n'apparaît pas, ouvre ce fichier dans un navigateur avec accès internet (la librairie se charge depuis <code>cdn.knightlab.com</code>). L'aperçu intégré à l'app peut bloquer ce chargement externe.</div></div>
+
+<script src="https://cdn.knightlab.com/libs/timeline3/latest/js/timeline.js"></script>
+<script>
+  var timeline_data = {
+    "title": {
+      "text": {
+        "headline": "Chronologie de la fabrique · ouverture de l'instrument",
+        "text": "Ce que cette frise montre : QUAND, et DANS QUEL ORDRE. Rien d'autre. Elle ne trace aucun lien de cause : cartographier ce qui s'est relié à quoi est le rôle de Kumu, pas le sien. Les dates de 2026 sont des dates de gestes d'écriture, pas de l'expérience vécue. Les latences et les réactivations se lisent sur des barres datées, jamais sur des flèches. La reconstruction interprétative, elle, vit dans le journal (EFF-0002)."
+      }
+    },
+    "events": [
+      { "start_date": { "year": "2012", "month": "1", "day": "1" }, "display_date": "2012", "group": "Ressource ancienne",
+        "text": { "headline": "Dudézert et al., Le KM au cœur de la stratégie", "text": "Article paru en 2012 (ADBS). Il restera sans usage pendant quatorze ans." } },
+      { "start_date": { "year": "2013", "month": "7", "day": "15" }, "display_date": "15 juillet 2013", "group": "Ressource ancienne",
+        "text": { "headline": "Stengers, entretien dans L'Humanité", "text": "« nous ne savons pas de quoi les gens sont capables, car ils sont issus d'une opération de destruction systématique de leur pouvoir d'agir et de penser. » Source mobilisée bien plus tard." } },
+      { "start_date": { "year": "2012", "month": "1", "day": "1" }, "end_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "2012 → 2026", "group": "Latence",
+        "text": { "headline": "Latence de la ressource KM", "text": "Quatorze ans entre la parution et la relecture qui la rend opératoire. La latence est un fait de dates, pas une explication." } },
+      { "start_date": { "year": "2025", "month": "1", "day": "1" }, "display_date": "un matin de 2025 (souvenir)", "group": "Amont (souvenir)",
+        "text": { "headline": "Le matin (souvenir, date imprécise)", "text": "L'autorisation à envisager la thèse comme avenir désirable. Rapporté de mémoire, non daté précisément. C'est l'énigme que l'enquête ouvre, pas un fait attesté." } },
+      { "start_date": { "year": "2026", "month": "7", "day": "8" }, "display_date": "8 juillet 2026", "group": "Milieu 2026 (écritures)",
+        "text": { "headline": "Pivot : l'évaluation comme milieu réflexif", "text": "Écriture de la note-pivot de la thèse. Geste d'écriture daté." } },
+      { "start_date": { "year": "2026", "month": "7", "day": "23" }, "display_date": "23 juillet 2026", "group": "Milieu 2026 (écritures)",
+        "text": { "headline": "Socle « une seule enquête » (réactivation de Stengers)", "text": "Stengers remobilisé comme socle (« penser ensemble comme œuvre à faire »). Le registre capacitant est déjà là, avant l'épisode Dudézert." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "17" }, "display_date": "17 août 2026", "group": "Milieu 2026 (écritures)",
+        "text": { "headline": "Fiche Université populaire des futurs essayés", "text": "Écriture du dispositif UPFE." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "19" }, "display_date": "19 août 2026", "group": "Milieu 2026 (écritures)",
+        "text": { "headline": "Cadrage « documenter sans figer » + généalogie KM/PKM", "text": "Écriture du cadrage du chapitre (documenter sans figer, évaluer sans clore) et de la généalogie catalyse/KM/PKM. La question « documenter sans figer » est déjà posée, la veille du geste public." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "20" }, "display_date": "20 août 2026", "group": "Geste public",
+        "text": { "headline": "Hello World, premier geste public (EFF-0001)", "text": "Publication de la page inaugurale de la thèse. Ouverture du journal d'effectuation. La thèse bouge publiquement, avant toute relecture de Dudézert." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "20" }, "display_date": "20 août 2026", "group": "Bifurcation",
+        "text": { "headline": "Fork EFF-0001", "text": "Trois suites possibles pour rendre la page habitable : tout expliquer, tout renvoyer en notes, créer des fiches. Retenu : la combinaison. Plusieurs chemins étaient ouverts." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Fabrique 21 août",
+        "text": { "headline": "1. Réactivation de Dudézert (fiche de lecture)", "text": "Relecture de l'article de 2012 et production d'une fiche de lecture. La ressource redevient opératoire. Premier fait daté de l'épisode." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Fabrique 21 août",
+        "text": { "headline": "2. Synthèse IA : la formule « écologie capacitante »", "text": "Une IA (ChatGPT) propose la formule « écologie capacitante des connaissances ». Absente du vault jusque-là. Provenance tracée : proposition d'IA, non encore examinée." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Fabrique 21 août",
+        "text": { "headline": "3. Billet v1 (la première histoire, trop belle)", "text": "Première mise en récit, assistée par IA. Elle enchaîne une causalité séduisante : la lecture, puis Stengers, auraient relancé la thèse." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Fabrique 21 août",
+        "text": { "headline": "4. Audit anti-belle-histoire → correction factuelle", "text": "Le protocole détecte une causalité incompatible avec les traces : le Hello World (20) précède la relecture (21). La cause supposée venait après son effet." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Bifurcation",
+        "text": { "headline": "Fork EFF-0002", "text": "Trois suites : garder la belle version parce qu'elle se lit mieux, corriger, renoncer au billet. Retenu : corriger et garder la trace du geste." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Fabrique 21 août",
+        "text": { "headline": "5. Billet v2 (causalité défaite)", "text": "Réécriture : chronologie rétablie, interprétations signalées comme interprétations, incertitude réintroduite." } },
+      { "start_date": { "year": "2026", "month": "8", "day": "21" }, "display_date": "21 août 2026", "group": "Fabrique 21 août",
+        "text": { "headline": "6. EFF-0002 + fiche test + paquet poussable", "text": "L'épisode devient public dans le journal d'effectuation, avec la fiche « test anti-belle-histoire » et le billet v2. Prêt à pousser." } }
+    ]
+  };
+  function boot() {
+    if (typeof TL === "undefined") { return; }
+    window.timeline = new TL.Timeline('timeline-embed', timeline_data, { language: 'fr', start_at_end: false, initial_zoom: 2 });
+  }
+  if (document.readyState === "complete") { boot(); } else { window.addEventListener("load", boot); }
+</script>
+</body>
+</html>
