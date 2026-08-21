@@ -24,6 +24,6 @@ Si la frise ne s'affiche pas ici, [l'ouvrir en pleine page](https://cdn.knightla
 
 ## Deux lectures
 
-La frise que tu lis et les données qui la produisent sont un même objet sous deux formes. Une personne lit la frise ; un système lit le [fichier de données](https://these.cooplab.org/_static/timeline/effectuation-didactique.json) qui la nourrit, structuré et daté. C'est un cas concret de la double lecture que tout ce site cherche : le récit pour les humains, les relations explicites pour les machines.
+La frise que vous lisez et les données qui la produisent sont un même objet sous deux formes. Une personne lit la frise ; un système lit le [fichier de données](https://these.cooplab.org/_static/timeline/effectuation-didactique.json) qui la nourrit, structuré et daté. C'est un cas concret de la double lecture que tout ce site cherche : le récit pour les humains, les relations explicites pour les machines.
 
 *Stéphane Caillaud · CC BY-SA 4.0*
