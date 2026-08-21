@@ -341,3 +341,20 @@ a.mmw-download-link div.popover {
   background-color: #374151;
   box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
 }
+
+/* ================================================= */
+/* FOOTNOTES — libellé « Notes » (aligné sur cooplab) */
+/* ================================================= */
+.footnotes > h2#footnote-label {
+  display: none;
+}
+.footnotes::before {
+  content: "Notes";
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--gray);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
