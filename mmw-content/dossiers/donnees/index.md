@@ -17,7 +17,9 @@ Le dossier documente progressivement cette fabrique : quelles traces sont conser
 
 ## Les instruments
 
-Les instruments avec lesquels cette fabrique se documente vivent dans le sous-dossier [[dossiers/donnees/instruments/index|Instruments]]. Deux sont ouverts, en version pédagogique : la frise chronologique (quand, dans quel ordre) et la carte-récit (où, dans quels lieux et milieux).
+La [[dossiers/donnees/raison-d-etre|raison d'être]] de ce dossier, et l'enjeu des données interopérables, sont expliquées à part.
+
+Les instruments avec lesquels cette fabrique se documente vivent dans le sous-dossier [[dossiers/donnees/instruments/index|Instruments]]. Trois sont ouverts : la frise chronologique (quand, dans quel ordre) et la carte-récit (où, dans quels lieux et milieux), pour l'instant en version pédagogique ; et GoGoCarto (qui, quels acteurs et initiatives), la seule pièce déjà peuplée, avec une instance vivante sur le territoire.
 
 D'autres suivront à mesure qu'elles s'ouvrent : le modèle de données, une carte de liens, une carte des lieux. Chacune n'apparaîtra qu'à partir d'un besoin réel, comme les fiches.
 
