@@ -1,7 +1,10 @@
 ---
 type: note
+id: EFF-0002
 title: "EFF-0002"
 date: 2026-08-21
+date_evenement: 2026-08-21
+date_documentation: 2026-08-21
 statut: en cours
 draft: false
 publish: true

@@ -14,7 +14,7 @@ Les instruments donnent à voir et à interroger la matière de la recherche. Ch
 - [[dossiers/donnees/instruments/frise-chronologique|La frise chronologique]] : quand, et dans quel ordre. Séquences, bifurcations, latences, réactivations. Version pédagogique.
 - [[dossiers/donnees/instruments/carte-recit|La carte-récit]] : où, dans quels lieux et quels milieux. Version pédagogique.
 - [[dossiers/donnees/instruments/gogocarto|GoGoCarto]] : qui, quels acteurs et initiatives, reliés comment au territoire. La seule pièce déjà peuplée (un possible objet-frontière, des données interopérables).
-- [[dossiers/donnees/instruments/modele-de-donnees|Le modèle de données]] : la pièce où les autres s'accordent, ou choisissent de ne pas s'accorder. En gestation, sous forme de texte — c'est là que se pose l'enjeu des données interopérables.
+- [[dossiers/donnees/instruments/modele-de-donnees|Le modèle de données]] : la pièce où les autres s'accordent, ou choisissent de ne pas s'accorder. En gestation, sous forme de texte, c'est là que se pose l'enjeu des données interopérables.
 
 ## À venir
 

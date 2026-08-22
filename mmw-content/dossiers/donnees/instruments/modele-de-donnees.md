@@ -10,7 +10,7 @@ description: "L'instrument où les autres s'accordent, ou choisissent de ne pas 
 
 # Le modèle de données de l'enquête
 
-Quatrième pièce des [[dossiers/donnees/index|données de ma recherche]], et la seule qui n'existe encore que sous forme de texte. Les autres instruments donnent à voir la matière ; celui-ci décide de sa forme. C'est là que la frise, la carte-récit, GoGoCarto, Obsidian, Quartz et les graphes pourront s'accorder, ou choisir de ne pas s'accorder — et où cette décision pourra être documentée.
+Quatrième pièce des [[dossiers/donnees/index|données de ma recherche]], et la seule qui n'existe encore que sous forme de texte. Les autres instruments donnent à voir la matière ; celui-ci décide de sa forme. C'est là que la frise, la carte-récit, GoGoCarto, Obsidian, Quartz et les graphes pourront s'accorder, ou choisir de ne pas s'accorder, et où cette décision pourra être documentée.
 
 Je le montre en gestation, comme les autres montrés d'abord vides ou pédagogiques : nommer cette pièce et exposer la question qu'elle pose dit déjà comment je compte chercher.
 
@@ -106,7 +106,7 @@ Elle ne constitue pas une annexe technique ajoutée une fois le modèle construi
 
 *Que faut-il conserver pour qu'une donnée puisse quitter son contexte d'origine sans devenir muette sur les conditions de sa production ?*
 
-Cette question prolonge celle qui ouvre le dossier — *comment quelque chose qui arrive dans une vie devient-il une donnée ?* — et en ajoute une seconde :
+Cette question prolonge celle qui ouvre le dossier (*comment quelque chose qui arrive dans une vie devient-il une donnée ?*) et en ajoute une seconde :
 
 *Comment une donnée constituée dans un monde peut-elle devenir utilisable dans un autre sans que le geste de mise en compatibilité efface ce qu'il sélectionne, transforme ou interprète ?*
 
