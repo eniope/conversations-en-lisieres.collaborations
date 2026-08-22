@@ -1,8 +1,9 @@
 ---
+uid: hello-world-v0-0-1
 type: page
 title: "Hello World v0.0.1"
 date: 2026-08-20
-status: archive
+statut: archive
 orientation: these-vie
 regime: hello-world
 draft: false

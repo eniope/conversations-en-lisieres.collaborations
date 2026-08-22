@@ -1,4 +1,5 @@
 ---
+uid: modele-de-donnees
 type: note
 title: "Modèle de données"
 date: 2026-08-21

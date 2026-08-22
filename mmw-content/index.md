@@ -2,7 +2,7 @@
 type: page
 title: "these.cooplab.org"
 date: 2026-08-20
-status: ouverture
+statut: ouverture
 orientation: these-vie
 regime: hello-world
 draft: false

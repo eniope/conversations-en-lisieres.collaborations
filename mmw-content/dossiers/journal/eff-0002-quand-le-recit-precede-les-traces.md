@@ -1,4 +1,5 @@
 ---
+uid: eff-0002
 type: note
 id: EFF-0002
 title: "EFF-0002"

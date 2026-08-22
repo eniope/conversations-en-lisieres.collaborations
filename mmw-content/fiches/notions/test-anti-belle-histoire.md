@@ -1,4 +1,5 @@
 ---
+uid: test-anti-belle-histoire
 type: note
 title: "Test anti-belle-histoire"
 date: 2026-08-21
